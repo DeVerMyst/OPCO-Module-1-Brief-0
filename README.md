@@ -104,3 +104,34 @@ Ce sont nos couteaux suisses du code. Chaque fichier est un expert dans son doma
 On espère que cette petite virée dans notre projet t'a plu. N'hésite pas à jeter un œil au `main.py` pour lancer le grand spectacle !
 
 *Fait avec amour, code et une bonne dose de caféine (et un peu de folie).*
+
+# Installations des requis loguru : 
+```bash
+pip install loguru
+```
+
+# Installations des requis pour MLflow : 
+```bash
+pip install mlflow scikit-learn pandas matplotlib
+```
+
+# Pour lancer le serveur MLflow :
+```bash
+mlflow ui
+```
+
+# mlFlow test repro: 
+## 1er essai :
+mae
+4036.682826764578
+mse
+26815043.702234305
+r2
+0.8172922647660517
+## 2eme essai :
+mae
+4036.682826764578
+mse
+26815043.702234305
+r2
+0.8172922647660517
