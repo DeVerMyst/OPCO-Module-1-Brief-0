@@ -76,3 +76,25 @@
 2025-06-03T17:36:18.012866+0200 INFO Route '/predict' called with data: [30, 175, 70, 2500, 'M', 'Oui', 'Bac+2', 'Ile-de-France', 'Non', 'Oui']
 2025-06-03T17:36:22.520868+0200 INFO Model loaded from MLflow run ID: d84d764851cd421093d42b738e8dd140
 2025-06-03T17:36:22.636864+0200 INFO Prediction made: [1218.2983], prediction value: 1218.29833984375
+2025-06-03T18:11:40.139392+0200 ERROR Erreur lors de la prédiction: Specifying the columns using strings is only supported for dataframes.
+2025-06-03T18:15:02.368601+0200 ERROR Erreur lors de la prédiction: Specifying the columns using strings is only supported for dataframes.
+2025-06-03T18:19:00.336839+0200 ERROR Erreur lors de la prédiction: Specifying the columns using strings is only supported for dataframes.
+2025-06-03T18:20:40.222003+0200 ERROR Erreur lors de la prédiction: Specifying the columns using strings is only supported for dataframes.
+2025-06-03T18:23:20.388845+0200 ERROR Erreur lors de la prédiction: Specifying the columns using strings is only supported for dataframes.
+2025-06-03T18:25:06.060971+0200 ERROR Erreur lors de la prédiction: Specifying the columns using strings is only supported for dataframes.
+2025-06-03T18:26:02.522521+0200 INFO Route '/predict' called with data: [30, 175, 70, 2500, 'M', 'Oui', 'Bac+2', 'Ile-de-France', 'Non', 'Oui']
+2025-06-03T18:26:06.852524+0200 INFO Model loaded from MLflow run ID: d84d764851cd421093d42b738e8dd140
+2025-06-03T18:27:56.132073+0200 INFO Route '/predict' called with data: [30, 175, 70, 2500, 'M', 'Oui', 'Bac+2', 'Ile-de-France', 'Non', 'Oui']
+2025-06-03T18:28:00.450072+0200 INFO Model loaded from MLflow run ID: d84d764851cd421093d42b738e8dd140
+2025-06-03T18:28:00.579071+0200 INFO Prediction made: [1218.2983], prediction value: 1218.29833984375
+2025-06-03T18:31:21.577303+0200 ERROR Erreur lors de la prédiction: Specifying the columns using strings is only supported for dataframes.
+2025-06-03T18:36:55.625515+0200 ERROR Erreur lors de la prédiction: Specifying the columns using strings is only supported for dataframes.
+2025-06-03T18:43:36.404394+0200 INFO Route '/predict' called with data: [30, 170.0, 70.0, 2500.0, 'M', 'Oui', 'Aucun', 'Auvergne-Rhône-Alpes', 'Oui', 'Oui']
+2025-06-03T18:43:40.736393+0200 INFO Model loaded from MLflow run ID: d84d764851cd421093d42b738e8dd140
+2025-06-03T18:43:40.905391+0200 INFO Prediction made: [3283.128], prediction value: 3283.1279296875
+2025-06-03T18:44:28.096394+0200 INFO Route '/predict' called with data: [48, 170.0, 82.0, 2600.0, 'M', 'Oui', 'Aucun', 'Occitanie', 'Non', 'Oui']
+2025-06-03T18:44:32.309393+0200 INFO Model loaded from MLflow run ID: d84d764851cd421093d42b738e8dd140
+2025-06-03T18:44:32.435392+0200 INFO Prediction made: [2228.5251], prediction value: 2228.525146484375
+2025-06-03T18:44:39.944396+0200 INFO Route '/predict' called with data: [48, 170.0, 82.0, 2600.0, 'M', 'Oui', 'Aucun', 'Occitanie', 'Oui', 'Oui']
+2025-06-03T18:44:44.151391+0200 INFO Model loaded from MLflow run ID: d84d764851cd421093d42b738e8dd140
+2025-06-03T18:44:44.280392+0200 INFO Prediction made: [2228.5251], prediction value: 2228.525146484375

@@ -252,11 +252,11 @@ class PredictRequest(BaseModel):
     data: List[Any]  # Liste des features pour une seule instance
 
 @app.post("/predict")
-async def predict(payload: PredictRequest, uri: Request):
+async def predict(request: Request, payload: PredictRequest):
     """
     Endpoint pour faire une prédiction à partir d'un modèle MLflow sauvegardé.
     """
-    logger.info(f"Route '{uri.url.path}' called with data: {payload.data}")
+    logger.info(f"Route '{request.url.path}' called with data: {payload.data}")
     try:
         # # Charger le modèle MLflow le plus récent (dernier run)
         # client = mlflow.tracking.MlflowClient()
