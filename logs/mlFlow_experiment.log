@@ -1,0 +1,70 @@
+2025-06-03T12:01:50.685892+0200 INFO Starting training iteration 0 of 3
+2025-06-03T12:01:50.725889+0200 INFO No run ID provided, training a new model.
+2025-06-03T12:01:50.729894+0200 INFO Training model with description: Training iteration 0.3333333333333333
+2025-06-03T12:01:50.740892+0200 INFO Model performances: {'MSE': 26815043.702234305, 'MAE': 4036.682826764578, 'R²': 0.8172922647660517}
+2025-06-03T12:02:01.943919+0200 INFO Starting training iteration 1 of 3
+2025-06-03T12:02:04.134944+0200 INFO Model loaded with run ID: 60292cbc4f134eeabd326c838ec62a1d Model parameters: {'copy_X': True, 'fit_intercept': True, 'n_jobs': None, 'positive': False}
+2025-06-03T12:02:04.142945+0200 INFO Training model with description: Training iteration 0.3333333333333333
+2025-06-03T12:02:04.150946+0200 INFO Model performances: {'MSE': 26815043.702234305, 'MAE': 4036.682826764578, 'R²': 0.8172922647660517}
+2025-06-03T12:02:11.073878+0200 INFO Starting training iteration 1 of 3
+2025-06-03T12:02:13.264878+0200 INFO Model loaded with run ID: bbbb89ab533f4029ba9bd72fac3c4541 Model parameters: {'copy_X': True, 'fit_intercept': True, 'n_jobs': None, 'positive': False}
+2025-06-03T12:02:13.267878+0200 INFO Training model with description: Training iteration 0.3333333333333333
+2025-06-03T12:02:13.271878+0200 INFO Model performances: {'MSE': 26815043.702234305, 'MAE': 4036.682826764578, 'R²': 0.8172922647660517}
+2025-06-03T12:02:19.965878+0200 INFO Starting training iteration 1 of 3
+2025-06-03T12:02:22.122878+0200 INFO Model loaded with run ID: 48a685e585dd48508e380d4a06ed2ea9 Model parameters: {'copy_X': True, 'fit_intercept': True, 'n_jobs': None, 'positive': False}
+2025-06-03T12:02:22.124880+0200 INFO Training model with description: Training iteration 0.3333333333333333
+2025-06-03T12:02:22.129877+0200 INFO Model performances: {'MSE': 26815043.702234305, 'MAE': 4036.682826764578, 'R²': 0.8172922647660517}
+2025-06-03T12:02:28.926879+0200 INFO Starting training iteration 1 of 3
+2025-06-03T12:02:31.098879+0200 INFO Model loaded with run ID: 10f10d7dd65743aab16d157b0a0471e6 Model parameters: {'copy_X': True, 'fit_intercept': True, 'n_jobs': None, 'positive': False}
+2025-06-03T12:02:31.101879+0200 INFO Training model with description: Training iteration 0.3333333333333333
+2025-06-03T12:02:31.108878+0200 INFO Model performances: {'MSE': 26815043.702234305, 'MAE': 4036.682826764578, 'R²': 0.8172922647660517}
+2025-06-03T12:02:37.923880+0200 INFO Starting training iteration 1 of 3
+2025-06-03T12:02:40.085879+0200 INFO Model loaded with run ID: e41b24d6deee4ae38a8575d5ce526b81 Model parameters: {'copy_X': True, 'fit_intercept': True, 'n_jobs': None, 'positive': False}
+2025-06-03T12:02:40.087880+0200 INFO Training model with description: Training iteration 0.3333333333333333
+2025-06-03T12:02:40.091879+0200 INFO Model performances: {'MSE': 26815043.702234305, 'MAE': 4036.682826764578, 'R²': 0.8172922647660517}
+2025-06-03T12:02:46.619879+0200 INFO Starting training iteration 1 of 3
+2025-06-03T12:02:48.775876+0200 INFO Model loaded with run ID: 0e2d73cc95fd4423b9ee52b5db47b9b6 Model parameters: {'copy_X': True, 'fit_intercept': True, 'n_jobs': None, 'positive': False}
+2025-06-03T12:02:48.778879+0200 INFO Training model with description: Training iteration 0.3333333333333333
+2025-06-03T12:02:48.782877+0200 INFO Model performances: {'MSE': 26815043.702234305, 'MAE': 4036.682826764578, 'R²': 0.8172922647660517}
+2025-06-03T12:02:55.415907+0200 INFO Starting training iteration 1 of 3
+2025-06-03T12:02:57.565904+0200 INFO Model loaded with run ID: d64334086ef249adb867bb0cfa753cb5 Model parameters: {'copy_X': True, 'fit_intercept': True, 'n_jobs': None, 'positive': False}
+2025-06-03T12:02:57.568906+0200 INFO Training model with description: Training iteration 0.3333333333333333
+2025-06-03T12:02:57.574906+0200 INFO Model performances: {'MSE': 26815043.702234305, 'MAE': 4036.682826764578, 'R²': 0.8172922647660517}
+2025-06-03T12:03:04.500481+0200 INFO Starting training iteration 1 of 3
+2025-06-03T12:03:06.639989+0200 INFO Model loaded with run ID: 9a8258c23075461a9f76bbd2f32140d7 Model parameters: {'copy_X': True, 'fit_intercept': True, 'n_jobs': None, 'positive': False}
+2025-06-03T12:03:06.642990+0200 INFO Training model with description: Training iteration 0.3333333333333333
+2025-06-03T12:03:06.647990+0200 INFO Model performances: {'MSE': 26815043.702234305, 'MAE': 4036.682826764578, 'R²': 0.8172922647660517}
+2025-06-03T12:05:20.499809+0200 INFO Starting training iteration 0 of 3
+2025-06-03T12:05:20.525812+0200 INFO No run ID provided, training a new model.
+2025-06-03T12:05:20.528809+0200 INFO Training model with description: Training iteration 0.3333333333333333
+2025-06-03T12:05:20.533810+0200 INFO Model performances: {'MSE': 26815043.702234305, 'MAE': 4036.682826764578, 'R²': 0.8172922647660517}
+2025-06-03T12:05:29.856833+0200 INFO Starting training iteration 1 of 3
+2025-06-03T12:05:32.028835+0200 INFO Model loaded with run ID: 243fc1e56d24442bbc96fee455d58cfa Model parameters: {'copy_X': True, 'fit_intercept': True, 'n_jobs': None, 'positive': False}
+2025-06-03T12:05:32.031833+0200 INFO Training model with description: Training iteration 0.3333333333333333
+2025-06-03T12:05:32.036832+0200 INFO Model performances: {'MSE': 26815043.702234305, 'MAE': 4036.682826764578, 'R²': 0.8172922647660517}
+2025-06-03T12:05:38.690872+0200 INFO Starting training iteration 1 of 3
+2025-06-03T12:05:40.831164+0200 INFO Model loaded with run ID: 9239cfd4f4724391be000d717772a22e Model parameters: {'copy_X': True, 'fit_intercept': True, 'n_jobs': None, 'positive': False}
+2025-06-03T12:05:40.835166+0200 INFO Training model with description: Training iteration 0.3333333333333333
+2025-06-03T12:05:40.839167+0200 INFO Model performances: {'MSE': 26815043.702234305, 'MAE': 4036.682826764578, 'R²': 0.8172922647660517}
+2025-06-03T12:05:47.365289+0200 INFO Starting training iteration 1 of 3
+2025-06-03T12:36:35.784250+0200 INFO Starting training iteration 1 of 3
+2025-06-03T12:36:35.808250+0200 INFO Model performances: {'MSE': 26815043.702234305, 'MAE': 4036.682826764578, 'R²': 0.8172922647660517}
+2025-06-03T12:36:44.584248+0200 INFO Run 1 terminé, run_id=fde6eed1794146798b10de96649dba0a
+2025-06-03T12:36:44.625253+0200 INFO Starting training iteration 2 of 3
+2025-06-03T12:36:44.654250+0200 INFO Model performances: {'MSE': 25176355.71382345, 'MAE': 4053.839375841008, 'R²': 0.8274522785366476}
+2025-06-03T12:36:49.148248+0200 INFO Run 2 terminé, run_id=b2ecfd67214c4ea7b56b52047ca202ac
+2025-06-03T12:36:49.192251+0200 INFO Starting training iteration 3 of 3
+2025-06-03T12:36:49.220250+0200 INFO Model performances: {'MSE': 22730380.03899169, 'MAE': 3852.576489755661, 'R²': 0.8439558331113409}
+2025-06-03T12:36:53.634250+0200 INFO Run 3 terminé, run_id=b152b2e191fb437c96f907b3f2c161b4
+2025-06-03T14:56:56.420513+0200 INFO Starting training iteration 1 of 3
+2025-06-03T14:56:56.456514+0200 INFO No previous run_id, creating new model.
+2025-06-03T14:56:56.463515+0200 INFO Model performances: {'MSE': 26815043.702234305, 'MAE': 4036.682826764578, 'R²': 0.8172922647660517}
+2025-06-03T14:57:05.236513+0200 INFO Run 1 terminé, run_id=2fce26fe49704be1b286babd3e93b055
+2025-06-03T14:57:05.277515+0200 INFO Starting training iteration 2 of 3
+2025-06-03T14:57:05.301515+0200 INFO Loading model from previous run_id: 2fce26fe49704be1b286babd3e93b055
+2025-06-03T14:57:07.425513+0200 INFO Model performances: {'MSE': 26815043.702234305, 'MAE': 4036.682826764578, 'R²': 0.8172922647660517}
+2025-06-03T14:57:14.013513+0200 INFO Run 2 terminé, run_id=bbb8ac4fa0b848e28129b38c7058ce0f
+2025-06-03T14:57:14.056514+0200 INFO Starting training iteration 3 of 3
+2025-06-03T14:57:14.076514+0200 INFO Loading model from previous run_id: bbb8ac4fa0b848e28129b38c7058ce0f
+2025-06-03T14:57:16.242517+0200 INFO Model performances: {'MSE': 26815043.702234305, 'MAE': 4036.682826764578, 'R²': 0.8172922647660517}
+2025-06-03T14:57:23.296513+0200 INFO Run 3 terminé, run_id=f4c6c01a4c564b028ab671d5a1fc5152

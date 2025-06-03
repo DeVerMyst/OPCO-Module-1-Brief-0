@@ -105,9 +105,27 @@ On espère que cette petite virée dans notre projet t'a plu. N'hésite pas à j
 
 *Fait avec amour, code et une bonne dose de caféine (et un peu de folie).*
 
-# Installations des requis loguru : 
+# Installations des requis loguru: 
 ```bash
 pip install loguru
+```
+
+# Installations des requis FastAPI/Streamlit: 
+```bash
+pip install nltk fastapi streamlit uvicorn requests pydantic
+```
+## Pour lancer le serveur MLflow :
+```bash
+uvicorn mlFlow_experiment:app --reload
+```
+### Description des routes de l'API FastAPI :
+[GET /docs](http://127.0.0.1:9000/docs#/)
+
+
+
+# Installation des bibliothèques pour les tests unitaires: 
+```bash
+pip install pytest httpx
 ```
 
 # Installations des requis pour MLflow : 
@@ -119,6 +137,13 @@ pip install mlflow scikit-learn pandas matplotlib
 ```bash
 mlflow ui
 ```
+
+Création d'un script pour générer 3 entrainements et les stocker sur MLflow : 
+Les models créé sont stockés dans le dossier `models/` et pictures du drawloss sont stockés dans le dossier `figures/`.
+
+```python
+
+
 
 # mlFlow test repro: 
 ## 1er essai :

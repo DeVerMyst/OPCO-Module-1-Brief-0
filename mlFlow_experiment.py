@@ -1,3 +1,4 @@
+import sys
 import mlflow
 import mlflow.sklearn
 from sklearn.linear_model import LinearRegression
@@ -14,7 +15,7 @@ import pandas as pd
 import joblib
 from os.path import join as join
 
-## Base initialisation of Loguru and FastAPI
+## Base initialisation for Loguru and FastAPI
 from myapp_base import setup_loguru, create_app
 
 logger = setup_loguru("logs/mlFlow_experiment.log")
@@ -25,13 +26,9 @@ app = create_app()
 mlflow.set_tracking_uri('http://localhost:5000')
 
 
-#make object with info : dataversion, wanted_train
 info = {
-    "description" : "not set ",
-    "dataversion": "df_old.csv",
-    "wanted_train": 3,
-    "current_train": 0,  # This will be incremented with each training iteration
-    "runId": None  # This will be set after the first run
+    "description": "not set ",
+    "dataversion": "df_new.csv",
 }
 
 
@@ -159,6 +156,73 @@ def MLFlow_analyse_dataset(info):
     info["runId"] = MLFlow_save_run(model, preds, X_test, y_test, info, artifactPath="linear_regression_model")
     return info
 
+
 while info["current_train"] < info["wanted_train"]:
     logger.info(f"Starting training iteration {info['current_train']} of {info['wanted_train']}")
     info = MLFlow_analyse_dataset(info)
+
+
+
+### Function to train and log a model iteratively in MLFlow
+def train_and_log_iterative(run_idx, info, run_id=None):
+    """
+    Entraîne un modèle et le log dans MLFlow, en utilisant un run_id pour charger un modèle précédent si disponible.
+    Args:
+        run_idx (int): L'index de l'itération d'entraînement
+        info (dict): Dictionnaire contenant les informations de version des données et d'autres paramètres
+        run_id (str, optional): L'ID du run précédent à charger. Si None, un nouveau modèle sera créé.
+        Returns:
+        str: L'ID du run MLFlow après l'entraînement.
+        """
+        
+    df = pd.read_csv(join('data', info["dataversion"]))
+    X, y, _ = preprocessing(df)
+    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+    
+    # Charger le modèle du run précédent ou créer un nouveau modèle
+    if run_id is not None:
+        logger.info(f"Loading model from previous run_id: {run_id}")
+        model = mlflow.sklearn.load_model(f"runs:/{run_id}/{artifact_path}")
+    else:
+        logger.info("No previous run_id, creating new model.")
+        model = create_nn_model(X_train.shape[1])
+        
+    step_base_name = f"model_2025_06b_ml_{run_idx}_{run_id}"
+    # Réentraîner le modèle
+    model, hist = train_model(model, X_train, y_train, X_val=X_test, y_val=y_test)
+    
+    # sauvegarder le drawloss
+    draw_loss(hist, join('figures',f'{step_base_name}.jpg'))
+    # sauvegarder le modèle (Debug)
+    joblib.dump(model, join('models',f'{step_base_name}.pkl'))
+
+    
+    
+    preds = model.predict(X_test)
+    perf = evaluate_performance(y_test, preds)
+    print_data(perf, exp_name=f"Performance for run {run_idx}/{wanted_train}")
+    logger.info(f"Model performances: {perf}")
+    with mlflow.start_run() as run:
+        mlflow.log_param("description", f"Training iteration {run_idx}/{wanted_train}")
+        mlflow.log_param("data_version", info["dataversion"])
+        mlflow.log_param("random_state", 42)
+        mlflow.log_param("previous_run_id", run_id if run_id else "None")
+        mlflow.log_metric("mse", perf['MSE'])
+        mlflow.log_metric("mae", perf['MAE'])
+        mlflow.log_metric("r2", perf['R²'])
+        mlflow.sklearn.log_model(model, artifact_path)
+        logger.info(f"Run {run_idx + 1} terminé, run_id={run.info.run_id}")
+        return run.info.run_id
+            
+if __name__ == "__main__":
+    if len(sys.argv) > 1 and sys.argv[1] == "train":
+        # Paramètres d'entraînement
+        wanted_train = 3  # nombre d'entraînements à effectuer
+        artifact_path = "linear_regression_model"
+        run_id = None
+        
+        for i in range(wanted_train):
+            logger.info(f"Starting training iteration {i} of {wanted_train}")
+            run_id = train_and_log_iterative(i, info, run_id)
+    else:
+        print("Aucune action lancée. Pour entraîner, lancez : python mlFlow_experiment.py train")
