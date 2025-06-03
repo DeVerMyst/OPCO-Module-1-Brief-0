@@ -25,7 +25,7 @@ from datetime import datetime
 
 logger = setup_loguru("logs/mlFlow_experiment.log")
 app = create_app()
-
+today_str = datetime.now().strftime("%Y%m%d")
 
 # Force url for MLFlow
 mlflow.set_tracking_uri('http://localhost:5000')
@@ -35,6 +35,9 @@ info = {
     "description": "not set ",
     "dataversion": "df_new.csv",
 }
+
+# prediction_model = None  # Variable to hold the prediction model
+prediction_model = "d84d764851cd421093d42b738e8dd140"  # Variable to hold the prediction model
 
 
 def MLFlow_train_model(options, model, X, y, X_val=None, y_val=None, epochs=50, batch_size=32, verbose=0):
@@ -51,7 +54,7 @@ def MLFlow_train_model(options, model, X, y, X_val=None, y_val=None, epochs=50, 
     model, hist = train_model(model, X, y, X_val, y_val, epochs, batch_size, verbose)
     
     if options.get("save_model", False):
-        today_str = datetime.now().strftime("%Y%m%d")
+        
         step_base_name = options.get("step_base_name", f"model_{today_str}_ml_{options.get('step', 'default')}")
         # sauvegarder le drawloss
         draw_loss(hist, join('figures',f'{step_base_name}.jpg'))
@@ -184,14 +187,17 @@ def train_and_log_iterative(run_idx, info, run_id=None):
     else:
         logger.info("No previous run_id, creating new model.")
         model = create_nn_model(X_train.shape[1])
+        run_id = today_str
         
-    step_base_name = f"model_2025_06b_ml_{run_idx}_{run_id}"
+    # step_base_name = f"model_{run_idx}_{run_id}"
+    step_base_name = f"model_{run_id}"
     # Réentraîner le modèle
-    model, hist = train_model(model, X_train, y_train, X_val=X_test, y_val=y_test)
+    # model, hist = train_model(model, X_train, y_train, X_val=X_test, y_val=y_test)
     
-    MLFlow_train_model({
+    model, hist = MLFlow_train_model({
         "save_model": True,
-        "step": step_base_name
+        "step_base_name": step_base_name,
+        "step": run_idx
     }, model, X_train, y_train, X_val=X_test, y_val=y_test)
     
     
@@ -252,16 +258,16 @@ async def predict(payload: PredictRequest, uri: Request):
     """
     logger.info(f"Route '{uri.url.path}' called with data: {payload.data}")
     try:
-        # Charger le modèle MLflow le plus récent (dernier run)
-        client = mlflow.tracking.MlflowClient()
-        runs = client.search_runs(experiment_ids=["0"], order_by=["attributes.start_time DESC"], max_results=1)
-        if not runs:
-            raise HTTPException(status_code=404, detail="Aucun modèle MLflow trouvé.")
-        run_id = runs[0].info.run_id
+        # # Charger le modèle MLflow le plus récent (dernier run)
+        # client = mlflow.tracking.MlflowClient()
+        # runs = client.search_runs(experiment_ids=["0"], order_by=["attributes.start_time DESC"], max_results=1)
+        # if not runs:
+        #     raise HTTPException(status_code=404, detail="Aucun modèle MLflow trouvé.")
+        run_id = prediction_model
         model = mlflow.sklearn.load_model(f"runs:/{run_id}/linear_regression_model")
         
         logger.info(f"Model loaded from MLflow run ID: {run_id}")
-        
+                
         # Charger le préprocesseur
         preprocessor = joblib.load(join('models','preprocessor.pkl'))
         # Colonnes attendues par le préprocesseur
