@@ -116,7 +116,7 @@ pip install nltk fastapi streamlit uvicorn requests pydantic
 ```
 ## Pour lancer le serveur MLflow :
 ```bash
-uvicorn mlFlow_experiment:app --reload
+uvicorn mlFlow_experiment:app --host 127.0.0.1 --port 9000 --reload
 ```
 ### Description des routes de l'API FastAPI :
 [GET /docs](http://127.0.0.1:9000/docs#/)
@@ -126,6 +126,7 @@ uvicorn mlFlow_experiment:app --reload
 # Installation des bibliothèques pour les tests unitaires: 
 ```bash
 pip install pytest httpx
+pytest test_predict_api.py
 ```
 
 # Installations des requis pour MLflow : 

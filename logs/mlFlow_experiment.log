@@ -68,3 +68,11 @@
 2025-06-03T14:57:14.076514+0200 INFO Loading model from previous run_id: bbb8ac4fa0b848e28129b38c7058ce0f
 2025-06-03T14:57:16.242517+0200 INFO Model performances: {'MSE': 26815043.702234305, 'MAE': 4036.682826764578, 'R²': 0.8172922647660517}
 2025-06-03T14:57:23.296513+0200 INFO Run 3 terminé, run_id=f4c6c01a4c564b028ab671d5a1fc5152
+2025-06-03T17:12:21.698262+0200 ERROR Erreur lors de la prédiction: Specifying the columns using strings is only supported for dataframes.
+2025-06-03T17:23:49.689410+0200 INFO Route '/predict' called with data: [30, 175, 70, 2500, 'M', 'Oui', 'Bac+2', 'Ile-de-France', 'Non', 'Oui']
+2025-06-03T17:23:54.166410+0200 INFO Model loaded from MLflow run ID: d84d764851cd421093d42b738e8dd140
+2025-06-03T17:32:45.662641+0200 INFO Route '/predict' called with data: [30, 175, 70, 2500, 'M', 'Oui', 'Bac+2', 'Ile-de-France', 'Non', 'Oui']
+2025-06-03T17:32:50.192640+0200 INFO Model loaded from MLflow run ID: d84d764851cd421093d42b738e8dd140
+2025-06-03T17:36:18.012866+0200 INFO Route '/predict' called with data: [30, 175, 70, 2500, 'M', 'Oui', 'Bac+2', 'Ile-de-France', 'Non', 'Oui']
+2025-06-03T17:36:22.520868+0200 INFO Model loaded from MLflow run ID: d84d764851cd421093d42b738e8dd140
+2025-06-03T17:36:22.636864+0200 INFO Prediction made: [1218.2983], prediction value: 1218.29833984375

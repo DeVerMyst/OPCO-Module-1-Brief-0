@@ -14,9 +14,14 @@ from models.models import create_nn_model, train_model, model_predict
 import pandas as pd
 import joblib
 from os.path import join as join
+from fastapi import FastAPI, HTTPException, Request
+from pydantic import BaseModel
+from typing import List, Any
+import numpy as np
 
 ## Base initialisation for Loguru and FastAPI
 from myapp_base import setup_loguru, create_app
+from datetime import datetime
 
 logger = setup_loguru("logs/mlFlow_experiment.log")
 app = create_app()
@@ -32,7 +37,7 @@ info = {
 }
 
 
-def MLFlow_train_model(model, X_train, y_train):
+def MLFlow_train_model(options, model, X, y, X_val=None, y_val=None, epochs=50, batch_size=32, verbose=0):
     """
     Train a model and log it to MLFlow.
     
@@ -43,8 +48,18 @@ def MLFlow_train_model(model, X_train, y_train):
     Returns:
     model: The trained model.
     """
-    model.fit(X_train, y_train), 
-    return model
+    model, hist = train_model(model, X, y, X_val, y_val, epochs, batch_size, verbose)
+    
+    if options.get("save_model", False):
+        today_str = datetime.now().strftime("%Y%m%d")
+        step_base_name = options.get("step_base_name", f"model_{today_str}_ml_{options.get('step', 'default')}")
+        # sauvegarder le drawloss
+        draw_loss(hist, join('figures',f'{step_base_name}.jpg'))
+        # sauvegarder le modèle
+        joblib.dump(model, join('models', f'{step_base_name}.pkl'))
+        logger.info(f"Model saved as {step_base_name}.pkl")
+    
+    return model, hist
 
 def MLFlow_load_model(runId, artifactPath="linear_regression_model"):
     """
@@ -128,23 +143,12 @@ def MLFlow_analyse_dataset(info):
         # retrouver les paramètres du modèle
         params = model.get_params()
         logger.info(f"Model loaded with run ID: {info['runId']} Model parameters: {params}")
-        info["current_train"] = params.get("current_train", 0)
         
     else:
         logger.info("No run ID provided, training a new model.")
         model = LinearRegression()
-        info["current_train"] = 0
         
-    model.fit(X_train, y_train)
-    info["current_train"] += 1
-    info["description"] = f"Training iteration {info['current_train']/info['wanted_train']}"
-    
-    
-    # if info["current_train"] is not None:
-    # else:
-    #     info["description"] = "Initial training"
-    logger.info(f"Training model with description: {info['description']}")
-    
+   
     MLFlow_train_model(model, X_train, y_train)
     
     preds = MLFlow_make_prediction(model, X_test)   
@@ -155,12 +159,6 @@ def MLFlow_analyse_dataset(info):
     # Save the model and metrics to MLFlow
     info["runId"] = MLFlow_save_run(model, preds, X_test, y_test, info, artifactPath="linear_regression_model")
     return info
-
-
-while info["current_train"] < info["wanted_train"]:
-    logger.info(f"Starting training iteration {info['current_train']} of {info['wanted_train']}")
-    info = MLFlow_analyse_dataset(info)
-
 
 
 ### Function to train and log a model iteratively in MLFlow
@@ -191,10 +189,17 @@ def train_and_log_iterative(run_idx, info, run_id=None):
     # Réentraîner le modèle
     model, hist = train_model(model, X_train, y_train, X_val=X_test, y_val=y_test)
     
-    # sauvegarder le drawloss
-    draw_loss(hist, join('figures',f'{step_base_name}.jpg'))
-    # sauvegarder le modèle (Debug)
-    joblib.dump(model, join('models',f'{step_base_name}.pkl'))
+    MLFlow_train_model({
+        "save_model": True,
+        "step": step_base_name
+    }, model, X_train, y_train, X_val=X_test, y_val=y_test)
+    
+    
+    
+    # # sauvegarder le drawloss
+    # draw_loss(hist, join('figures',f'{step_base_name}.jpg'))
+    # # sauvegarder le modèle (Debug)
+    # joblib.dump(model, join('models',f'{step_base_name}.pkl'))
 
     
     
@@ -226,3 +231,55 @@ if __name__ == "__main__":
             run_id = train_and_log_iterative(i, info, run_id)
     else:
         print("Aucune action lancée. Pour entraîner, lancez : python mlFlow_experiment.py train")
+        
+        
+@app.get("/health")
+async def health(request: Request):
+    """
+    Endpoint de santé pour vérifier que l'application fonctionne.
+    """
+    logger.info(f"Route '{request.url.path}' called by {request.client.host}")
+    return {"status": "healthy", "message": "API is running"}
+
+
+class PredictRequest(BaseModel):
+    data: List[Any]  # Liste des features pour une seule instance
+
+@app.post("/predict")
+async def predict(payload: PredictRequest, uri: Request):
+    """
+    Endpoint pour faire une prédiction à partir d'un modèle MLflow sauvegardé.
+    """
+    logger.info(f"Route '{uri.url.path}' called with data: {payload.data}")
+    try:
+        # Charger le modèle MLflow le plus récent (dernier run)
+        client = mlflow.tracking.MlflowClient()
+        runs = client.search_runs(experiment_ids=["0"], order_by=["attributes.start_time DESC"], max_results=1)
+        if not runs:
+            raise HTTPException(status_code=404, detail="Aucun modèle MLflow trouvé.")
+        run_id = runs[0].info.run_id
+        model = mlflow.sklearn.load_model(f"runs:/{run_id}/linear_regression_model")
+        
+        logger.info(f"Model loaded from MLflow run ID: {run_id}")
+        
+        # Charger le préprocesseur
+        preprocessor = joblib.load(join('models','preprocessor.pkl'))
+        # Colonnes attendues par le préprocesseur
+        numerical_cols = ["age", "taille", "poids", "revenu_estime_mois"]
+        categorical_cols = ["sexe", "sport_licence", "niveau_etude", "region", "smoker", "nationalité_francaise"]
+        columns = numerical_cols + categorical_cols
+        
+        
+        # Transformer les données d'entrée en DataFrame
+        X_input = pd.DataFrame([payload.data], columns=columns)
+        X_processed = preprocessor.transform(X_input)
+        # Prédiction
+        y_pred = model_predict(model, X_processed)
+        
+        predict = np.asarray(y_pred).squeeze().item()
+        
+        logger.info(f"Prediction made: {y_pred}, prediction value: {predict}")
+        return {"prediction": float(predict)}
+    except Exception as e:
+        logger.error(f"Erreur lors de la prédiction: {e}")
+        raise HTTPException(status_code=500, detail=str(e))
