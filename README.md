@@ -161,3 +161,13 @@ mse
 26815043.702234305
 r2
 0.8172922647660517
+
+** Arrivé au bout de la 3ème itération, on a un modèle qui semble stable et performant sur les nouvelles données. **
+=> revenir sur la version 1/3 (eme run de cette passe de 3 entrainnement pour valider le model qui est le + optimisé)
+==================Performance for run 1/3===================
+MSE: 13484279.8583, MAE: 2341.7107, R²: 0.8754
+============================================================
+
+==================Performance for run 2/3===================
+MSE: 13509056.0376, MAE: 2336.8635, R²: 0.8752
+============================================================

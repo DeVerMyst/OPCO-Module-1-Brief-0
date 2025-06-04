@@ -41,7 +41,7 @@ features = [
 
 if st.button("Prédire"):
     # Appel à l'API FastAPI
-    url = "http://127.0.0.1:8000/predict"
+    url = "http://localhost:8000/predict"
     payload = {"data": features}
     # st.write(f"[DEBUG] Payload envoyé à l'API : {payload}")
     try:

@@ -37,7 +37,7 @@ info = {
 }
 
 # prediction_model = None  # Variable to hold the prediction model
-prediction_model = "d84d764851cd421093d42b738e8dd140"  # Variable to hold the prediction model
+prediction_model = "1a22f130b64744ba9b235c1b6be1a7be"  # Variable to hold the prediction model
 
 
 def MLFlow_train_model(options, model, X, y, X_val=None, y_val=None, epochs=50, batch_size=32, verbose=0):
@@ -230,7 +230,8 @@ if __name__ == "__main__":
         # Paramètres d'entraînement
         wanted_train = 3  # nombre d'entraînements à effectuer
         artifact_path = "linear_regression_model"
-        run_id = None
+        # run_id = None
+        run_id = prediction_model
         
         for i in range(wanted_train):
             logger.info(f"Starting training iteration {i} of {wanted_train}")
