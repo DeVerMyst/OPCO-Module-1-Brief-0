@@ -171,3 +171,6 @@ MSE: 13484279.8583, MAE: 2341.7107, R²: 0.8754
 ==================Performance for run 2/3===================
 MSE: 13509056.0376, MAE: 2336.8635, R²: 0.8752
 ============================================================
+
+
+Quel interet de réentrainer si on a déja entrainé un modèle jusqu'à sa meilleur valeur?

@@ -25,28 +25,23 @@ from datetime import datetime
 
 logger = setup_loguru("logs/mlFlow_experiment.log")
 app = create_app()
-today_str = datetime.now().strftime("%Y%m%d_%H%M")
+today_str = datetime.now().strftime("%Y%m%d")
 
 # Force url for MLFlow
 mlflow.set_tracking_uri('http://localhost:5000')
 
 
-settings = {
+info = {
     "description": "not set ",
-    "dataversion": "df_new.csv", # version de données de base d'entrainnement
-    "best_model": "1a22f130b64744ba9b235c1b6be1a7be",  # ID du meilleur modèle
-    "wanted_train_cycle": 5,  # nombre d'entraînements à effectuer
-    "epochs": 50,  
-    "prepareDataSeed": 42,  
+    "dataversion": "df_old.csv",
 }
 
 # Paramètres d'entraînement
-wanted_train_cycle = settings.get("wanted_train_cycle", 1)  # nombre d'entraînements à effectuer
+wanted_train = 1  # nombre d'entraînements à effectuer
 artifact_path = "linear_regression_model"
 
 # prediction_model = None  # Variable to hold the prediction model
-# prediction_model = "1a22f130b64744ba9b235c1b6be1a7be"  # Variable to hold the BEST predicted model
-prediction_model = None  # Variable to hold the BEST predicted model
+prediction_model = "1a22f130b64744ba9b235c1b6be1a7be"  # Variable to hold the BEST predicted model
 
 
 def MLFlow_train_model(options, model, X, y, X_val=None, y_val=None, epochs=50, batch_size=32, verbose=0):
@@ -104,79 +99,26 @@ def MLFlow_make_prediction(model, X):
     
 
 
-
 ### Function to train and log a model iteratively in MLFlow
 def train_and_log_iterative(run_idx, info, run_id=None):
     """
     Entraîne un modèle et le log dans MLFlow, en utilisant un run_id pour charger un modèle précédent si disponible.
     """
     df = pd.read_csv(join('data', info["dataversion"]))
-    X_train, X_test, y_train, y_test = prepare_data(df, run_idx)
-    
-    run_desc = f"Performance for run {run_idx}/{wanted_train_cycle}"
-    
-    run_id = train_and_log_model(X_train, y_train, X_test, y_test, run_desc, run_id, run_idx, artifact_path)
+    X_train, X_test, y_train, y_test = prepare_data(df)
+    run_desc = f"Training iteration {run_idx}/{wanted_train}"
+    run_id = train_and_log_model(X_train, y_train, X_test, y_test, run_desc, run_id, artifact_path)
     return run_id
-
-def prepare_data(df, run_idx=0):
-    """
-    Prend un DataFrame, applique le préprocessing et split en train/test.
-    Retourne X_train, X_test, y_train, y_test
-    """
-    X, y, _ = preprocessing(df)
-    # X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state= 42+run_idx)  # Ajout de run_idx pour la reproductibilité
-    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state= 42)  # Ajout de run_idx pour la reproductibilité
-    return X_train, X_test, y_train, y_test
-
-def train_and_log_model(X_train, y_train, X_test, y_test, run_desc, run_id=None, run_idx=0, artifact_path="linear_regression_model"):
-    """
-    Entraîne un modèle, loggue dans MLflow, retourne le run_id.
-    """
-     # Charger le modèle du run précédent ou créer un nouveau modèle
-    if run_id is not None:
-        logger.info(f"Loading model from previous run_id: {run_id}")
-        model = MLFlow_load_model(run_id, artifact_path)
-    else:
-        logger.info("No previous run_id, creating new model.")
-        model = create_nn_model(X_train.shape[1])
-        run_id = today_str
-    
-    step_base_name = f"model_{run_id}"
-    model, hist = MLFlow_train_model({
-        "save_model": True, # should be False when tests are finished
-        "step_base_name": step_base_name,
-        "step": run_idx
-    }, model, X_train, y_train, X_val=X_test, y_val=y_test, epochs=50, batch_size=32, verbose=0)
-    
-    preds = MLFlow_make_prediction(model, X_test)
-    
-
-    perf = evaluate_performance(y_test, preds)
-    print_data(perf, exp_name=run_desc)
-    logger.info(f"Model performances: {perf}")
-    
-
-    with mlflow.start_run() as run:
-        mlflow.log_param("description", run_desc)
-        # mlflow.log_param("data_version", info["dataversion"])
-        mlflow.log_param("random_state", 42)
-        mlflow.log_param("previous_run_id", run_id if run_id else "None")
-        mlflow.log_metric("mse", perf['MSE'])
-        mlflow.log_metric("mae", perf['MAE'])
-        mlflow.log_metric("r2", perf['R²'])
-        mlflow.sklearn.log_model(model, artifact_path)
-        logger.info(f"Run {run_idx + 1} terminé, run_id={run.info.run_id}")
-        return run.info.run_id
-             
+            
 if __name__ == "__main__":
     if len(sys.argv) > 1 and sys.argv[1] == "train":
         
         # run_id = None
         run_id = prediction_model
         
-        for i in range(wanted_train_cycle):
-            logger.info(f"Starting training iteration {i} of {wanted_train_cycle}")
-            run_id = train_and_log_iterative(i, settings, run_id)
+        for i in range(wanted_train):
+            logger.info(f"Starting training iteration {i} of {wanted_train}")
+            run_id = train_and_log_iterative(i, info, run_id)
     else:
         print("Aucune action lancée. Pour entraîner, lancez : python mlFlow_experiment.py train")
         
@@ -245,45 +187,39 @@ async def retrain(request: Request, payload: RetrainRequest):
         # Conversion en DataFrame
         df_new = pd.DataFrame(payload.data)
         logger.info(f"Nouvelles données reçues pour réentraînement: colonnes={df_new.columns.tolist()}, shape={df_new.shape}")
-        # Charger le dataset historique
-        df_hist = pd.read_csv(join('data', settings["dataversion"]))
-        # Concaténer les nouvelles données à l'historique
-        df_full = pd.concat([df_hist, df_new], ignore_index=True)
-        logger.info(f"Dataset concaténé: shape={df_full.shape}")
-        X_train, X_test, y_train, y_test = prepare_data(df_full)
-        run_desc = f"API retrain {datetime.now().isoformat()} (historique + nouvelles données)"
-        
-        run_id = None
-        for i in range(wanted_train_cycle):
-            logger.info(f"Starting retraining iteration {i + 1} of {wanted_train_cycle}")
-            run_id = train_and_log_model(X_train, y_train, X_test, y_test, run_desc, run_id=run_id, run_idx=i)
-        
-        # run_id = train_and_log_model(X_train, y_train, X_test, y_test, run_desc, prediction_model, run_idx=1)
-        return {"status": "success", "run_id": run_id}
-    except Exception as e:
-        logger.error(f"Erreur lors du réentraînement: {e}")
-        raise HTTPException(status_code=500, detail=str(e))
-    
-async def retrain_old(request: Request, payload: RetrainRequest):
-    """
-    Réentraîne le modèle à partir de nouvelles données reçues (format liste de dicts).
-    """
-    logger.info(f"Route '{request.url.path}' called for retraining with {len(payload.data)} new samples.")
-    try:
-        # Conversion en DataFrame
-        df_new = pd.DataFrame(payload.data)
-        logger.info(f"Nouvelles données reçues pour réentraînement: colonnes={df_new.columns.tolist()}, shape={df_new.shape}")
-        # Charger le dataset historique
-        df_hist = pd.read_csv(join('data', settings["dataversion"]))
-        # Concaténer les nouvelles données à l'historique
-        df_full = pd.concat([df_hist, df_new], ignore_index=True)
-        logger.info(f"Dataset concaténé: shape={df_full.shape}")
-        X_train, X_test, y_train, y_test = prepare_data(df_full)
-        run_desc = f"API retrain {datetime.now().isoformat()} (historique + nouvelles données)"
-        # run_id = train_and_log_model(X_train, y_train, X_test, y_test, run_desc, run_id=None, run_idx=1)
-        run_id = train_and_log_model(X_train, y_train, X_test, y_test, run_desc, prediction_model, run_idx=1)
+        X_train, X_test, y_train, y_test = prepare_data(df_new)
+        run_desc = f"API retrain {datetime.now().isoformat()}"
+        run_id = train_and_log_model(X_train, y_train, X_test, y_test, run_desc)
         return {"status": "success", "run_id": run_id}
     except Exception as e:
         logger.error(f"Erreur lors du réentraînement: {e}")
         raise HTTPException(status_code=500, detail=str(e))
 
+def prepare_data(df):
+    """
+    Prend un DataFrame, applique le préprocessing et split en train/test.
+    Retourne X_train, X_test, y_train, y_test
+    """
+    X, y, _ = preprocessing(df)
+    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+    return X_train, X_test, y_train, y_test
+
+
+def train_and_log_model(X_train, y_train, X_test, y_test, run_desc, run_id=None, artifact_path="linear_regression_model"):
+    """
+    Entraîne un modèle, loggue dans MLflow, retourne le run_id.
+    """
+    model = create_nn_model(X_train.shape[1])
+    model, hist = train_model(model, X_train, y_train, X_val=X_test, y_val=y_test)
+    preds = model.predict(X_test)
+    perf = evaluate_performance(y_test, preds)
+    print_data(perf, exp_name=run_desc)
+    logger.info(f"Model performances: {perf}")
+    with mlflow.start_run() as run:
+        mlflow.log_param("description", run_desc)
+        mlflow.log_metric("mse", perf['MSE'])
+        mlflow.log_metric("mae", perf['MAE'])
+        mlflow.log_metric("r2", perf['R²'])
+        mlflow.sklearn.log_model(model, artifact_path)
+        logger.info(f"Run terminé, run_id={run.info.run_id}")
+        return run.info.run_id

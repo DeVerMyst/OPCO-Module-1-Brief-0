@@ -131,3 +131,17 @@
 2025-06-03T19:00:40.700611+0200 INFO Model saved as model_1a22f130b64744ba9b235c1b6be1a7be.pkl
 2025-06-03T19:00:40.925613+0200 INFO Model performances: {'MSE': 13509056.037552686, 'MAE': 2336.8634746669063, 'R²': 0.8752076146345273}
 2025-06-03T19:00:52.507611+0200 INFO Run 3 terminé, run_id=937b1c8fce7c40e98a3767d78848e36b
+2025-06-04T19:25:27.830038+0200 INFO Starting training iteration 0 of 1
+2025-06-04T19:25:27.990040+0200 INFO Loading model from previous run_id: 1a22f130b64744ba9b235c1b6be1a7be
+2025-06-04T19:25:54.992038+0200 INFO Model saved as model_1a22f130b64744ba9b235c1b6be1a7be.pkl
+2025-06-04T19:28:07.730130+0200 INFO Starting training iteration 0 of 1
+2025-06-04T19:28:07.753131+0200 INFO Loading model from previous run_id: 1a22f130b64744ba9b235c1b6be1a7be
+2025-06-04T19:28:20.885705+0200 INFO Model saved as model_1a22f130b64744ba9b235c1b6be1a7be.pkl
+2025-06-04T19:28:21.228706+0200 INFO Model performances: {'MSE': 21092187.254312836, 'MAE': 3492.9597833186795, 'R²': 0.8562856802636967}
+2025-06-04T19:28:43.038705+0200 INFO Run 1 terminé, run_id=337130c6f55b4db7a3273641078302ec
+2025-06-04T19:29:51.394267+0200 INFO Route '/retrain' called for retraining with 2 new samples.
+2025-06-04T19:29:51.395268+0200 INFO Nouvelles données reçues pour réentraînement: colonnes=['age', 'taille', 'poids', 'revenu_estime_mois', 'sexe', 'sport_licence', 'niveau_etude', 'region', 'smoker', 'nationalité_francaise'], shape=(2, 10)
+2025-06-04T19:29:51.396268+0200 ERROR Erreur lors du réentraînement: "['nom', 'prenom', 'montant_pret'] not found in axis"
+2025-06-04T19:31:25.758974+0200 INFO Route '/retrain' called for retraining with 2 new samples.
+2025-06-04T19:31:25.760974+0200 INFO Nouvelles données reçues pour réentraînement: colonnes=['nom', 'prenom', 'age', 'taille', 'poids', 'revenu_estime_mois', 'sexe', 'sport_licence', 'niveau_etude', 'region', 'smoker', 'nationalité_francaise', 'montant_pret'], shape=(2, 13)
+2025-06-04T19:31:42.311974+0200 INFO Nouveau modèle réentraîné et loggué dans MLflow, run_id=5ade60f140f646888a9991030ca03275
