@@ -145,3 +145,97 @@
 2025-06-04T19:31:25.758974+0200 INFO Route '/retrain' called for retraining with 2 new samples.
 2025-06-04T19:31:25.760974+0200 INFO Nouvelles données reçues pour réentraînement: colonnes=['nom', 'prenom', 'age', 'taille', 'poids', 'revenu_estime_mois', 'sexe', 'sport_licence', 'niveau_etude', 'region', 'smoker', 'nationalité_francaise', 'montant_pret'], shape=(2, 13)
 2025-06-04T19:31:42.311974+0200 INFO Nouveau modèle réentraîné et loggué dans MLflow, run_id=5ade60f140f646888a9991030ca03275
+2025-06-04T19:41:23.293571+0200 INFO Route '/retrain' called for retraining with 2 new samples.
+2025-06-04T19:41:23.294571+0200 INFO Nouvelles données reçues pour réentraînement: colonnes=['nom', 'prenom', 'age', 'taille', 'poids', 'revenu_estime_mois', 'sexe', 'sport_licence', 'niveau_etude', 'region', 'smoker', 'nationalité_francaise', 'montant_pret'], shape=(2, 13)
+2025-06-04T19:41:28.696570+0200 INFO Model performances: {'MSE': 224982944.0, 'MAE': 14999.431640625, 'R²': nan}
+2025-06-04T19:41:41.812569+0200 INFO Run terminé, run_id=07f535a184d4483b9128048f157dc451
+2025-06-04T20:14:57.574976+0200 INFO Route '/retrain' called for retraining with 2 new samples.
+2025-06-04T20:14:57.575975+0200 INFO Nouvelles données reçues pour réentraînement: colonnes=['nom', 'prenom', 'age', 'taille', 'poids', 'revenu_estime_mois', 'sexe', 'sport_licence', 'niveau_etude', 'region', 'smoker', 'nationalité_francaise', 'montant_pret'], shape=(2, 13)
+2025-06-04T20:14:57.585976+0200 INFO No previous run_id, creating new model.
+2025-06-04T20:15:03.279979+0200 INFO Model saved as model_20250604.pkl
+2025-06-04T20:15:03.411976+0200 INFO Model performances: {'MSE': 225010640.0, 'MAE': 15000.3544921875, 'R²': nan}
+2025-06-04T20:15:27.008550+0200 INFO Run 1 terminé, run_id=1889200e458540ba9d94d17be6b99100
+2025-06-04T20:17:23.772793+0200 INFO Route '/retrain' called for retraining with 2 new samples.
+2025-06-04T20:17:23.773794+0200 INFO Nouvelles données reçues pour réentraînement: colonnes=['nom', 'prenom', 'age', 'taille', 'poids', 'revenu_estime_mois', 'sexe', 'sport_licence', 'niveau_etude', 'region', 'smoker', 'nationalité_francaise', 'montant_pret'], shape=(2, 13)
+2025-06-04T20:17:23.784794+0200 INFO Loading model from previous run_id: 1a22f130b64744ba9b235c1b6be1a7be
+2025-06-04T20:17:28.156792+0200 ERROR Erreur lors du réentraînement: Exception encountered when calling Sequential.call().
+
+[1mInput 0 of layer "dense" is incompatible with the layer: expected axis -1 of input shape to have value 25, but received input with shape (None, 15)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(None, 15), dtype=float32)
+  • training=True
+  • mask=None
+  • kwargs=<class 'inspect._empty'>
+2025-06-04T20:18:53.265357+0200 INFO Route '/retrain' called for retraining with 2 new samples.
+2025-06-04T20:18:53.267358+0200 INFO Nouvelles données reçues pour réentraînement: colonnes=['nom', 'prenom', 'age', 'taille', 'poids', 'revenu_estime_mois', 'sexe', 'sport_licence', 'niveau_etude', 'region', 'smoker', 'nationalité_francaise', 'montant_pret'], shape=(2, 13)
+2025-06-04T20:18:53.282356+0200 INFO Loading model from previous run_id: 1a22f130b64744ba9b235c1b6be1a7be
+2025-06-04T20:18:57.682354+0200 ERROR Erreur lors du réentraînement: Exception encountered when calling Sequential.call().
+
+[1mInput 0 of layer "dense" is incompatible with the layer: expected axis -1 of input shape to have value 25, but received input with shape (None, 15)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(None, 15), dtype=float32)
+  • training=True
+  • mask=None
+  • kwargs=<class 'inspect._empty'>
+2025-06-04T21:18:05.137328+0200 INFO Route '/retrain' called for retraining with 2 new samples.
+2025-06-04T21:18:05.138326+0200 INFO Nouvelles données reçues pour réentraînement: colonnes=['nom', 'prenom', 'age', 'taille', 'poids', 'revenu_estime_mois', 'sexe', 'sport_licence', 'niveau_etude', 'region', 'smoker', 'nationalité_francaise', 'montant_pret'], shape=(2, 13)
+2025-06-04T21:18:05.152326+0200 INFO No previous run_id, creating new model.
+2025-06-04T21:18:11.167892+0200 INFO Model saved as model_20250604.pkl
+2025-06-04T21:18:11.257894+0200 INFO Model performances: {'MSE': 224979696.0, 'MAE': 14999.3232421875, 'R²': nan}
+2025-06-04T21:18:25.220894+0200 INFO Run 2 terminé, run_id=86aa0d2ab4ce4621b7ac9fb0a7c91eaa
+2025-06-04T21:31:56.029264+0200 INFO Route '/retrain' called for retraining with 2 new samples.
+2025-06-04T21:31:56.031265+0200 INFO Nouvelles données reçues pour réentraînement: colonnes=['nom', 'prenom', 'age', 'taille', 'poids', 'revenu_estime_mois', 'sexe', 'sport_licence', 'niveau_etude', 'region', 'smoker', 'nationalité_francaise', 'montant_pret'], shape=(2, 13)
+2025-06-04T21:31:56.040265+0200 INFO Dataset concaténé: shape=(2002, 13)
+2025-06-04T21:31:56.055264+0200 INFO No previous run_id, creating new model.
+2025-06-04T21:32:05.924267+0200 INFO Model saved as model_20250604.pkl
+2025-06-04T21:32:06.076265+0200 INFO Model performances: {'MSE': 16391684.119106103, 'MAE': 2850.667174622184, 'R²': 0.8625678460438718}
+2025-06-04T21:32:19.588814+0200 INFO Run 2 terminé, run_id=aa0681e0bd884918b4e5b1cd619145ec
+2025-06-04T21:40:53.974996+0200 INFO Route '/retrain' called for retraining with 2 new samples.
+2025-06-04T21:40:53.975995+0200 INFO Nouvelles données reçues pour réentraînement: colonnes=['nom', 'prenom', 'age', 'taille', 'poids', 'revenu_estime_mois', 'sexe', 'sport_licence', 'niveau_etude', 'region', 'smoker', 'nationalité_francaise', 'montant_pret'], shape=(2, 13)
+2025-06-04T21:40:53.983993+0200 INFO Dataset concaténé: shape=(2002, 13)
+2025-06-04T21:40:54.001993+0200 INFO Loading model from previous run_id: 1a22f130b64744ba9b235c1b6be1a7be
+2025-06-04T21:40:58.594996+0200 ERROR Erreur lors du réentraînement: Exception encountered when calling Sequential.call().
+
+[1mInput 0 of layer "dense" is incompatible with the layer: expected axis -1 of input shape to have value 25, but received input with shape (None, 26)[0m
+
+Arguments received by Sequential.call():
+  • inputs=tf.Tensor(shape=(None, 26), dtype=float32)
+  • training=True
+  • mask=None
+  • kwargs=<class 'inspect._empty'>
+2025-06-04T21:56:14.496439+0200 INFO Starting training iteration 0 of 1
+2025-06-04T21:56:14.524440+0200 INFO No previous run_id, creating new model.
+2025-06-04T21:57:05.355647+0200 INFO Model performances: {'MSE': 13547215.551829848, 'MAE': 2356.500818079658, 'R²': 0.8748551091154299}
+2025-06-04T21:57:19.613643+0200 INFO Run 1 terminé, run_id=ee426d033a7041ada6a2d533b15a05d5
+2025-06-04T22:06:42.218719+0200 INFO Starting training iteration 0 of 1
+2025-06-04T22:06:42.246717+0200 INFO No previous run_id, creating new model.
+2025-06-04T22:07:30.549314+0200 INFO Model saved as model_20250604_2206.pkl
+2025-06-04T22:07:30.875315+0200 INFO Model performances: {'MSE': 13527769.957638329, 'MAE': 2334.977886370368, 'R²': 0.8750347413619216}
+2025-06-04T22:07:44.587313+0200 INFO Run 1 terminé, run_id=5b0e6b22c9784e3ebf9d50b5dfcce316
+2025-06-04T22:48:24.595146+0200 INFO Starting training iteration 0 of 5
+2025-06-04T22:48:24.618147+0200 INFO No previous run_id, creating new model.
+2025-06-04T22:48:33.896148+0200 INFO Model saved as model_20250604_2248.pkl
+2025-06-04T22:48:34.103146+0200 INFO Model performances: {'MSE': 16158601.147057515, 'MAE': 2781.6801576975795, 'R²': 0.8507319552376456}
+2025-06-04T22:48:47.721145+0200 INFO Run 1 terminé, run_id=6e115c5f475a4ffdb0c409db0bcc3150
+2025-06-04T22:48:47.752149+0200 INFO Starting training iteration 1 of 5
+2025-06-04T22:48:47.794147+0200 INFO Loading model from previous run_id: 6e115c5f475a4ffdb0c409db0bcc3150
+2025-06-04T22:48:58.584147+0200 INFO Model saved as model_6e115c5f475a4ffdb0c409db0bcc3150.pkl
+2025-06-04T22:48:58.722148+0200 INFO Model performances: {'MSE': 14572143.273997236, 'MAE': 2658.3776476562316, 'R²': 0.8572939677714387}
+2025-06-04T22:49:10.620145+0200 INFO Run 2 terminé, run_id=cd2a6f7326884f06bd760a79e8dea883
+2025-06-04T22:49:10.653148+0200 INFO Starting training iteration 2 of 5
+2025-06-04T22:49:10.675148+0200 INFO Loading model from previous run_id: cd2a6f7326884f06bd760a79e8dea883
+2025-06-04T22:49:24.379146+0200 INFO Model saved as model_cd2a6f7326884f06bd760a79e8dea883.pkl
+2025-06-04T22:49:24.596150+0200 INFO Model performances: {'MSE': 12602843.669143138, 'MAE': 2424.788307473891, 'R²': 0.8896951953335336}
+2025-06-04T22:49:39.369226+0200 INFO Run 3 terminé, run_id=8d31dfcfb3a74ed5b4aee4168c18e5a1
+2025-06-04T22:49:39.407229+0200 INFO Starting training iteration 3 of 5
+2025-06-04T22:49:39.434229+0200 INFO Loading model from previous run_id: 8d31dfcfb3a74ed5b4aee4168c18e5a1
+2025-06-04T22:49:51.479225+0200 INFO Model saved as model_8d31dfcfb3a74ed5b4aee4168c18e5a1.pkl
+2025-06-04T22:49:51.630230+0200 INFO Model performances: {'MSE': 13057619.485961124, 'MAE': 2416.9920708784134, 'R²': 0.8753061202011863}
+2025-06-04T22:50:02.480226+0200 INFO Run 4 terminé, run_id=5dd2e720c0074e4da07884e4e4e9e318
+2025-06-04T22:50:02.513226+0200 INFO Starting training iteration 4 of 5
+2025-06-04T22:50:02.532224+0200 INFO Loading model from previous run_id: 5dd2e720c0074e4da07884e4e4e9e318
+2025-06-04T22:50:13.429225+0200 INFO Model saved as model_5dd2e720c0074e4da07884e4e4e9e318.pkl
+2025-06-04T22:50:13.570226+0200 INFO Model performances: {'MSE': 11055912.011699658, 'MAE': 2189.312671406428, 'R²': 0.892019007796511}
+2025-06-04T22:50:25.967227+0200 INFO Run 5 terminé, run_id=087f72bb4ea5491ab3fee457486ea8ed
