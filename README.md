@@ -105,6 +105,12 @@ On espère que cette petite virée dans notre projet t'a plu. N'hésite pas à j
 
 *Fait avec amour, code et une bonne dose de caféine (et un peu de folie).*
 
+
+# Génération requirements.txt à chaque installation de module
+```bash
+pip freeze > requirements.txt
+```
+
 # Installations des requis loguru: 
 ```bash
 pip install loguru
@@ -173,4 +179,6 @@ MSE: 13509056.0376, MAE: 2336.8635, R²: 0.8752
 ============================================================
 
 
-Quel interet de réentrainer si on a déja entrainé un modèle jusqu'à sa meilleur valeur?
+- Quel interet de réentrainer si on a déja entrainé un modèle jusqu'à sa meilleur valeur?
+
+- Next step : Entrainer le modèle sur nouvelles données 5x puisque c'est le max puis sur les anciennes données ?
