@@ -297,3 +297,7 @@ Arguments received by Sequential.call():
 2025-06-06T13:08:44.244900+0200 INFO Route '/predict' called with data: [68, 151.0, 121.0, 6600.0, 'M', 'Oui', 'Doctorat', 'Auvergne-Rhône-Alpes', 'Non', 'Oui']
 2025-06-06T13:08:48.619913+0200 INFO Model loaded from MLflow run ID: 60ca87cde38a42dab673c4c6491ba076
 2025-06-06T13:08:48.757911+0200 INFO Prediction made: [21131.578], prediction value: 21131.578125
+2025-06-06T13:49:24.482926+0200 INFO Route '/retrain' called for retraining with data_path=data/df_new.csv, from_existing_model=False
+2025-06-06T13:49:24.489926+0200 INFO Données chargées pour réentraînement: shape=(2000, 13), colonnes=['nom', 'prenom', 'age', 'taille', 'poids', 'sexe', 'sport_licence', 'niveau_etude', 'region', 'smoker', 'nationalité_francaise', 'revenu_estime_mois', 'montant_pret']
+2025-06-06T13:49:24.489926+0200 INFO Starting training iteration 0 of 3 (from_existing_model=False)
+2025-06-06T13:49:24.490927+0200 ERROR Erreur lors du réentraînement: [Errno 2] No such file or directory: 'data\\data/df_new.csv'

@@ -14,7 +14,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY . .
 
 # Exposer les ports pour FastAPI (8000) et Streamlit (8501)
-EXPOSE 8001 8502
+EXPOSE 8000 8501
 
 # Commande de démarrage multi-process (API + Streamlit)
-CMD ["sh", "-c", "uvicorn mlFlow_api:app --host 0.0.0.0 --port 8001 & streamlit run app_streamlit.py --server.port 8502 --server.address 0.0.0.0"]
+CMD ["sh", "-c", "uvicorn mlFlow_api:app --host 0.0.0.0 --port 8000 & streamlit run app_streamlit.py --server.port 8501 --server.address 0.0.0.0"]

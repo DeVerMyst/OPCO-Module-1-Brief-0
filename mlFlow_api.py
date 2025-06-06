@@ -18,6 +18,7 @@ from fastapi import FastAPI, HTTPException, Request
 from pydantic import BaseModel
 from typing import List, Any
 import numpy as np
+import os
 
 ## Base initialisation for Loguru and FastAPI
 from myapp_base import setup_loguru, create_app
@@ -34,7 +35,7 @@ mlflow.set_tracking_uri('http://localhost:5000')
 settings = {
     "description": "not set ",
     "dataversion": "df_new.csv", # version de données de base d'entrainnement
-    "best_model": "1a22f130b64744ba9b235c1b6be1a7be",  # ID du meilleur modèle
+    # "best_model": "1a22f130b64744ba9b235c1b6be1a7be",  # ID du meilleur modèle
     "wanted_train_cycle": 3,  # nombre d'entraînements à effectuer 3 est le meilleur
     "epochs": 50,  
     "train_seed": 42,  
@@ -47,7 +48,8 @@ artifact_path = "linear_regression_model"
 # prediction_model = None  # Variable to hold the prediction model
 # prediction_model = "1a22f130b64744ba9b235c1b6be1a7be"  # Variable to hold the BEST predicted model
 # prediction_model = None  # Variable to hold the BEST predicted model
-prediction_model = "60ca87cde38a42dab673c4c6491ba076"  # Variable to hold the BEST predicted model
+# prediction_model = "60ca87cde38a42dab673c4c6491ba076"  # Variable to hold the BEST predicted model
+prediction_model = "3366968e6add45ddaad09162c63578e5"  # from df_modifie
 
 
 def MLFlow_train_model(options, model, X, y, X_val=None, y_val=None, epochs=50, batch_size=32, verbose=0):
@@ -240,66 +242,44 @@ async def predict(request: Request, payload: PredictRequest):
         raise HTTPException(status_code=500, detail=str(e))
 
 class RetrainRequest(BaseModel):
-    data: List[dict]  # Liste de nouveaux exemples (dictionnaires)
+    data_path: str  # Chemin du fichier CSV à utiliser comme nouvelle source de données
+    from_existing_model: bool = True  # True: fine-tuning, False: nouveau modèle
 
 @app.post("/retrain")
 async def retrain(request: Request, payload: RetrainRequest):
     """
-    Réentraîne le modèle à partir de nouvelles données reçues (format liste de dicts).
+    Réentraîne le modèle à partir d'un fichier CSV fourni (data_path) et d'une option pour fine-tuning ou nouveau modèle.
     """
-    logger.info(f"Route '{request.url.path}' called for retraining with {len(payload.data)} new samples.")
+    
+    settings = {
+        "description": "not set ",
+        "dataversion": "df_new.csv", # version de données de base d'entrainnement
+        # "best_model": "1a22f130b64744ba9b235c1b6be1a7be",  # ID du meilleur modèle
+        "wanted_train_cycle": 3,  # nombre d'entraînements à effectuer 3 est le meilleur
+        "epochs": 50,  
+        "train_seed": 42,  
+    }
+    
+    logger.info(f"Route '{request.url.path}' called for retraining with data_path={payload.data_path}, from_existing_model={payload.from_existing_model}")
+    
+    
     try:
-        # Conversion en DataFrame
-        df_new = pd.DataFrame(payload.data)
-        logger.info(f"Nouvelles données reçues pour réentraînement: colonnes={df_new.columns.tolist()}, shape={df_new.shape}")
-        # Charger le dataset choisis : old ou new
-        df_hist = pd.read_csv(join('data', settings["dataversion"]))
-        
-        # Concaténer les nouvelles données à l'historique
-        df_full = pd.concat([df_hist, df_new], ignore_index=True)
-        logger.info(f"Dataset concaténé: shape={df_full.shape}")
-        X_train, X_test, y_train, y_test = prepare_data(df_full)
-        
-        run_desc = f"API retrain {datetime.now().isoformat()} (historique + nouvelles données)"
-        
-        run_id = None
+        # Charger le dataset fourni
+        df = pd.read_csv(payload.data_path)
+        logger.info(f"Données chargées pour réentraînement: shape={df.shape}, colonnes={df.columns.tolist()}")
+        run_id = prediction_model if payload.from_existing_model else None
+        # Mettre à jour la version des données avec seulement le nom du fichier
+        settings["dataversion"] = os.path.basename(payload.data_path)
         for i in range(wanted_train_cycle):
-            logger.info(f"Starting retraining iteration {i + 1} of {wanted_train_cycle}")
-            run_id = train_and_log_model(X_train, y_train, X_test, y_test, run_desc, model_id=run_id, run_idx=i)
-        
-        # run_id = train_and_log_model(X_train, y_train, X_test, y_test, run_desc, prediction_model, run_idx=1)
-        return {"status": "success", "run_id": run_id}
+            logger.info(f"Starting training iteration {i} of {wanted_train_cycle} (from_existing_model={payload.from_existing_model})")
+            run_id = train_and_log_iterative(i, settings, run_id)
+            
+        # Mettre à jour le modèle de prédiction avec le dernier run_id
+        prediction_model = run_id  # Mettre à jour le modèle de prédiction avec le dernier 
+        logger.info(f"Nouveau modèle de prédiction mis à jour avec run_id: {run_id}")
+        return {"status": "success", "nouveau modèle actif pour la prévision : ": run_id}
     except Exception as e:
         logger.error(f"Erreur lors du réentraînement: {e}")
         raise HTTPException(status_code=500, detail=str(e))
     
-    
-    
-async def retrain_old(request: Request, payload: RetrainRequest):
-    """
-    Réentraîne le modèle à partir de nouvelles données reçues (format liste de dicts).
-    """
-    logger.info(f"Route '{request.url.path}' called for retraining with {len(payload.data)} new samples.")
-    try:
-        # Conversion en DataFrame
-        df_new = pd.DataFrame(payload.data)
-        logger.info(f"Nouvelles données reçues pour réentraînement: colonnes={df_new.columns.tolist()}, shape={df_new.shape}")
-        # Charger le dataset historique
-        df_hist = pd.read_csv(join('data', settings["dataversion"]))
-        # Concaténer les nouvelles données à l'historique
-        df_full = pd.concat([df_hist, df_new], ignore_index=True)
-        logger.info(f"Dataset concaténé: shape={df_full.shape}")
-        X_train, X_test, y_train, y_test = prepare_data(df_full)
-        run_desc = f"API retrain {datetime.now().isoformat()} (historique + nouvelles données)"
-        
-        run_id = None
-        for i in range(wanted_train_cycle):
-            logger.info(f"Starting retraining iteration {i + 1} of {wanted_train_cycle}")
-            run_id = train_and_log_model(X_train, y_train, X_test, y_test, run_desc, model_id=run_id, run_idx=i)
-        
-        # run_id = train_and_log_model(X_train, y_train, X_test, y_test, run_desc, prediction_model, run_idx=1)
-        return {"status": "success", "run_id": run_id}
-    except Exception as e:
-        logger.error(f"Erreur lors du réentraînement: {e}")
-        raise HTTPException(status_code=500, detail=str(e))
     

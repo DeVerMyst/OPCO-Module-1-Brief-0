@@ -1,0 +1,2001 @@
+nom,prenom,age,taille,poids,sexe,sport_licence,niveau_etude,region,smoker,nationalité_francaise,revenu_estime_mois,montant_pret
+Fleury,André,58,175.0,67.9,H,oui,bac+2,Corse,oui,oui,3277,42474
+Maréchal,Lucy,24,185.2,66.5,H,non,aucun,Île-de-France,oui,oui,2219,41557
+Tessier,Luc,50,185.8,81.5,H,oui,doctorat,Normandie,oui,oui,1936,41733
+Gros,Marthe,35,175.4,63.0,H,oui,master,Auvergne-Rhône-Alpes,non,oui,1941,41832
+Masson,Inès,66,172.4,41.3,F,oui,aucun,Normandie,oui,oui,500,83911
+Rodriguez,Richard,40,164.4,54.8,F,oui,master,Provence-Alpes-Côte d’Azur,non,oui,2877,83722
+Bonneau,Auguste,36,160.9,48.8,F,oui,aucun,Île-de-France,oui,non,4258,84460
+Perez,Inès,23,167.7,71.0,H,oui,master,Bretagne,non,non,790,42289
+Guillaume,Adrienne,41,164.6,71.7,H,non,bac+2,Corse,non,non,1118,42218
+Maury,Élisabeth,61,173.8,61.0,H,oui,doctorat,Corse,oui,oui,2149,41555
+Le Gall,Inès,35,164.0,97.8,H,non,aucun,Corse,oui,non,2483,42053
+Mathieu,Pénélope,43,159.4,82.3,F,oui,bac,Auvergne-Rhône-Alpes,oui,non,1034,83553
+Devaux,Michelle,43,172.1,40.6,F,oui,bac+2,Hauts-de-France,oui,non,906,84391
+Georges,Zacharie,52,172.0,81.1,F,non,doctorat,Normandie,non,oui,2705,83887
+Sauvage,Jérôme,26,168.8,65.5,F,oui,aucun,Provence-Alpes-Côte d’Azur,oui,non,725,84326
+Guilbert,Claudine,68,162.8,63.1,F,oui,master,Normandie,non,oui,3768,84053
+Menard,Suzanne,53,173.4,43.6,H,oui,doctorat,Bretagne,non,oui,2888,41837
+Lejeune,Emmanuelle,45,166.1,59.8,H,non,aucun,Bretagne,oui,oui,3234,42422
+Rolland,Jacques,24,180.3,84.0,F,oui,bac,Auvergne-Rhône-Alpes,oui,oui,1492,84378
+Guillaume,André,67,166.9,75.0,H,non,master,Île-de-France,oui,non,3670,42184
+Lemaître,Michelle,74,165.2,67.2,F,oui,aucun,Corse,oui,oui,1172,83807
+Étienne,Zacharie,49,158.0,82.2,H,oui,bac,Occitanie,oui,oui,4127,42256
+Navarro,Maggie,73,169.3,85.1,F,oui,doctorat,Corse,non,oui,2933,83869
+Lacroix,Inès,60,163.5,75.4,F,non,doctorat,Occitanie,oui,oui,4345,83655
+Bigot,Alexandria,22,169.6,93.5,F,oui,doctorat,Corse,oui,oui,500,83768
+Munoz,Sophie,63,178.2,71.3,H,oui,aucun,Île-de-France,non,oui,2141,41694
+Auger,Jacques,33,170.9,40.2,F,non,bac,Hauts-de-France,non,oui,2236,83532
+Berger,Zoé,48,173.6,92.2,F,oui,aucun,Provence-Alpes-Côte d’Azur,non,oui,1878,84460
+Gay,Camille,44,161.9,62.5,F,oui,aucun,Île-de-France,non,non,3598,83573
+Hernandez,Geneviève,69,173.3,62.1,H,oui,bac,Corse,non,oui,3115,42062
+Samson,Auguste,29,171.0,84.5,F,non,bac,Provence-Alpes-Côte d’Azur,non,non,1657,84099
+Diaz,Victor,72,166.7,64.1,H,oui,doctorat,Île-de-France,oui,non,743,42266
+Mendès,Virginie,72,173.0,73.9,H,oui,master,Occitanie,non,oui,2506,42301
+Dubois,Thérèse,43,167.7,48.8,H,oui,master,Île-de-France,non,oui,1995,42441
+Marques,Robert,68,166.6,58.0,F,non,master,Occitanie,oui,oui,2306,84337
+Marchal,Clémence,31,174.0,98.3,H,oui,bac+2,Île-de-France,oui,oui,2709,42473
+Godard,Alphonse,50,172.6,68.9,H,oui,doctorat,Provence-Alpes-Côte d’Azur,oui,oui,500,41710
+Goncalves,Marguerite,22,169.7,70.9,H,non,aucun,Corse,oui,non,5455,41926
+Petit,Alphonse,44,168.1,74.5,F,non,bac,Auvergne-Rhône-Alpes,oui,oui,2458,83896
+Normand,Julien,26,158.3,87.1,F,non,bac+2,Provence-Alpes-Côte d’Azur,oui,oui,3402,84352
+Boucher,Auguste,54,177.9,56.4,H,oui,doctorat,Corse,non,oui,4183,42358
+Noël,Élise,40,156.0,78.8,H,oui,bac+2,Bretagne,oui,oui,5128,41927
+Charrier,Augustin,52,160.1,61.5,F,oui,doctorat,Bretagne,oui,non,2619,84153
+Fontaine,Philippine,26,165.0,46.7,F,oui,aucun,Hauts-de-France,non,oui,2582,84145
+Fleury,Nicole,31,159.4,77.1,F,oui,bac+2,Occitanie,non,non,1396,84260
+Turpin,Luce,72,185.5,58.3,H,oui,master,Bretagne,oui,oui,2113,42202
+Paris,William,67,178.1,51.5,H,non,bac,Occitanie,non,oui,2772,42001
+Laporte,Laurent,25,183.1,45.9,H,oui,doctorat,Île-de-France,non,oui,2721,41625
+Hebert,Danielle,27,172.6,81.7,F,oui,aucun,Bretagne,non,non,1015,83671
+Leduc,Odette,68,156.8,77.8,H,non,bac,Corse,oui,oui,2856,42500
+Lenoir,Madeleine,53,172.5,75.2,F,oui,bac,Hauts-de-France,oui,non,1683,83939
+Antoine,Marthe,19,172.3,74.4,H,non,master,Corse,non,oui,1642,42219
+Pottier,Lucy,62,188.7,77.1,H,non,aucun,Occitanie,oui,oui,1070,41922
+Leroy,Alphonse,47,176.6,55.4,F,non,bac,Corse,oui,non,3444,84107
+Munoz,Emmanuel,43,181.6,57.7,F,non,aucun,Bretagne,non,non,3656,83601
+Lagarde,Célina,43,174.1,82.3,F,oui,aucun,Bretagne,oui,oui,4776,83713
+Delorme,Jérôme,34,167.5,58.7,H,oui,doctorat,Normandie,non,non,1432,41756
+Poulain,Joseph,38,161.8,68.8,F,oui,master,Corse,non,oui,2909,83586
+Techer,Jérôme,45,172.8,82.4,H,oui,bac+2,Normandie,oui,non,2515,41695
+Ribeiro,Claudine,39,184.5,66.0,F,oui,bac+2,Bretagne,non,oui,5764,83645
+Duval,Isaac,62,176.3,57.1,F,oui,bac,Normandie,non,non,1214,84494
+Gros,Benjamin,75,174.8,66.6,H,non,master,Île-de-France,non,oui,3356,41773
+Vaillant,Martin,45,174.7,68.9,F,non,master,Occitanie,oui,oui,1483,83683
+Clerc,Frédérique,68,154.9,63.3,H,oui,bac+2,Auvergne-Rhône-Alpes,oui,non,3527,42007
+Torres,Renée,66,172.1,51.3,H,non,bac,Corse,oui,oui,2707,41623
+Guillot,Diane,33,173.9,56.7,F,oui,master,Normandie,oui,non,2684,83758
+Gilles,Paul,42,170.6,52.9,F,non,bac,Hauts-de-France,oui,non,2929,84483
+Foucher,Hugues,73,175.6,86.2,H,non,bac,Hauts-de-France,non,oui,3764,42449
+Roux,Éric,33,156.2,55.9,H,non,bac,Occitanie,non,non,3118,41854
+Thibault,Alexandre,75,175.1,77.7,F,non,doctorat,Occitanie,oui,non,7123,84066
+Perrin,Thomas,48,175.7,87.0,F,non,bac,Bretagne,non,non,3644,84360
+Benoit,Agathe,35,176.5,65.3,F,oui,bac+2,Corse,non,oui,3410,83593
+Moulin,Frédérique,75,162.3,66.4,H,oui,bac,Corse,non,non,1917,42435
+Bernard,Nicolas,63,170.8,104.7,H,oui,master,Normandie,non,oui,500,42202
+Dupuy,Édith,44,176.9,45.8,H,oui,master,Normandie,oui,non,1933,42382
+Pineau,Constance,66,180.9,71.0,F,non,aucun,Auvergne-Rhône-Alpes,non,non,1206,84369
+De Sousa,Suzanne,72,162.8,80.2,F,oui,master,Corse,non,oui,1623,84234
+Courtois,David,19,172.2,70.7,F,non,master,Hauts-de-France,non,non,1718,84430
+Jacquet,Adrien,57,191.4,79.5,H,non,doctorat,Île-de-France,oui,non,500,42079
+Seguin,Dominique,26,171.9,60.1,F,oui,aucun,Bretagne,non,oui,3522,84137
+Michel,Émilie,47,162.1,68.3,F,non,master,Bretagne,non,oui,3105,84105
+Fontaine,François,23,178.7,52.0,F,oui,doctorat,Île-de-France,non,oui,2098,83649
+Diaz,Margaud,22,165.3,60.2,H,oui,bac,Corse,oui,non,4618,41771
+Leduc,Grégoire,33,174.0,51.1,H,non,aucun,Corse,non,non,3601,41515
+Meunier,Céline,67,191.2,85.5,F,oui,doctorat,Provence-Alpes-Côte d’Azur,oui,non,676,84384
+Andre,Théodore,24,165.2,89.0,H,non,doctorat,Normandie,non,non,1650,41579
+Gilbert,Lucy,30,174.4,81.6,H,oui,aucun,Bretagne,oui,non,1387,42415
+Henry,Georges,54,169.4,21.4,H,non,doctorat,Normandie,non,oui,1270,41783
+Hamon,Adrien,59,167.5,51.3,F,oui,master,Occitanie,oui,oui,4458,84148
+Guillon,Thomas,41,155.7,63.4,F,oui,master,Hauts-de-France,non,non,2656,84181
+Petitjean,Théodore,52,184.4,48.5,F,non,master,Bretagne,non,non,3895,83534
+Schneider,Guy,71,170.1,55.3,H,non,master,Corse,non,oui,3054,41619
+Carre,Alix,60,172.0,61.0,F,non,aucun,Occitanie,non,oui,2583,84286
+Garcia,Joséphine,31,166.1,71.7,F,non,bac+2,Bretagne,non,oui,3294,83771
+Marin,Diane,51,185.9,51.4,H,oui,bac,Normandie,non,oui,5059,42045
+Hardy,Marc,33,150.5,67.7,F,non,master,Île-de-France,oui,oui,3205,83658
+Petit,Michel,43,172.8,60.7,H,non,doctorat,Auvergne-Rhône-Alpes,non,oui,2250,42317
+Lambert,Maryse,40,165.1,61.2,F,non,bac+2,Occitanie,non,oui,3519,83819
+Delorme,Martin,32,173.6,59.6,H,oui,bac+2,Provence-Alpes-Côte d’Azur,oui,oui,3579,41763
+Perrier,Amélie,65,173.1,82.2,F,non,doctorat,Bretagne,oui,non,3255,84298
+Rémy,Audrey,36,161.7,61.6,H,non,bac,Bretagne,oui,non,3396,42285
+Bouchet,Océane,26,176.1,69.7,F,oui,aucun,Bretagne,oui,non,2640,83853
+Gérard,Zacharie,66,182.8,61.1,F,oui,aucun,Bretagne,non,oui,3156,83671
+Schmitt,Anaïs,39,168.0,66.7,H,oui,bac+2,Occitanie,oui,non,3818,41559
+Michaud,Claude,43,178.3,82.2,F,oui,doctorat,Île-de-France,oui,oui,4066,83586
+Jacquet,Stéphanie,54,170.2,80.2,F,oui,bac,Provence-Alpes-Côte d’Azur,non,non,2127,83658
+Berthelot,Hugues,68,173.2,68.0,H,non,master,Occitanie,non,non,2616,41880
+Munoz,Christiane,45,176.0,57.7,F,oui,doctorat,Provence-Alpes-Côte d’Azur,oui,non,5010,83893
+Delahaye,Brigitte,34,159.9,51.8,H,oui,bac,Hauts-de-France,oui,oui,3889,42414
+Guichard,Geneviève,44,177.9,79.4,F,non,bac+2,Île-de-France,oui,oui,3254,83726
+Richard,Isaac,36,169.9,56.5,F,oui,bac,Bretagne,oui,oui,2590,83585
+Fernandez,Nathalie,52,163.2,84.6,H,oui,bac+2,Hauts-de-France,oui,oui,2323,41634
+Hamon,Camille,68,161.7,65.2,F,non,master,Provence-Alpes-Côte d’Azur,non,non,2995,83971
+Guyon,Diane,62,164.4,57.7,F,non,doctorat,Occitanie,non,oui,2792,84212
+Berthelot,Andrée,20,172.4,62.4,F,non,doctorat,Bretagne,oui,oui,1934,83874
+Ferreira,Christine,61,172.3,48.3,H,non,doctorat,Île-de-France,oui,oui,811,41800
+Perez,Cécile,59,162.8,66.8,F,non,bac,Normandie,non,non,2873,83678
+Laporte,Guy,48,184.8,82.9,F,non,bac+2,Auvergne-Rhône-Alpes,oui,non,2308,84034
+Léger,Brigitte,39,169.8,55.0,F,non,bac+2,Normandie,oui,oui,2477,83874
+Traore,Thibault,38,167.1,74.8,F,non,aucun,Normandie,oui,non,1507,84273
+Langlois,Suzanne,52,175.2,93.0,F,non,aucun,Corse,non,non,2369,84013
+Tanguy,Amélie,49,174.0,80.4,F,oui,bac,Bretagne,oui,non,2018,83775
+Marie,Patrick,46,172.2,70.2,F,oui,aucun,Corse,oui,oui,2617,83768
+Rousset,Agathe,18,162.3,70.4,F,oui,bac,Provence-Alpes-Côte d’Azur,non,non,3097,84230
+Pascal,Maggie,59,184.5,84.4,H,non,bac+2,Bretagne,non,non,5083,41610
+Renault,Grégoire,48,162.3,83.1,H,non,doctorat,Hauts-de-France,non,oui,2720,41611
+Bonneau,André,56,191.9,57.9,H,oui,bac+2,Normandie,non,non,1492,41738
+Poirier,Manon,50,164.0,38.1,F,oui,bac+2,Bretagne,non,non,1869,83816
+Ribeiro,Anouk,46,162.4,72.3,F,non,bac+2,Normandie,non,non,2910,83746
+Garnier,Margaux,73,188.8,84.3,H,oui,doctorat,Normandie,oui,non,1807,42117
+Gautier,Marie,44,161.0,77.4,H,non,master,Normandie,non,non,915,41893
+Pasquier,Véronique,68,188.3,87.7,H,non,aucun,Hauts-de-France,non,non,1936,41576
+Philippe,Guillaume,73,152.9,90.3,F,oui,doctorat,Occitanie,oui,non,2362,84408
+Schneider,Julie,44,182.4,46.1,H,oui,master,Bretagne,non,non,1780,42274
+Mace,Astrid,43,170.1,70.7,H,non,doctorat,Normandie,non,non,1959,42035
+Dias,Philippine,74,176.2,54.0,F,oui,doctorat,Provence-Alpes-Côte d’Azur,oui,non,2329,83815
+Legrand,Isabelle,36,171.2,77.7,H,oui,master,Provence-Alpes-Côte d’Azur,oui,oui,3353,41819
+Marques,Geneviève,62,158.8,47.0,F,oui,aucun,Auvergne-Rhône-Alpes,oui,oui,4033,83683
+Leclercq,Cécile,41,173.3,58.8,F,oui,bac,Normandie,oui,oui,4361,84017
+Delattre,Laurence,23,171.2,87.7,F,oui,master,Hauts-de-France,oui,oui,2581,83546
+Ledoux,Frédérique,34,190.6,96.3,F,non,aucun,Occitanie,non,non,2201,84189
+Berger,Maryse,28,179.7,79.7,H,non,bac+2,Bretagne,non,non,4142,42449
+Peron,Joséphine,47,160.4,80.3,F,oui,master,Occitanie,oui,oui,3770,83862
+Bertrand,Anaïs,54,152.4,52.3,F,non,bac+2,Île-de-France,non,oui,500,84428
+Julien,Christophe,54,167.3,80.8,H,non,bac+2,Corse,non,oui,4302,41598
+Weiss,Gilles,30,170.7,94.4,F,oui,aucun,Île-de-France,non,non,843,83814
+Roche,Patricia,20,153.0,69.2,F,oui,aucun,Bretagne,non,non,2960,83866
+Maillet,Michèle,29,169.7,39.0,H,oui,doctorat,Auvergne-Rhône-Alpes,non,non,2393,41708
+Vallet,Benjamin,34,157.0,80.0,F,non,bac+2,Provence-Alpes-Côte d’Azur,non,non,2939,83755
+Delannoy,Timothée,27,160.6,62.3,H,non,doctorat,Auvergne-Rhône-Alpes,oui,non,1228,42242
+Chrétien,Emmanuelle,18,169.4,84.3,F,oui,master,Auvergne-Rhône-Alpes,non,oui,1317,84193
+Delaunay,Capucine,70,175.0,62.0,F,oui,bac,Occitanie,oui,non,1548,83812
+Guilbert,Georges,53,168.9,54.5,F,oui,aucun,Occitanie,non,non,1835,83686
+Roy,Maurice,25,158.0,99.5,H,oui,aucun,Bretagne,non,oui,2542,41596
+Lombard,Michèle,33,163.0,73.2,H,non,master,Auvergne-Rhône-Alpes,non,oui,2365,42217
+Carre,Christine,64,167.8,79.2,H,non,aucun,Occitanie,non,non,3409,42216
+Delahaye,Zoé,35,164.7,61.4,H,non,bac,Occitanie,non,non,2169,41551
+Marchand,Capucine,72,147.0,47.3,F,oui,bac+2,Auvergne-Rhône-Alpes,oui,oui,4140,83517
+Lévy,Josette,30,186.4,66.3,H,non,aucun,Corse,oui,oui,3191,41849
+Giraud,Margot,39,173.1,116.2,H,oui,doctorat,Corse,oui,non,3843,41588
+Colin,Christiane,53,168.7,55.7,H,oui,bac,Auvergne-Rhône-Alpes,oui,non,572,42430
+Barthelemy,Jeanne,56,172.0,58.7,H,non,bac,Hauts-de-France,non,non,793,42042
+Gosselin,Édith,25,163.5,53.8,H,oui,aucun,Auvergne-Rhône-Alpes,oui,oui,4524,42228
+Bonnet,Raymond,19,178.8,69.9,H,non,aucun,Hauts-de-France,non,oui,4275,41841
+Parent,Rémy,65,170.8,57.1,H,non,master,Auvergne-Rhône-Alpes,oui,oui,4327,41586
+Lemonnier,Charles,32,175.4,54.4,H,non,master,Île-de-France,oui,non,2271,42042
+Bernier,Renée,72,161.2,49.3,F,non,aucun,Occitanie,non,oui,3611,84112
+Lesage,Claire,23,189.1,49.0,F,oui,aucun,Hauts-de-France,non,non,3175,84246
+Couturier,Astrid,55,163.5,62.7,F,non,doctorat,Bretagne,non,oui,1789,83556
+Courtois,Pierre,45,161.4,70.7,H,oui,doctorat,Corse,non,oui,1502,41767
+Voisin,Nathalie,32,172.7,69.2,F,non,master,Normandie,non,non,2213,83832
+Chevalier,Élisabeth,38,160.9,61.3,F,non,bac+2,Auvergne-Rhône-Alpes,oui,non,3406,83955
+Bernier,Suzanne,48,175.0,55.3,H,oui,aucun,Provence-Alpes-Côte d’Azur,non,oui,2619,41664
+Morvan,Denis,65,177.5,45.0,F,oui,doctorat,Île-de-France,non,non,3152,84190
+Rossi,Paulette,44,163.4,78.6,F,non,aucun,Bretagne,non,oui,1584,83699
+Torres,Clémence,54,152.0,45.6,H,oui,master,Corse,oui,oui,2557,42323
+Lamy,Guillaume,53,172.6,56.4,F,oui,bac+2,Corse,non,non,3266,84234
+Joseph,Élise,67,153.4,69.0,H,non,aucun,Hauts-de-France,non,non,1046,42170
+Alexandre,Émilie,37,163.5,70.7,F,non,aucun,Hauts-de-France,oui,oui,1467,84287
+Traore,Anaïs,43,166.2,85.1,H,oui,aucun,Provence-Alpes-Côte d’Azur,oui,oui,1807,42278
+Martin,Arthur,47,178.4,53.1,F,oui,bac+2,Bretagne,non,non,3135,84455
+Bouvet,Stéphanie,54,184.4,32.9,H,oui,bac,Hauts-de-France,oui,non,1543,41569
+Barre,Julie,35,175.8,67.0,F,non,master,Occitanie,non,oui,2945,83973
+Michaud,Lucie,66,164.0,71.3,H,non,master,Provence-Alpes-Côte d’Azur,non,non,2313,42054
+Berthelot,Lucy,55,181.7,73.8,F,non,aucun,Corse,non,non,2905,84149
+Lejeune,Paulette,21,165.9,62.7,H,oui,bac+2,Corse,oui,non,1980,42489
+Deschamps,Madeleine,36,173.9,63.7,F,oui,aucun,Occitanie,non,oui,2847,83554
+Hernandez,Clémence,42,190.8,83.1,H,non,aucun,Normandie,oui,oui,2108,42080
+Girard,Nicole,47,182.0,63.9,H,non,doctorat,Normandie,non,non,500,42290
+Fernandes,Lorraine,44,159.9,41.9,F,oui,master,Île-de-France,non,oui,2078,84426
+Berger,Timothée,57,170.2,95.1,F,non,aucun,Normandie,oui,oui,2892,84053
+Boulay,Gilles,55,167.8,82.4,F,oui,master,Bretagne,non,oui,500,83908
+Gaillard,Sylvie,67,172.4,81.6,H,oui,doctorat,Provence-Alpes-Côte d’Azur,oui,non,725,41717
+Samson,Thibaut,40,181.4,75.1,F,oui,bac,Provence-Alpes-Côte d’Azur,oui,oui,2001,83984
+Gros,Christine,29,176.3,104.1,H,oui,bac,Occitanie,non,non,2718,42458
+Breton,Olivie,66,172.5,63.1,F,non,bac+2,Hauts-de-France,non,oui,1480,83897
+Guibert,Odette,46,178.3,57.2,F,non,doctorat,Île-de-France,non,oui,2585,83565
+Lévêque,Timothée,37,165.2,77.2,F,non,aucun,Île-de-France,non,non,2900,83522
+Morin,Cécile,22,180.4,62.3,H,non,master,Île-de-France,non,non,2176,42296
+Maillot,Chantal,54,160.2,63.3,H,non,doctorat,Occitanie,oui,non,2952,42401
+Cohen,Gabrielle,46,177.6,56.2,H,non,aucun,Hauts-de-France,oui,oui,3543,41686
+Dubois,Nathalie,46,183.6,76.2,F,oui,bac+2,Auvergne-Rhône-Alpes,non,oui,4752,84178
+Masson,Marguerite,67,162.3,51.3,F,oui,bac+2,Provence-Alpes-Côte d’Azur,non,oui,500,84356
+Lebon,Guillaume,61,185.0,79.8,F,non,bac+2,Hauts-de-France,non,oui,2433,83997
+Delahaye,Émile,60,172.8,53.1,H,non,bac+2,Normandie,oui,oui,5434,42399
+Poulain,Margaud,23,171.3,71.6,F,non,bac+2,Hauts-de-France,oui,non,3370,83673
+Colin,Thibaut,45,174.8,73.4,F,oui,bac+2,Bretagne,oui,non,1551,84157
+Gonzalez,Corinne,39,174.7,98.2,F,oui,bac,Hauts-de-France,oui,oui,4114,84333
+Lefort,Célina,72,185.9,62.3,H,oui,bac+2,Hauts-de-France,non,oui,1312,42434
+Jourdan,Laurence,29,168.7,70.8,H,non,aucun,Normandie,non,non,3813,41999
+Delannoy,Aimé,33,153.1,92.9,F,non,master,Corse,oui,oui,2310,84439
+Leclerc,Alexandria,69,165.7,54.8,F,oui,bac+2,Occitanie,non,non,514,83768
+Dumas,Sylvie,67,178.2,71.1,F,non,bac,Corse,oui,non,952,84487
+Faure,Louis,21,157.0,65.0,F,non,doctorat,Provence-Alpes-Côte d’Azur,oui,oui,4502,84483
+Pinto,Suzanne,66,167.4,47.5,H,non,master,Hauts-de-France,non,oui,2205,42474
+Imbert,Alphonse,32,167.3,29.5,F,non,aucun,Normandie,oui,oui,2434,84059
+Gérard,Julien,41,167.7,80.4,H,non,aucun,Auvergne-Rhône-Alpes,oui,oui,4718,42112
+Diaz,Susanne,24,181.3,66.0,F,oui,bac,Île-de-France,non,non,1172,84292
+Colas,Gilles,48,195.7,70.9,H,non,master,Île-de-France,oui,oui,2516,42076
+Rousseau,Inès,31,169.8,73.0,H,non,aucun,Bretagne,oui,oui,2326,42368
+Giraud,Luce,21,164.3,61.8,H,non,doctorat,Occitanie,oui,oui,2460,41716
+Menard,Tristan,75,164.6,59.3,F,oui,doctorat,Corse,oui,oui,2627,84312
+Bertin,Laure,18,167.5,92.6,F,oui,doctorat,Normandie,oui,non,500,83957
+Boyer,Nicolas,23,180.9,88.7,F,oui,doctorat,Île-de-France,non,non,500,83801
+Simon,Audrey,20,166.6,64.4,F,non,bac+2,Île-de-France,non,non,810,84149
+Goncalves,René,40,162.2,53.3,H,oui,doctorat,Auvergne-Rhône-Alpes,oui,oui,4602,42346
+Lefèvre,Jeanne,52,179.4,89.1,F,oui,master,Occitanie,oui,non,3366,84390
+Paris,Monique,22,158.7,62.1,F,oui,bac+2,Corse,oui,non,3087,83747
+Bouvet,Sophie,74,157.8,80.7,H,non,bac+2,Normandie,non,oui,2211,42093
+Moreno,Claire,66,166.3,80.7,H,non,bac+2,Île-de-France,non,oui,3033,42258
+Guillaume,Julien,69,166.4,87.4,F,non,master,Occitanie,non,oui,1202,83786
+Chevallier,Honoré,29,176.2,78.9,F,non,bac+2,Bretagne,oui,non,2128,84383
+Letellier,Chantal,23,173.3,51.2,F,oui,doctorat,Bretagne,non,oui,3608,84106
+Arnaud,Aimée,38,168.2,62.2,F,non,master,Normandie,oui,non,3758,84185
+Lefort,Gilbert,40,163.0,48.9,F,oui,bac+2,Normandie,non,non,632,83917
+Riou,Capucine,68,176.1,50.8,H,oui,master,Auvergne-Rhône-Alpes,oui,non,4605,41700
+Le Roux,Joseph,27,149.2,95.4,F,oui,bac,Provence-Alpes-Côte d’Azur,oui,non,2753,83766
+Costa,Michèle,41,169.0,61.8,F,non,doctorat,Île-de-France,oui,non,2978,83686
+Poulain,Théophile,41,169.6,86.5,F,non,aucun,Hauts-de-France,non,oui,2637,83623
+Royer,Yves,59,171.5,64.5,F,oui,aucun,Île-de-France,oui,oui,2431,83549
+Leclerc,Stéphane,42,173.1,44.3,H,non,bac+2,Occitanie,oui,non,882,41739
+Auger,Margot,36,177.4,72.6,F,oui,aucun,Hauts-de-France,oui,oui,2279,84494
+Benard,Victor,75,170.2,75.2,F,oui,bac+2,Auvergne-Rhône-Alpes,oui,oui,1852,84389
+Bouvet,Marthe,36,162.2,72.9,F,oui,bac,Auvergne-Rhône-Alpes,oui,oui,1325,84367
+Noël,Matthieu,30,174.1,44.5,H,oui,master,Île-de-France,non,oui,3734,41851
+Hervé,Émile,41,174.7,73.8,F,oui,doctorat,Provence-Alpes-Côte d’Azur,oui,oui,3679,84246
+Besnard,Dorothée,63,186.7,85.2,F,non,master,Provence-Alpes-Côte d’Azur,oui,non,500,84004
+Fournier,Christiane,59,157.2,60.6,H,non,master,Auvergne-Rhône-Alpes,oui,non,2531,42072
+Lejeune,Suzanne,67,175.2,59.1,H,oui,master,Île-de-France,oui,oui,2724,42152
+Boyer,Aimée,37,162.4,60.8,H,oui,bac+2,Corse,non,non,812,42350
+Paul,Philippe,51,160.8,49.7,F,oui,bac+2,Corse,non,oui,1328,84349
+Joseph,Simone,37,180.5,55.8,H,oui,doctorat,Hauts-de-France,oui,non,5658,42438
+Guyot,Christine,64,174.9,72.8,F,oui,aucun,Provence-Alpes-Côte d’Azur,oui,non,1469,84402
+Lecomte,Caroline,67,177.0,61.4,F,oui,doctorat,Normandie,oui,oui,2646,84095
+Joseph,Margot,58,195.6,68.6,F,non,master,Corse,non,oui,3879,83883
+Letellier,Zacharie,22,163.0,69.5,H,oui,master,Normandie,non,oui,4624,41663
+Petit,Bernadette,39,163.7,97.2,H,non,bac+2,Auvergne-Rhône-Alpes,non,oui,3349,41793
+Dufour,Richard,41,164.4,79.5,H,non,bac,Occitanie,oui,oui,3667,41880
+Chrétien,Christelle,33,176.2,46.4,H,oui,aucun,Bretagne,non,non,1627,41758
+Dumont,Frédéric,44,167.5,68.9,H,oui,bac+2,Auvergne-Rhône-Alpes,oui,non,3244,42408
+Lecomte,Monique,49,171.8,50.0,F,non,bac+2,Occitanie,oui,oui,2956,84385
+Chauvin,Marcel,43,176.1,78.4,F,oui,bac,Auvergne-Rhône-Alpes,oui,oui,3796,83721
+Nguyen,Aimée,49,178.3,76.9,F,non,doctorat,Île-de-France,oui,oui,2415,84225
+Renaud,Henriette,74,153.4,76.4,F,non,master,Auvergne-Rhône-Alpes,oui,oui,2749,84386
+Arnaud,Noël,54,172.7,50.8,H,non,doctorat,Bretagne,oui,oui,1202,42387
+Guillou,Richard,46,180.5,69.4,F,oui,bac,Provence-Alpes-Côte d’Azur,non,oui,3317,84093
+Schmitt,Édith,39,170.3,70.4,F,oui,bac,Normandie,oui,oui,3625,83568
+Leclerc,Marc,26,164.8,71.4,F,non,doctorat,Occitanie,oui,non,1945,84461
+Thomas,Vincent,50,165.7,65.4,H,non,doctorat,Auvergne-Rhône-Alpes,oui,oui,2766,41974
+Simon,Aimée,57,165.2,88.8,F,non,doctorat,Occitanie,non,oui,1426,83889
+Lamy,Andrée,19,168.1,63.4,F,non,aucun,Normandie,non,non,4236,83912
+Labbé,Bernadette,64,172.0,85.5,H,non,bac+2,Corse,oui,oui,717,42143
+Jourdan,Maryse,28,172.7,83.3,F,oui,bac,Île-de-France,oui,oui,2598,83834
+Bertrand,Brigitte,46,180.7,62.2,F,non,bac,Normandie,oui,oui,4191,84404
+Giraud,Édouard,67,193.0,64.6,F,oui,bac,Corse,non,non,1965,84215
+Hoarau,Jacqueline,48,184.5,93.7,F,non,bac,Occitanie,non,oui,1872,83990
+Parent,Susan,61,165.8,65.8,F,non,bac,Corse,non,oui,886,83836
+Lefort,Antoinette,32,160.8,54.9,F,non,bac,Occitanie,non,oui,1578,83805
+Maury,Claudine,53,169.7,73.5,F,non,aucun,Normandie,non,non,4360,84374
+Paris,Aimé,67,160.0,84.8,H,non,aucun,Bretagne,oui,oui,2243,41787
+Marques,Olivier,46,169.5,80.1,F,non,bac,Corse,non,non,1152,84382
+Boutin,Roland,62,173.8,72.5,F,oui,aucun,Corse,oui,oui,3090,84152
+Dijoux,Élise,75,172.9,106.8,H,oui,aucun,Provence-Alpes-Côte d’Azur,non,oui,1734,41693
+Bourdon,Pénélope,48,164.7,60.7,H,oui,aucun,Hauts-de-France,non,non,1833,42394
+Costa,Jeanne,74,163.6,87.8,F,non,bac,Bretagne,non,oui,4204,83591
+Collin,Michelle,21,164.3,57.5,H,oui,doctorat,Île-de-France,oui,oui,3065,41694
+Mendès,Roland,71,164.5,79.5,H,oui,master,Occitanie,oui,non,2743,41965
+Baudry,Louis,73,154.8,93.2,F,oui,aucun,Bretagne,oui,non,4655,84432
+Peltier,Anouk,39,163.9,64.2,F,non,doctorat,Occitanie,oui,non,2843,83960
+Gaillard,Claudine,47,173.3,79.9,F,oui,aucun,Auvergne-Rhône-Alpes,oui,non,4912,83830
+Hebert,François,59,168.2,58.0,F,oui,aucun,Auvergne-Rhône-Alpes,non,oui,844,84382
+Pruvost,Édouard,66,162.7,69.5,H,oui,doctorat,Normandie,non,oui,4653,42219
+Bonneau,Susan,23,164.8,73.4,F,oui,bac,Hauts-de-France,non,oui,2480,84045
+Ferrand,Auguste,33,181.9,107.9,H,non,master,Corse,non,non,1862,42240
+Gilbert,Patricia,39,165.1,85.7,F,oui,bac+2,Auvergne-Rhône-Alpes,oui,oui,3318,83652
+Riou,Victoire,25,188.5,78.8,F,non,bac,Normandie,non,non,2068,83703
+Maillard,Luce,58,175.9,86.6,F,non,doctorat,Corse,oui,non,3484,83949
+Leduc,Jacques,48,175.1,86.0,H,non,doctorat,Auvergne-Rhône-Alpes,non,non,3903,41598
+Maillet,Élodie,48,183.8,79.7,H,oui,doctorat,Provence-Alpes-Côte d’Azur,non,oui,2299,41669
+Leblanc,Matthieu,41,171.5,88.1,H,oui,aucun,Corse,oui,oui,1519,42214
+Hoarau,Maurice,72,173.7,64.1,F,oui,bac,Occitanie,oui,non,2534,83598
+Chartier,Suzanne,46,182.8,72.9,H,non,bac,Normandie,non,oui,2555,42427
+Maillard,Robert,53,156.4,81.2,F,non,aucun,Normandie,non,non,3274,84138
+Charrier,Margot,65,191.6,65.4,H,oui,aucun,Normandie,non,non,2762,41541
+Mary,Hugues,52,172.5,93.7,H,oui,master,Île-de-France,non,oui,2385,42043
+Andre,Élodie,67,172.8,79.1,H,non,bac+2,Normandie,non,non,2723,42173
+Potier,Alphonse,42,165.5,72.9,F,oui,doctorat,Hauts-de-France,non,oui,3788,84220
+Normand,Thibault,52,159.7,72.0,F,oui,bac,Île-de-France,oui,non,1659,84294
+Gimenez,Alix,47,182.0,47.2,F,non,bac,Corse,non,oui,1829,83598
+Clerc,Émile,35,173.8,93.5,H,oui,aucun,Normandie,oui,oui,2421,41661
+Moreau,Louis,22,164.4,98.2,H,oui,master,Île-de-France,oui,non,762,41560
+Petitjean,Gilbert,43,148.0,76.6,F,oui,doctorat,Corse,oui,oui,1897,84321
+Guichard,Maggie,36,159.8,80.6,H,non,doctorat,Auvergne-Rhône-Alpes,oui,oui,2792,41539
+Prévost,Augustin,27,164.4,50.8,H,non,bac+2,Bretagne,oui,oui,3546,42127
+Brunel,Timothée,55,176.5,68.5,H,non,doctorat,Occitanie,oui,non,4715,41637
+Guillet,Christelle,59,159.3,47.1,F,non,master,Normandie,oui,oui,1669,84353
+Torres,Augustin,29,169.5,73.7,F,oui,bac,Bretagne,oui,non,2210,83950
+Chartier,Margaux,21,173.5,51.2,F,non,doctorat,Hauts-de-France,non,oui,4232,84093
+Carpentier,Laurent,31,169.2,86.8,F,oui,master,Auvergne-Rhône-Alpes,oui,oui,2911,83925
+Mahe,Dorothée,71,174.6,78.5,H,oui,bac+2,Normandie,oui,non,3037,42050
+Lacombe,Émile,30,176.4,89.9,H,non,bac,Auvergne-Rhône-Alpes,non,non,2735,41983
+De Sousa,Renée,18,177.1,68.7,H,oui,aucun,Occitanie,oui,non,4228,42453
+Lecomte,Élisabeth,63,163.2,97.0,H,non,bac,Auvergne-Rhône-Alpes,non,oui,2451,41933
+De Sousa,Paulette,52,155.7,71.9,F,non,bac+2,Auvergne-Rhône-Alpes,non,oui,1682,84189
+Pierre,Frédéric,69,178.4,60.2,F,non,bac,Auvergne-Rhône-Alpes,non,oui,1964,84405
+Becker,Josette,54,151.1,63.2,H,oui,aucun,Bretagne,non,oui,500,41774
+Bonneau,Gabriel,30,154.2,81.4,F,oui,master,Corse,non,oui,3442,83545
+Lesage,Julie,61,174.3,55.5,F,non,master,Occitanie,non,oui,2442,84392
+Lecomte,Richard,68,170.0,52.6,F,oui,bac,Occitanie,oui,non,4304,83717
+Dias,Alphonse,52,178.8,66.7,H,oui,aucun,Île-de-France,oui,oui,2532,42130
+Peltier,Alphonse,71,172.1,39.4,H,oui,bac,Île-de-France,oui,oui,2203,41587
+Sanchez,Hélène,41,163.2,55.0,H,non,master,Île-de-France,oui,oui,2162,41865
+Hernandez,Margaux,44,188.0,79.6,H,oui,doctorat,Bretagne,non,oui,1814,42101
+Nguyen,Manon,70,175.7,91.0,F,oui,aucun,Provence-Alpes-Côte d’Azur,oui,oui,3609,83706
+Lopez,Suzanne,57,170.6,60.3,F,non,bac+2,Normandie,oui,oui,3337,84336
+Colas,Mathilde,43,173.9,83.4,F,oui,bac,Bretagne,oui,non,3262,84302
+Wagner,William,72,180.5,62.0,H,oui,master,Normandie,non,oui,4080,41894
+Breton,Arthur,21,172.0,101.1,H,oui,aucun,Occitanie,non,non,1672,42165
+Morel,Andrée,39,187.4,73.0,H,oui,bac,Corse,non,oui,1718,41609
+Masson,Adrien,22,165.2,65.2,F,oui,bac,Auvergne-Rhône-Alpes,oui,non,3008,83579
+Mace,Agnès,55,175.2,61.4,H,non,aucun,Bretagne,oui,oui,2470,42014
+Pires,Georges,54,191.4,95.9,F,non,master,Hauts-de-France,oui,oui,3023,83726
+Valette,Claire,40,170.4,71.8,H,oui,master,Corse,oui,oui,3236,42017
+Daniel,Adèle,67,159.8,66.1,F,non,aucun,Bretagne,non,oui,500,84396
+Bruneau,Valérie,40,174.0,79.7,F,non,bac,Normandie,oui,non,1920,83786
+Guilbert,Margot,36,185.7,51.6,H,oui,aucun,Bretagne,oui,oui,742,42181
+Pascal,Martine,68,172.2,85.7,H,non,bac+2,Auvergne-Rhône-Alpes,oui,oui,4520,41506
+Marchal,Laure,37,165.4,86.2,F,non,bac+2,Provence-Alpes-Côte d’Azur,oui,oui,2453,83811
+Barre,Lucie,45,168.3,83.3,F,non,aucun,Île-de-France,oui,oui,3282,83819
+Le Roux,Zoé,23,154.2,92.1,F,non,aucun,Bretagne,non,oui,4156,84441
+Bonnet,Thibaut,23,163.7,75.9,H,oui,master,Hauts-de-France,oui,oui,3092,42093
+Thibault,Michèle,35,172.6,61.7,F,oui,aucun,Hauts-de-France,non,oui,1694,84329
+Weiss,Jules,37,169.7,87.6,F,oui,bac+2,Bretagne,oui,non,3152,83909
+Vidal,Lucie,49,166.3,81.6,H,non,aucun,Hauts-de-France,non,oui,500,42267
+Parent,Éléonore,43,181.5,43.9,F,non,bac+2,Occitanie,non,oui,2065,83897
+Hoarau,Marguerite,70,158.8,50.6,H,non,bac+2,Corse,non,oui,3892,41543
+Ollivier,Marine,43,165.3,75.2,F,non,master,Corse,non,oui,2443,83732
+Le Gall,Marguerite,70,174.8,71.2,F,non,aucun,Corse,oui,non,960,84314
+Hamon,Georges,53,180.0,62.6,H,non,bac,Occitanie,non,non,632,42328
+Leroy,Noël,22,165.7,92.5,F,non,bac,Bretagne,oui,oui,3520,83980
+Mahe,Madeleine,27,166.5,64.8,F,non,aucun,Occitanie,non,oui,2114,83636
+Gosselin,Sylvie,52,190.8,75.7,F,oui,bac+2,Provence-Alpes-Côte d’Azur,oui,non,3016,83546
+Mathieu,Guillaume,60,180.3,73.6,F,oui,doctorat,Île-de-France,non,non,2189,84391
+Arnaud,Étienne,39,168.0,68.9,F,oui,aucun,Provence-Alpes-Côte d’Azur,non,oui,2455,84231
+Charles,Victor,65,177.3,70.8,H,non,bac+2,Normandie,non,non,3379,42087
+Grégoire,Benoît,55,169.2,71.2,H,non,aucun,Occitanie,oui,oui,500,41867
+Olivier,Noël,23,179.2,75.2,H,oui,bac+2,Bretagne,non,oui,3697,41667
+Cordier,Sophie,31,141.0,101.3,F,non,master,Provence-Alpes-Côte d’Azur,non,non,2332,84262
+Mercier,Grégoire,46,181.1,54.4,F,oui,bac+2,Île-de-France,oui,oui,3235,83729
+Teixeira,Alexandre,39,159.5,60.6,H,oui,bac,Hauts-de-France,oui,oui,4796,42117
+Collet,Paul,45,168.1,73.3,F,oui,master,Hauts-de-France,oui,non,3544,83956
+Rodriguez,Marcel,45,175.0,72.3,F,oui,doctorat,Corse,non,oui,2937,84299
+Dupré,Élisabeth,42,194.0,69.1,H,oui,bac,Bretagne,oui,oui,2741,41784
+Berger,Hélène,69,180.5,86.6,H,non,bac+2,Corse,non,oui,3924,42286
+Diaz,Dorothée,60,176.4,52.9,F,non,doctorat,Normandie,non,oui,4460,83544
+Becker,Marc,40,158.5,74.5,F,non,doctorat,Hauts-de-France,non,non,1594,84034
+Breton,Thierry,55,169.4,74.9,H,oui,bac+2,Provence-Alpes-Côte d’Azur,oui,oui,2885,42037
+Grondin,Renée,29,174.2,94.2,F,oui,doctorat,Normandie,non,oui,3044,84363
+Ledoux,Marthe,54,167.6,84.5,F,non,bac,Occitanie,oui,oui,3927,84424
+Martel,Clémence,49,157.7,79.0,F,oui,bac,Auvergne-Rhône-Alpes,non,non,3341,83769
+Grégoire,Capucine,73,167.0,90.6,F,oui,master,Hauts-de-France,oui,non,2319,84133
+Berthelot,Constance,53,171.3,67.4,F,non,master,Normandie,non,oui,2518,83968
+Marin,Mathilde,23,159.0,48.4,H,oui,bac+2,Île-de-France,non,oui,4413,42133
+Blanchet,Alain,36,161.5,55.1,H,non,doctorat,Occitanie,oui,oui,500,41929
+Courtois,Gilles,35,163.6,50.2,F,oui,master,Corse,non,oui,4470,83974
+Martinez,Jeannine,71,180.1,59.7,H,non,aucun,Occitanie,non,oui,5202,41795
+Richard,Emmanuel,70,179.8,65.1,H,non,aucun,Corse,oui,non,500,42044
+Gaudin,Vincent,55,192.9,49.2,F,non,bac,Hauts-de-France,oui,non,525,84260
+Briand,Cécile,69,180.2,106.6,H,non,doctorat,Bretagne,oui,oui,4161,42215
+Tanguy,David,63,175.6,78.9,F,non,doctorat,Bretagne,oui,oui,3524,83767
+Dumas,Arnaude,66,177.6,74.2,F,oui,bac+2,Hauts-de-France,oui,oui,2625,83883
+Marion,Louise,63,169.4,58.7,F,oui,master,Occitanie,oui,oui,2163,84070
+Pottier,Élodie,35,153.1,68.5,F,non,master,Provence-Alpes-Côte d’Azur,oui,oui,1313,83993
+Fernandez,Augustin,65,159.0,72.7,F,non,master,Occitanie,non,oui,4170,84332
+Nicolas,Benjamin,73,179.2,46.4,H,non,bac+2,Provence-Alpes-Côte d’Azur,non,oui,1312,42372
+Fernandes,Arnaude,45,179.4,55.3,H,non,bac+2,Auvergne-Rhône-Alpes,non,oui,2230,41866
+Boulanger,Antoine,54,175.5,55.5,H,non,bac+2,Île-de-France,oui,oui,2626,42422
+Lecomte,Capucine,68,156.7,61.0,F,oui,aucun,Hauts-de-France,non,oui,2883,83523
+Delattre,Audrey,45,154.1,76.6,H,oui,bac+2,Hauts-de-France,non,oui,2476,41719
+Dumas,René,41,175.5,73.4,F,oui,bac+2,Hauts-de-France,oui,oui,4136,83528
+Lamy,Isaac,37,171.3,63.6,H,non,aucun,Provence-Alpes-Côte d’Azur,oui,oui,2646,42264
+Renault,Aurore,22,175.4,70.7,H,oui,doctorat,Occitanie,oui,oui,2548,42185
+Gomez,Pierre,39,163.0,60.1,H,non,bac,Occitanie,oui,oui,816,41680
+Merle,Diane,23,187.5,51.3,H,oui,bac+2,Auvergne-Rhône-Alpes,non,oui,1668,42286
+Barbe,Amélie,67,162.8,83.4,H,oui,aucun,Île-de-France,oui,oui,2146,41783
+Blanc,Audrey,64,182.5,59.9,H,oui,master,Occitanie,oui,oui,2834,41850
+Blanc,Victor,24,161.6,102.2,H,oui,doctorat,Normandie,non,non,1074,41532
+Lucas,Joseph,38,173.1,79.5,H,oui,bac+2,Provence-Alpes-Côte d’Azur,oui,oui,2996,41652
+Charpentier,Étienne,56,168.1,68.1,F,oui,bac+2,Corse,oui,non,2552,83931
+Lefort,Anne,36,168.5,84.5,H,oui,master,Normandie,oui,oui,5152,41650
+Neveu,Marthe,58,164.4,49.5,H,oui,bac+2,Auvergne-Rhône-Alpes,oui,oui,2394,41604
+Bernier,Sabine,71,195.8,57.9,F,non,doctorat,Hauts-de-France,non,non,4466,83748
+Rolland,Adélaïde,67,186.8,61.7,H,oui,doctorat,Provence-Alpes-Côte d’Azur,oui,oui,3182,41511
+Julien,Pierre,20,186.3,64.3,H,non,doctorat,Bretagne,non,oui,2255,41636
+Lopes,Tristan,43,164.2,54.8,H,oui,bac+2,Provence-Alpes-Côte d’Azur,non,oui,1720,41653
+Merle,Claude,31,157.8,70.5,H,non,master,Provence-Alpes-Côte d’Azur,non,non,1576,42164
+Dufour,Étienne,64,172.3,46.7,H,oui,bac,Provence-Alpes-Côte d’Azur,non,oui,2897,42434
+Gay,Matthieu,57,178.3,40.1,H,non,bac,Provence-Alpes-Côte d’Azur,oui,non,2948,42135
+Royer,Maggie,62,182.3,51.9,H,oui,master,Auvergne-Rhône-Alpes,non,oui,4507,41916
+Dubois,Michèle,26,174.2,59.4,F,oui,aucun,Auvergne-Rhône-Alpes,non,oui,2433,84059
+Bouchet,Jacqueline,22,175.6,71.1,F,oui,master,Occitanie,non,oui,3146,83600
+Barthelemy,Anaïs,72,160.8,72.5,H,non,bac,Bretagne,oui,non,803,42153
+Renault,Rémy,61,168.9,56.4,H,oui,doctorat,Île-de-France,oui,non,1617,41882
+Bertin,Luce,18,182.4,86.4,H,oui,master,Auvergne-Rhône-Alpes,non,non,3230,41835
+Delorme,Anaïs,29,159.1,65.3,H,non,bac,Auvergne-Rhône-Alpes,oui,oui,3955,41572
+Michaud,Zoé,64,171.4,104.8,F,non,aucun,Auvergne-Rhône-Alpes,oui,oui,2971,83716
+Chartier,Noémi,75,171.9,65.4,H,oui,bac,Île-de-France,non,oui,2660,41862
+Bonnet,Yves,47,168.5,80.6,F,non,bac+2,Provence-Alpes-Côte d’Azur,non,oui,3648,84050
+Maury,Adélaïde,30,162.1,50.0,F,non,doctorat,Corse,non,oui,500,83980
+Legendre,Sébastien,49,175.1,53.4,H,oui,bac,Île-de-France,non,oui,500,41580
+Lefort,Constance,52,173.9,107.4,F,oui,bac+2,Île-de-France,non,non,2492,83666
+Simon,Nath,64,178.4,71.2,F,oui,bac,Corse,non,oui,2381,84256
+Laporte,Théophile,21,179.2,65.6,H,non,aucun,Île-de-France,oui,non,2820,42381
+Paul,Julie,51,173.2,60.0,F,non,master,Provence-Alpes-Côte d’Azur,oui,oui,3690,83950
+Sauvage,Alexandria,58,168.3,58.7,F,oui,doctorat,Île-de-France,non,non,3143,83697
+Bernier,Charles,26,161.0,70.4,H,non,bac+2,Auvergne-Rhône-Alpes,non,non,2489,41803
+Caron,Antoinette,65,180.9,77.1,F,non,master,Bretagne,oui,oui,2469,84274
+Mahe,Zacharie,30,178.2,90.9,H,oui,bac,Provence-Alpes-Côte d’Azur,oui,oui,3169,42334
+Durand,Emmanuelle,38,170.1,50.3,F,oui,doctorat,Auvergne-Rhône-Alpes,oui,oui,1221,83794
+De Sousa,Zacharie,47,166.9,60.9,F,oui,aucun,Hauts-de-France,non,non,2275,84057
+Maury,Xavier,62,170.6,77.9,H,oui,bac+2,Hauts-de-France,oui,non,2415,41645
+Legrand,Édith,40,174.9,71.0,F,oui,bac+2,Bretagne,oui,oui,500,83920
+Lopes,Laurence,43,160.6,67.8,F,oui,aucun,Occitanie,oui,non,1048,84212
+Jacques,Léon,26,176.0,93.0,H,oui,aucun,Corse,oui,oui,3962,41565
+Blanchet,Guillaume,43,167.9,92.4,F,oui,doctorat,Bretagne,oui,oui,2678,83910
+Didier,Josette,22,166.6,60.8,H,non,bac,Provence-Alpes-Côte d’Azur,non,oui,2137,41522
+Gautier,Thierry,47,166.1,72.6,H,oui,doctorat,Normandie,non,oui,2692,41976
+Bigot,Luc,42,170.0,76.6,F,oui,bac+2,Corse,oui,oui,3928,83514
+Peron,David,46,179.5,47.7,H,oui,doctorat,Corse,non,oui,500,41933
+Peron,Élise,74,179.3,49.5,F,oui,aucun,Bretagne,non,oui,2230,84372
+Bouvier,Colette,30,158.3,43.0,H,oui,master,Auvergne-Rhône-Alpes,non,oui,3149,42318
+Devaux,Philippine,49,177.6,61.4,F,non,master,Bretagne,oui,oui,500,83993
+Laroche,Victor,56,164.5,75.9,H,oui,bac+2,Île-de-France,non,oui,725,42399
+Peron,Marcel,67,171.8,69.8,H,oui,aucun,Corse,oui,oui,3195,42161
+Maillot,Nicole,70,171.2,55.4,H,oui,doctorat,Normandie,non,non,3935,41526
+Roussel,Margaud,72,168.4,69.6,H,oui,bac,Auvergne-Rhône-Alpes,non,non,1380,42413
+Teixeira,Guillaume,19,165.6,56.7,F,oui,doctorat,Corse,non,oui,2292,84364
+Launay,Paul,29,187.1,49.4,F,oui,aucun,Île-de-France,oui,non,563,83815
+Goncalves,Valentine,19,184.7,66.9,F,oui,bac+2,Corse,oui,oui,1697,84212
+Pascal,Roland,29,180.4,60.9,F,oui,aucun,Hauts-de-France,oui,non,4691,83773
+Bertrand,Éléonore,72,176.8,62.7,F,oui,bac+2,Normandie,oui,oui,5088,83590
+Valentin,Matthieu,38,163.9,81.1,H,oui,master,Occitanie,non,oui,2859,42254
+Devaux,Olivier,53,183.0,93.4,F,oui,doctorat,Hauts-de-France,non,oui,2538,83599
+Dumont,Arnaude,62,162.5,76.9,F,oui,bac,Île-de-France,non,non,1686,83609
+Marin,Charles,67,190.1,72.0,H,oui,doctorat,Auvergne-Rhône-Alpes,oui,non,2061,41848
+Albert,Noémi,24,171.8,49.8,F,oui,bac+2,Provence-Alpes-Côte d’Azur,oui,oui,1334,83612
+Colas,Roger,38,182.0,60.1,H,oui,bac+2,Occitanie,oui,oui,1243,41715
+Albert,Monique,33,175.4,87.8,H,non,bac+2,Provence-Alpes-Côte d’Azur,oui,oui,3362,41768
+Martin,Christine,46,180.0,58.6,F,oui,master,Occitanie,non,oui,793,83925
+Morvan,Denise,42,185.0,65.2,H,non,doctorat,Corse,oui,oui,2199,41865
+Cordier,Gabriel,69,183.3,78.3,H,non,aucun,Auvergne-Rhône-Alpes,non,non,3047,41741
+Carre,Luc,22,191.7,60.3,F,oui,master,Hauts-de-France,oui,oui,3613,84259
+Courtois,Alice,75,170.6,74.0,H,non,doctorat,Occitanie,oui,oui,4334,41643
+Goncalves,Marine,59,175.1,78.1,H,non,bac,Île-de-France,oui,oui,3787,42230
+Martineau,Thibaut,30,166.4,57.4,F,non,bac+2,Bretagne,oui,oui,1246,83505
+Maillet,Hugues,43,150.3,100.8,F,oui,aucun,Auvergne-Rhône-Alpes,oui,oui,1176,84305
+Jacquot,Rémy,36,167.8,65.8,F,oui,aucun,Île-de-France,oui,oui,2868,84011
+Mahe,Mathilde,36,178.2,82.9,H,non,aucun,Bretagne,non,oui,1800,42426
+Daniel,Élodie,75,168.3,74.2,F,oui,doctorat,Normandie,oui,oui,2201,84308
+Joseph,Alexandre,42,186.1,77.4,F,oui,master,Île-de-France,non,oui,3381,83579
+Michaud,Alexandrie,34,176.6,87.6,H,non,doctorat,Île-de-France,oui,non,2717,42111
+Lemaire,Denis,60,157.0,76.0,H,oui,bac+2,Normandie,oui,oui,1718,42186
+Mercier,Bernard,71,164.7,78.8,F,non,doctorat,Occitanie,oui,oui,3985,84089
+Delattre,Daniel,23,170.2,74.6,F,oui,doctorat,Hauts-de-France,oui,non,4542,84176
+Leclerc,Danielle,46,172.4,109.0,H,oui,bac,Corse,oui,oui,3178,41991
+Boutin,Théodore,23,152.4,81.3,F,oui,bac,Bretagne,non,non,2957,84345
+Duhamel,Victor,69,182.9,80.1,H,oui,master,Normandie,non,non,2333,42464
+Blanchard,Pierre,51,157.8,66.9,F,oui,doctorat,Normandie,oui,oui,1479,84117
+Mathieu,René,27,164.2,78.8,H,oui,doctorat,Provence-Alpes-Côte d’Azur,non,non,4503,41856
+Lacombe,Agathe,74,173.9,52.1,F,non,bac+2,Normandie,non,oui,3033,83731
+Perrier,Christiane,48,182.0,60.9,H,oui,bac+2,Normandie,oui,non,2339,41988
+Leleu,Roland,61,170.1,58.2,F,oui,master,Auvergne-Rhône-Alpes,oui,oui,3277,84099
+Delahaye,Antoine,48,168.8,76.3,F,non,aucun,Auvergne-Rhône-Alpes,non,oui,1435,84266
+Laine,Audrey,71,165.6,80.8,F,oui,bac,Hauts-de-France,non,non,2052,84458
+Chevallier,Odette,46,187.3,64.0,F,non,master,Provence-Alpes-Côte d’Azur,oui,oui,2769,84403
+Alexandre,Honoré,70,179.3,48.7,F,non,doctorat,Auvergne-Rhône-Alpes,oui,oui,500,84041
+Perrot,Joséphine,28,154.7,88.9,H,non,doctorat,Normandie,oui,non,1837,41600
+Meunier,Yves,51,195.6,61.5,H,oui,bac,Corse,oui,oui,2721,42399
+Chauvin,Odette,47,185.4,100.1,H,non,bac,Bretagne,non,non,4973,41580
+Garcia,Audrey,50,182.1,85.4,F,oui,aucun,Corse,non,oui,3211,84303
+Leclercq,Guillaume,46,177.8,61.7,H,non,doctorat,Auvergne-Rhône-Alpes,non,oui,1518,41600
+Chauvet,Antoine,75,170.0,67.4,F,oui,bac+2,Île-de-France,non,oui,1956,84332
+Chrétien,Joséphine,72,177.0,84.3,H,oui,bac,Corse,non,non,2606,42206
+Pruvost,Jules,50,184.8,52.9,H,oui,master,Hauts-de-France,oui,non,2267,42444
+Coste,Margaud,18,162.8,42.0,H,non,doctorat,Bretagne,non,oui,2400,42028
+Seguin,Odette,42,168.8,92.7,F,non,bac+2,Corse,non,oui,3256,84043
+Samson,Océane,51,159.8,97.8,F,oui,aucun,Auvergne-Rhône-Alpes,non,oui,3965,83571
+Voisin,Suzanne,24,175.8,66.6,F,oui,bac+2,Bretagne,non,non,1348,83518
+Antoine,Bernadette,34,166.3,86.3,F,oui,bac,Corse,oui,non,4761,84119
+Cordier,Arnaude,69,185.4,62.7,F,non,bac,Île-de-France,non,non,1156,84127
+Tessier,Martine,34,171.4,43.5,F,non,master,Île-de-France,oui,oui,2887,83658
+Lopes,Guillaume,63,168.5,63.0,H,non,bac+2,Bretagne,oui,non,586,42205
+Gilbert,Noël,74,175.1,62.0,H,non,aucun,Occitanie,oui,non,1096,42226
+Julien,Lucas,64,141.3,69.6,H,non,aucun,Corse,non,oui,4626,42086
+Paris,Alexandrie,73,186.6,63.1,F,non,bac+2,Auvergne-Rhône-Alpes,non,oui,1777,84335
+Boyer,Antoinette,47,174.7,55.0,H,non,aucun,Provence-Alpes-Côte d’Azur,non,non,2862,42268
+Maillard,Daniel,50,177.7,88.4,H,non,doctorat,Bretagne,non,oui,2379,41588
+Navarro,Richard,72,168.0,56.8,H,oui,bac,Auvergne-Rhône-Alpes,non,non,1507,42246
+Michel,Agnès,75,167.7,75.5,F,oui,bac+2,Hauts-de-France,oui,oui,3596,83812
+Dufour,Édouard,58,162.0,92.4,H,non,aucun,Île-de-France,non,oui,2174,42463
+Auger,Yves,66,169.8,58.8,H,oui,master,Provence-Alpes-Côte d’Azur,oui,non,500,41810
+Klein,Lucas,58,178.8,81.1,F,non,master,Occitanie,non,oui,2162,83705
+Boulanger,Noël,52,170.7,77.7,H,non,aucun,Auvergne-Rhône-Alpes,oui,oui,624,41558
+Bonnet,Marianne,18,164.7,81.9,H,oui,bac+2,Bretagne,oui,oui,994,41785
+Allard,Lucas,50,172.9,49.7,F,oui,aucun,Île-de-France,non,non,3059,84408
+Peltier,Roger,47,169.6,45.8,F,non,bac,Auvergne-Rhône-Alpes,non,oui,3897,83830
+Le Goff,Aimé,30,162.7,57.8,H,non,aucun,Corse,oui,non,2740,42323
+Clément,Arnaude,26,181.5,54.8,H,oui,doctorat,Hauts-de-France,oui,oui,2574,42460
+Pons,Margaud,59,174.3,80.4,H,non,bac+2,Île-de-France,oui,non,2711,42402
+Ferreira,Nicolas,59,166.3,57.6,H,oui,aucun,Normandie,non,oui,2603,42268
+Rivière,Isabelle,53,159.3,26.2,F,non,bac,Corse,oui,oui,3023,84429
+Dupré,René,60,179.0,34.6,H,non,doctorat,Hauts-de-France,non,non,1288,41697
+Coulon,Antoinette,24,176.2,100.9,H,non,aucun,Provence-Alpes-Côte d’Azur,non,oui,2524,42463
+Leleu,Sabine,30,162.7,67.3,F,oui,bac+2,Normandie,non,oui,4149,84326
+Masse,Suzanne,53,163.5,58.0,F,oui,master,Auvergne-Rhône-Alpes,oui,oui,1920,84179
+Ledoux,Denis,60,160.5,71.8,H,oui,doctorat,Occitanie,oui,non,4449,41641
+Coulon,Philippe,67,173.2,66.2,H,oui,bac+2,Corse,non,non,2149,42213
+Maillard,Timothée,36,154.4,83.2,F,non,aucun,Provence-Alpes-Côte d’Azur,oui,non,2406,84354
+Noël,François,72,168.2,117.9,F,non,bac+2,Normandie,oui,oui,2858,84431
+Toussaint,Amélie,66,162.5,63.6,H,oui,bac,Hauts-de-France,non,oui,3878,41758
+Philippe,Pénélope,46,171.1,48.4,F,oui,bac+2,Auvergne-Rhône-Alpes,oui,oui,3603,84205
+Antoine,Colette,43,163.3,98.1,F,non,master,Occitanie,non,non,3796,83850
+Maillet,Suzanne,69,165.5,89.2,H,oui,bac,Île-de-France,oui,oui,2581,42273
+Hardy,Antoine,55,178.5,77.3,F,non,bac,Normandie,non,non,1484,83591
+Sauvage,Nicolas,73,163.6,85.4,H,non,master,Provence-Alpes-Côte d’Azur,non,oui,2098,41521
+Descamps,Sophie,22,166.0,55.7,F,non,aucun,Corse,non,oui,3008,84332
+Hamel,Laurence,62,190.6,54.0,H,non,bac,Occitanie,non,non,2529,41939
+Peltier,Juliette,59,184.1,68.8,F,oui,doctorat,Île-de-France,oui,non,3042,83694
+Gilbert,Théophile,28,159.4,76.4,F,non,bac,Provence-Alpes-Côte d’Azur,non,oui,2275,84212
+Vidal,Robert,39,179.9,87.8,F,oui,doctorat,Corse,non,oui,5607,83680
+Nicolas,Marguerite,33,175.8,74.9,H,non,master,Occitanie,oui,non,2733,41508
+Grondin,Aurélie,46,166.5,75.1,F,oui,master,Île-de-France,oui,oui,2145,83991
+Raynaud,Frédéric,20,171.7,89.8,H,oui,doctorat,Bretagne,oui,non,1292,42336
+Brun,Caroline,47,181.4,89.8,F,non,aucun,Corse,non,oui,2358,84303
+Paul,Lucy,67,148.8,60.9,F,non,master,Provence-Alpes-Côte d’Azur,oui,non,4056,83528
+Masse,Thibaut,32,169.8,55.0,H,non,bac+2,Bretagne,non,non,1894,41701
+Neveu,Jules,20,178.4,78.2,H,non,bac,Normandie,oui,oui,2213,42274
+Menard,Auguste,30,166.3,64.1,H,oui,master,Corse,non,non,1393,41546
+Maillot,Marcel,30,186.2,65.2,F,oui,master,Île-de-France,oui,non,3960,84398
+Becker,Frédéric,46,185.2,85.0,F,oui,master,Île-de-France,oui,oui,1982,84408
+Fournier,Sophie,45,174.0,69.6,F,oui,doctorat,Hauts-de-France,oui,oui,1415,84132
+Delmas,Julien,60,173.2,52.3,F,non,master,Corse,non,oui,3925,83820
+Martin,Tristan,39,165.4,73.0,F,non,bac,Hauts-de-France,non,non,2839,83868
+Diallo,Emmanuel,74,167.4,78.8,F,non,doctorat,Corse,oui,oui,1930,84384
+Gonzalez,Joseph,63,178.7,49.8,F,non,bac,Hauts-de-France,non,non,2651,83521
+Marion,Guy,66,189.4,55.0,F,non,doctorat,Normandie,non,non,1686,83603
+Antoine,Jacqueline,45,175.1,72.7,H,oui,aucun,Normandie,oui,oui,2920,41606
+Rocher,Margot,21,174.9,79.5,H,non,bac,Bretagne,non,oui,3831,41591
+Brunet,Théodore,21,174.1,66.4,F,oui,doctorat,Île-de-France,non,non,3307,83647
+Brunel,Christophe,24,189.0,68.0,H,non,bac,Bretagne,oui,non,1330,41606
+Regnier,Louis,42,181.1,68.2,F,non,doctorat,Île-de-France,oui,non,500,83786
+Leconte,Christine,30,178.5,62.0,F,oui,bac+2,Corse,oui,oui,2391,83692
+Charrier,Margaux,29,173.3,72.9,H,oui,bac,Provence-Alpes-Côte d’Azur,non,oui,3351,41930
+Masson,Adrien,35,165.6,77.7,F,oui,bac,Bretagne,oui,oui,2188,84101
+Moreau,Rémy,63,177.4,79.2,H,oui,bac,Auvergne-Rhône-Alpes,oui,non,1377,42111
+Carpentier,Marine,58,180.9,62.0,F,non,doctorat,Auvergne-Rhône-Alpes,oui,non,3469,84070
+Boulay,Alix,38,173.7,97.6,H,oui,doctorat,Provence-Alpes-Côte d’Azur,oui,oui,2231,41639
+Reynaud,Aimée,52,166.5,69.7,F,oui,bac+2,Corse,oui,non,2136,83753
+Maurice,Nicolas,39,178.0,45.8,F,non,bac,Occitanie,oui,oui,1235,83726
+Hernandez,Clémence,40,159.3,84.3,F,oui,doctorat,Corse,oui,non,4552,84418
+Martel,Thomas,38,169.0,67.5,F,oui,master,Bretagne,non,oui,2584,84298
+Bonneau,Dorothée,51,181.6,56.1,F,non,master,Île-de-France,non,non,2786,84316
+Da Costa,Jeannine,30,179.8,77.5,F,oui,aucun,Hauts-de-France,oui,non,2727,83991
+Guilbert,Denis,31,180.0,29.5,H,non,aucun,Corse,non,non,3313,42391
+Delahaye,Maurice,22,163.5,42.5,H,oui,master,Auvergne-Rhône-Alpes,oui,oui,3113,41688
+Delmas,Claudine,21,183.7,67.9,H,non,doctorat,Provence-Alpes-Côte d’Azur,oui,non,3643,42296
+Deschamps,William,44,186.1,89.7,F,non,master,Normandie,non,oui,4467,84354
+Payet,Inès,61,177.4,71.1,H,oui,doctorat,Provence-Alpes-Côte d’Azur,oui,non,577,41731
+Baron,Timothée,22,167.5,57.4,F,oui,bac+2,Bretagne,oui,oui,5105,83842
+Gautier,Antoinette,46,168.2,71.8,F,non,aucun,Occitanie,oui,oui,3161,83921
+Thomas,Hortense,26,170.4,95.4,F,non,bac,Bretagne,non,non,1752,84026
+Pruvost,Charlotte,18,171.9,58.9,H,oui,aucun,Île-de-France,non,oui,915,42311
+Marchal,Michel,23,163.9,69.4,F,oui,bac+2,Corse,non,non,1984,83639
+Sauvage,Pénélope,72,163.1,48.9,H,oui,bac,Corse,non,oui,2400,41614
+Jean,Richard,29,155.0,81.4,H,non,doctorat,Provence-Alpes-Côte d’Azur,non,non,2598,42065
+Maréchal,Céline,34,155.4,65.4,H,oui,doctorat,Occitanie,non,oui,1597,41701
+Chevallier,Élisabeth,60,173.2,90.1,H,oui,bac+2,Provence-Alpes-Côte d’Azur,oui,oui,500,42138
+Barbe,Michèle,46,171.2,67.6,F,non,doctorat,Hauts-de-France,non,non,3305,83530
+Turpin,Lucas,45,172.1,58.7,H,oui,bac+2,Corse,oui,non,2117,41748
+Maury,Andrée,59,162.0,86.1,F,non,bac+2,Hauts-de-France,non,non,2525,83700
+Maréchal,Patrick,47,189.0,69.1,F,non,bac+2,Occitanie,oui,oui,1649,83635
+Faivre,Élodie,56,154.9,43.0,H,non,bac,Corse,non,non,599,41593
+Rémy,David,58,172.7,77.6,H,oui,aucun,Île-de-France,non,non,602,42140
+Léger,Susanne,31,179.0,62.8,H,non,doctorat,Occitanie,oui,oui,2676,42484
+Tanguy,Lorraine,32,186.1,83.5,F,oui,master,Provence-Alpes-Côte d’Azur,non,oui,2177,84250
+Weber,Dorothée,18,161.1,37.7,H,oui,doctorat,Hauts-de-France,non,oui,1637,42431
+Gomez,Danielle,54,167.9,55.2,H,non,bac+2,Île-de-France,oui,non,2342,41941
+Ferreira,Bertrand,32,170.8,66.6,H,non,bac+2,Corse,oui,non,1719,41719
+Reynaud,Paulette,51,171.7,76.6,F,non,master,Occitanie,oui,oui,1191,84251
+Rémy,Anaïs,59,184.1,68.5,F,oui,doctorat,Bretagne,non,oui,2522,83624
+Bodin,Jacqueline,54,177.1,73.5,H,non,master,Auvergne-Rhône-Alpes,oui,oui,3643,41852
+Launay,Bernadette,42,172.9,60.8,H,non,bac+2,Auvergne-Rhône-Alpes,non,non,2933,41947
+Guibert,Martine,74,158.6,71.6,H,oui,master,Hauts-de-France,oui,oui,2460,41992
+Bazin,Isabelle,59,167.9,68.1,F,oui,bac,Hauts-de-France,oui,oui,500,83963
+Legendre,Marguerite,63,164.5,71.4,H,oui,master,Auvergne-Rhône-Alpes,oui,oui,2691,41918
+Lefebvre,Lorraine,48,159.7,89.0,F,oui,doctorat,Hauts-de-France,non,oui,1460,83648
+Pottier,Olivier,20,179.7,76.4,H,oui,bac,Île-de-France,oui,oui,1724,42323
+David,Richard,34,187.8,52.1,H,non,doctorat,Île-de-France,non,non,3602,42211
+Pichon,Aimé,31,180.0,59.9,F,non,master,Hauts-de-France,oui,non,4170,83689
+Hoarau,Gabrielle,56,167.5,74.3,H,oui,doctorat,Bretagne,oui,non,2812,42252
+Maillard,Michelle,39,168.7,82.2,F,oui,bac,Normandie,non,oui,3452,84141
+Petit,Claire,19,152.5,89.6,H,non,bac,Provence-Alpes-Côte d’Azur,oui,oui,505,41542
+Joseph,Catherine,57,180.3,86.9,H,oui,aucun,Occitanie,oui,non,1190,42096
+Barre,Michelle,52,165.9,53.4,H,non,doctorat,Normandie,non,non,2242,41607
+Bourgeois,Margot,62,166.9,81.7,F,oui,master,Normandie,non,oui,4072,84271
+Camus,Hortense,65,184.0,61.6,H,non,bac,Bretagne,non,non,2248,42274
+Collin,Étienne,72,153.2,57.9,H,non,doctorat,Normandie,non,oui,3657,41610
+Tanguy,Audrey,63,186.2,51.5,H,oui,doctorat,Île-de-France,non,non,1789,42471
+Julien,Anne,62,169.7,74.2,F,non,bac+2,Provence-Alpes-Côte d’Azur,oui,oui,1528,84489
+Leclercq,Sophie,55,174.2,62.9,F,non,doctorat,Normandie,non,non,2482,84433
+Fournier,Gabriel,61,175.5,70.1,F,oui,master,Occitanie,oui,oui,1976,83825
+Hervé,Raymond,53,168.9,68.7,F,non,bac+2,Auvergne-Rhône-Alpes,non,non,2055,84049
+Clerc,Thibaut,72,167.4,94.0,H,oui,master,Hauts-de-France,oui,oui,3173,41923
+Fabre,Agnès,43,167.0,80.5,F,oui,bac,Normandie,oui,non,2099,83955
+Wagner,Alexandrie,70,181.7,75.5,H,non,doctorat,Normandie,oui,oui,2371,42382
+Maurice,Pauline,32,174.5,46.4,F,oui,doctorat,Île-de-France,non,non,1147,84486
+Lemaître,Thibaut,43,158.1,72.1,F,oui,bac,Occitanie,non,oui,4579,83682
+Lefort,René,72,192.3,79.6,F,oui,aucun,Corse,oui,non,3101,84348
+Baron,Brigitte,41,152.0,61.9,H,oui,bac,Provence-Alpes-Côte d’Azur,non,non,1554,42085
+Nicolas,Alexandria,40,163.8,67.5,F,non,doctorat,Corse,oui,non,1933,83725
+Fleury,Frédéric,22,150.2,81.2,H,non,doctorat,Auvergne-Rhône-Alpes,non,non,1212,42323
+Mallet,Claire,35,172.4,101.1,H,oui,master,Normandie,oui,oui,1396,41994
+Gillet,Jean,44,144.7,65.7,H,oui,doctorat,Bretagne,non,non,3821,42233
+Picard,Stéphanie,69,189.6,51.6,F,non,master,Normandie,non,non,3096,84401
+Benard,Martin,66,165.3,68.4,F,non,master,Île-de-France,non,oui,5673,84012
+Maréchal,Dominique,22,155.0,73.8,F,oui,bac,Auvergne-Rhône-Alpes,non,non,3061,83750
+Chauvet,Océane,51,180.9,71.5,H,non,bac,Bretagne,oui,oui,2869,41982
+Benard,Monique,65,166.1,74.0,F,oui,doctorat,Hauts-de-France,non,oui,2088,83605
+Roger,Sylvie,31,176.2,64.5,F,oui,bac,Occitanie,oui,oui,2952,84184
+Guyot,Vincent,33,169.7,86.9,F,oui,bac,Corse,oui,non,2438,84274
+Dumont,Augustin,40,152.3,88.9,H,oui,aucun,Provence-Alpes-Côte d’Azur,non,non,1413,42176
+Leblanc,Victor,66,163.5,61.1,H,non,bac+2,Auvergne-Rhône-Alpes,non,non,4149,42151
+Picard,Louis,74,148.6,117.1,F,non,bac,Bretagne,non,oui,3767,83851
+Moreau,Cécile,54,172.2,69.2,H,oui,doctorat,Normandie,non,non,2842,42419
+Carre,Valérie,20,175.2,79.7,F,non,bac,Occitanie,oui,non,3166,83528
+Renault,Camille,47,170.9,67.0,F,oui,aucun,Corse,non,oui,2318,83927
+Pelletier,Tristan,38,168.1,87.0,F,non,bac,Bretagne,oui,oui,3212,83629
+Perrot,Michel,57,140.6,79.8,F,non,bac,Occitanie,non,oui,2733,84136
+Rodriguez,Sébastien,62,169.8,64.2,F,non,master,Bretagne,non,oui,3848,84018
+Rémy,Louis,26,179.5,58.4,H,oui,bac+2,Corse,non,non,2988,41990
+Menard,Marguerite,30,160.3,49.3,H,oui,master,Île-de-France,oui,oui,1747,42171
+Germain,Élodie,26,178.6,84.3,F,non,bac+2,Bretagne,oui,oui,3115,83639
+Renard,Honoré,62,177.3,77.7,H,oui,bac,Bretagne,non,non,1730,41825
+Aubert,Claudine,24,174.3,82.0,F,non,bac+2,Auvergne-Rhône-Alpes,non,oui,3405,83870
+Hubert,Valentine,69,181.9,80.6,F,non,aucun,Normandie,oui,oui,2921,84415
+Le Roux,Margaux,61,180.7,69.6,H,oui,bac+2,Auvergne-Rhône-Alpes,non,non,1441,41518
+Boyer,Anne,49,168.4,58.8,F,oui,master,Bretagne,non,non,1689,83899
+Martin,Françoise,27,168.6,58.1,H,non,master,Normandie,oui,oui,2130,42251
+Bourdon,Adrienne,39,151.1,73.2,H,non,bac+2,Bretagne,non,non,2501,41902
+Dupuy,Sylvie,43,161.8,79.9,F,non,bac+2,Occitanie,non,oui,3625,83796
+Delattre,Lorraine,72,153.9,58.6,H,oui,bac,Bretagne,oui,oui,1577,41879
+Guillaume,Margaud,43,160.6,82.4,H,oui,aucun,Occitanie,oui,oui,2267,41647
+Petitjean,Augustin,43,167.4,39.9,H,oui,bac+2,Hauts-de-France,oui,non,3262,41849
+Laurent,Lucas,74,157.6,70.9,F,non,bac,Corse,non,oui,2832,83946
+Dos Santos,Corinne,26,183.6,50.4,H,oui,aucun,Île-de-France,non,non,500,41991
+Dumas,Aimé,38,171.8,97.0,F,non,doctorat,Bretagne,non,oui,3986,83567
+Bonnet,Franck,62,172.1,62.6,H,non,doctorat,Normandie,non,non,3468,41715
+Camus,Christine,48,160.3,77.1,H,oui,master,Bretagne,non,oui,3106,42261
+Imbert,Théophile,27,180.6,111.4,F,oui,aucun,Hauts-de-France,non,oui,2970,83912
+Lévêque,Victoire,52,164.9,69.6,H,non,master,Bretagne,oui,non,500,41701
+Mercier,Maurice,69,163.1,63.9,F,oui,aucun,Auvergne-Rhône-Alpes,oui,oui,1871,84365
+Perrot,Diane,53,171.5,57.7,F,non,bac,Hauts-de-France,non,non,3845,84413
+Chauvet,Odette,32,170.0,69.9,F,oui,master,Corse,non,oui,2106,83996
+Blanchet,Céline,65,171.6,82.4,F,non,bac,Provence-Alpes-Côte d’Azur,oui,oui,1459,83913
+Bigot,Denis,25,163.4,65.4,F,non,bac+2,Occitanie,oui,oui,884,84117
+Lejeune,Marc,27,161.8,62.9,H,oui,bac,Provence-Alpes-Côte d’Azur,non,oui,3549,41653
+Perrin,Anastasie,63,172.6,72.9,F,oui,bac,Provence-Alpes-Côte d’Azur,oui,oui,3521,83665
+Regnier,Jérôme,31,168.6,75.9,F,non,bac+2,Occitanie,non,oui,2376,83980
+Hebert,François,68,172.7,61.3,H,non,aucun,Hauts-de-France,oui,oui,500,41610
+Legendre,Alexandrie,43,168.7,91.3,H,non,bac,Corse,non,non,3611,42041
+Rousset,Grégoire,71,179.7,88.5,H,oui,bac,Normandie,non,oui,2606,41717
+Leduc,Paulette,20,172.0,60.7,H,non,aucun,Corse,non,oui,2120,42499
+Hamon,Jérôme,37,176.2,88.1,F,oui,aucun,Provence-Alpes-Côte d’Azur,non,oui,2332,84022
+Thierry,Robert,37,165.5,70.0,H,non,aucun,Corse,oui,oui,3221,41721
+Guilbert,Michèle,45,155.6,35.6,F,oui,bac,Bretagne,oui,oui,1839,83966
+Thomas,Monique,33,157.8,62.4,H,oui,doctorat,Occitanie,oui,oui,2322,41613
+Bertin,Valentine,23,165.5,91.8,H,oui,master,Provence-Alpes-Côte d’Azur,non,non,2892,42288
+Rey,Étienne,66,173.0,79.3,H,oui,bac+2,Hauts-de-France,oui,oui,1133,42122
+Benoit,Célina,32,180.4,68.9,F,non,master,Corse,oui,non,3304,84101
+Tanguy,Roland,40,159.3,46.7,H,non,aucun,Occitanie,non,oui,3481,41646
+Perrin,Pierre,52,173.8,56.5,F,oui,doctorat,Hauts-de-France,non,oui,1456,84147
+Meyer,Manon,47,181.3,52.2,F,oui,aucun,Hauts-de-France,non,oui,4471,84251
+Gonzalez,Marianne,34,161.0,79.6,F,non,aucun,Normandie,oui,non,2105,84472
+Gilles,Adèle,57,176.0,61.8,F,oui,bac+2,Provence-Alpes-Côte d’Azur,non,oui,2304,83930
+Laporte,Stéphanie,61,170.4,55.0,F,oui,doctorat,Bretagne,non,oui,3388,83716
+Millet,Paul,38,164.9,66.6,H,oui,doctorat,Provence-Alpes-Côte d’Azur,oui,non,1306,42296
+Carpentier,Corinne,26,144.4,67.1,H,oui,bac,Provence-Alpes-Côte d’Azur,non,oui,5395,42256
+Wagner,Astrid,20,177.8,69.7,F,non,doctorat,Bretagne,oui,oui,2184,84443
+Masse,Anne,56,170.2,78.2,H,oui,bac,Occitanie,oui,oui,1083,41515
+Garnier,Isabelle,58,181.1,80.7,H,non,doctorat,Normandie,non,non,3361,41954
+Lopes,Sophie,21,174.4,70.3,F,oui,aucun,Bretagne,oui,non,3307,83586
+Leblanc,Christiane,51,175.9,64.7,H,oui,bac,Normandie,oui,oui,1811,42477
+Guyon,Richard,60,171.0,93.2,H,oui,doctorat,Normandie,oui,non,1013,41820
+Launay,Thibault,54,155.3,72.5,F,non,master,Provence-Alpes-Côte d’Azur,oui,non,2561,83634
+Martin,Gilles,53,171.7,73.7,F,non,bac,Occitanie,non,non,2232,84216
+Martin,Franck,53,184.9,46.0,F,non,master,Normandie,non,non,1505,84112
+Ruiz,Jacqueline,54,169.0,45.4,H,non,doctorat,Bretagne,non,non,2288,41775
+Joseph,Adélaïde,46,186.6,70.3,F,oui,aucun,Bretagne,oui,oui,2776,84232
+Roger,Sylvie,74,157.4,60.8,F,oui,bac+2,Corse,oui,non,2049,83526
+Bernier,Élise,19,166.8,89.2,F,oui,aucun,Île-de-France,non,oui,3169,83978
+Gay,Marianne,26,158.9,73.7,F,non,doctorat,Corse,oui,oui,3097,83723
+Alves,Alice,37,181.4,93.7,H,non,doctorat,Corse,oui,non,1281,41992
+Costa,Zoé,68,161.9,51.1,F,oui,master,Provence-Alpes-Côte d’Azur,non,oui,2219,83718
+Chevallier,Aimée,69,174.7,84.8,F,oui,aucun,Auvergne-Rhône-Alpes,non,non,2408,83598
+Rodriguez,Laure,45,166.8,72.3,F,oui,bac,Île-de-France,non,oui,1497,84381
+Loiseau,Nathalie,51,190.9,45.9,H,non,doctorat,Hauts-de-France,non,oui,2721,41687
+Le Goff,Eugène,32,190.2,70.1,H,oui,master,Occitanie,oui,oui,2271,41806
+Guillet,Adélaïde,36,166.4,67.3,F,oui,bac,Auvergne-Rhône-Alpes,oui,oui,4147,83862
+Rodriguez,Timothée,65,147.9,93.0,H,non,bac+2,Provence-Alpes-Côte d’Azur,non,oui,791,42349
+Pelletier,Dominique,67,167.3,63.6,H,oui,master,Corse,non,oui,3206,42312
+Giraud,Dorothée,54,154.0,76.9,H,oui,bac,Provence-Alpes-Côte d’Azur,non,non,4929,42420
+Martinez,Laetitia,38,156.4,72.8,H,oui,master,Normandie,non,oui,1705,41809
+Hernandez,Roger,38,174.3,70.3,F,oui,bac+2,Hauts-de-France,non,non,1730,83616
+Lebon,Marguerite,69,174.9,97.1,F,oui,master,Île-de-France,oui,oui,2270,83861
+Lebon,Hélène,41,177.2,50.6,H,oui,aucun,Île-de-France,oui,non,1352,41604
+Antoine,Andrée,27,174.7,92.3,F,oui,bac+2,Provence-Alpes-Côte d’Azur,non,oui,2926,84031
+Gillet,René,19,166.9,70.0,F,oui,doctorat,Corse,oui,oui,999,83585
+Lefort,Augustin,66,176.0,83.2,F,non,doctorat,Hauts-de-France,oui,oui,1957,83905
+Weber,Honoré,75,165.3,74.0,H,non,bac,Île-de-France,non,oui,1975,41779
+Rivière,Diane,62,169.3,101.5,F,oui,master,Île-de-France,oui,oui,2203,84071
+Bernier,Tristan,35,166.4,60.3,F,oui,aucun,Bretagne,non,oui,3393,83811
+Robert,Henri,42,168.2,60.3,H,non,master,Provence-Alpes-Côte d’Azur,oui,oui,4085,42216
+Maillard,Anne,47,184.2,61.0,H,oui,bac,Bretagne,non,oui,500,41570
+Rémy,Marie,65,180.1,59.7,H,oui,bac+2,Auvergne-Rhône-Alpes,non,non,3448,41888
+Perret,Caroline,33,150.3,83.4,F,oui,bac+2,Normandie,oui,non,1046,83941
+Guillon,Danielle,35,177.3,70.2,H,oui,bac+2,Normandie,oui,oui,1355,41631
+Camus,Martine,42,165.9,80.3,H,non,bac,Hauts-de-France,non,non,2627,41698
+Jacquet,Roger,56,175.8,99.6,F,non,doctorat,Hauts-de-France,oui,non,622,83513
+Maillot,Anastasie,55,186.2,71.6,H,oui,bac+2,Hauts-de-France,non,non,1421,41923
+Bazin,Élisabeth,67,156.7,67.2,H,oui,bac+2,Provence-Alpes-Côte d’Azur,oui,oui,3605,42385
+Da Silva,Christelle,71,168.7,92.7,H,oui,bac+2,Normandie,non,oui,758,42113
+Toussaint,Philippine,65,169.9,51.2,F,oui,bac,Provence-Alpes-Côte d’Azur,oui,oui,2936,84042
+Perrier,Simone,66,178.9,63.7,F,oui,doctorat,Corse,oui,non,500,83760
+Descamps,Léon,40,172.0,76.6,H,non,bac,Occitanie,non,oui,2985,41998
+Chauveau,Martine,42,182.4,53.9,F,non,bac,Hauts-de-France,oui,oui,3316,84055
+Berger,Claire,44,181.9,43.3,H,non,master,Corse,oui,non,2883,42009
+Vallée,Emmanuelle,22,165.0,68.8,H,non,doctorat,Occitanie,non,non,2917,42423
+Normand,Nathalie,74,165.1,59.9,H,non,master,Île-de-France,non,non,2540,41702
+Renard,Sébastien,43,159.1,53.7,H,oui,master,Occitanie,oui,non,3315,41919
+Ferrand,Marthe,33,158.5,80.0,F,oui,doctorat,Normandie,oui,oui,3055,84034
+Louis,Amélie,46,152.7,59.8,F,non,bac+2,Occitanie,oui,oui,3932,84292
+Rousseau,Sabine,57,160.2,63.0,H,oui,master,Occitanie,oui,non,3054,42346
+Laurent,Patrick,25,177.8,66.2,H,oui,master,Normandie,non,oui,1782,42219
+Fontaine,Laetitia,29,184.2,96.1,F,oui,master,Provence-Alpes-Côte d’Azur,non,oui,3674,84210
+Moulin,Édouard,59,170.9,57.9,H,oui,aucun,Provence-Alpes-Côte d’Azur,non,non,1503,42134
+Bailly,Isaac,23,175.2,76.3,F,oui,master,Normandie,oui,non,4181,83681
+Delaunay,Virginie,39,176.5,47.5,H,oui,bac,Hauts-de-France,oui,oui,3762,42363
+Rousseau,Céline,37,160.0,64.2,F,non,bac,Provence-Alpes-Côte d’Azur,oui,non,2800,84038
+Vidal,Clémence,18,190.0,116.6,F,oui,master,Occitanie,non,oui,3228,84073
+Pichon,Christine,18,168.2,78.0,F,oui,bac,Occitanie,non,oui,3565,84194
+Torres,Zacharie,23,166.8,96.9,H,oui,doctorat,Bretagne,oui,oui,2776,42343
+Germain,Guy,27,175.0,80.0,H,non,aucun,Hauts-de-France,oui,non,3005,41635
+Martineau,Éric,71,178.4,60.7,F,non,aucun,Île-de-France,oui,oui,1830,83806
+Guérin,Isabelle,29,159.0,76.6,H,non,doctorat,Hauts-de-France,non,non,3434,42189
+Fernandez,Roger,41,174.6,95.1,H,oui,bac+2,Auvergne-Rhône-Alpes,non,non,2493,42011
+Dias,Gilbert,70,176.7,53.6,H,non,doctorat,Provence-Alpes-Côte d’Azur,non,oui,2035,41966
+Georges,Camille,25,177.0,82.7,F,non,doctorat,Normandie,oui,non,2147,84352
+Lelièvre,Denis,57,169.3,47.2,H,oui,doctorat,Provence-Alpes-Côte d’Azur,non,non,2071,41566
+Chauvin,Emmanuelle,56,178.9,78.6,F,non,doctorat,Auvergne-Rhône-Alpes,non,oui,3100,83618
+Barre,Noël,57,170.5,70.1,F,oui,doctorat,Occitanie,non,oui,1707,84343
+Lesage,Joséphine,29,177.0,76.3,H,non,bac,Île-de-France,oui,oui,3090,42100
+Marion,Tristan,58,164.7,37.7,H,oui,doctorat,Normandie,non,oui,3816,42272
+Bonneau,Sabine,40,165.2,57.1,H,oui,bac,Bretagne,non,non,3332,41817
+Fleury,Célina,37,166.1,85.9,F,non,aucun,Provence-Alpes-Côte d’Azur,non,oui,3240,83923
+Huet,Nicole,64,176.8,49.5,H,oui,bac,Auvergne-Rhône-Alpes,non,non,3954,41907
+Joubert,Susanne,48,172.6,64.5,F,oui,bac,Occitanie,oui,non,2672,84183
+Hernandez,Édouard,75,152.2,76.1,F,non,master,Île-de-France,non,oui,1264,84404
+Denis,Robert,61,156.5,47.2,F,oui,bac,Auvergne-Rhône-Alpes,non,oui,3835,83949
+Pages,Dorothée,27,163.7,93.0,F,oui,bac+2,Normandie,oui,oui,1857,83558
+Dumont,Georges,42,152.9,53.3,H,oui,bac+2,Auvergne-Rhône-Alpes,oui,oui,3982,42214
+Maillet,Aimée,23,168.4,61.8,F,oui,bac+2,Occitanie,non,oui,2692,84361
+Rodrigues,Diane,37,175.0,86.8,H,oui,bac+2,Île-de-France,oui,non,4238,41846
+Carpentier,Amélie,46,166.4,50.1,H,non,doctorat,Hauts-de-France,oui,oui,2003,41630
+Rodriguez,Philippine,48,172.6,55.5,F,non,bac,Provence-Alpes-Côte d’Azur,oui,oui,1351,83740
+Rivière,Madeleine,20,173.4,69.3,F,non,doctorat,Provence-Alpes-Côte d’Azur,oui,oui,2539,83792
+Fouquet,Caroline,20,162.4,66.5,H,non,master,Île-de-France,oui,oui,1390,41974
+Le Goff,Célina,60,178.9,85.5,F,oui,doctorat,Bretagne,oui,oui,500,83923
+Joseph,Nathalie,30,160.7,47.6,F,non,doctorat,Auvergne-Rhône-Alpes,non,non,1719,84098
+Pierre,Susanne,35,169.2,48.3,H,oui,bac+2,Provence-Alpes-Côte d’Azur,oui,non,1393,42270
+Jean,Noël,53,160.0,73.1,H,oui,doctorat,Auvergne-Rhône-Alpes,non,oui,2583,41718
+Louis,Alphonse,63,162.8,72.7,F,oui,bac,Provence-Alpes-Côte d’Azur,non,non,1843,83863
+Gomes,Adélaïde,39,167.3,95.1,F,oui,bac,Île-de-France,non,non,4108,83542
+Aubert,Anastasie,21,157.0,82.4,H,non,aucun,Provence-Alpes-Côte d’Azur,non,oui,3473,42248
+Gomes,Adélaïde,63,158.5,82.3,F,non,bac+2,Auvergne-Rhône-Alpes,oui,non,4345,84449
+Pasquier,Marie,60,158.8,56.2,H,non,doctorat,Hauts-de-France,oui,non,3721,42082
+Cousin,Charlotte,62,172.7,78.3,F,oui,master,Bretagne,non,oui,2908,83603
+Launay,Éléonore,32,173.9,50.1,H,non,bac+2,Normandie,oui,non,3756,42398
+Aubert,Christophe,60,181.7,66.6,F,non,master,Occitanie,oui,oui,2447,84162
+Barbier,Honoré,25,154.7,77.7,F,non,master,Hauts-de-France,non,non,3186,84410
+Muller,Claire,56,169.4,86.9,H,oui,master,Provence-Alpes-Côte d’Azur,non,oui,2099,42070
+Hubert,Aimé,22,175.6,54.7,F,non,master,Normandie,oui,non,2471,83802
+Maillard,Hortense,53,168.3,73.4,H,non,master,Provence-Alpes-Côte d’Azur,non,oui,2056,41873
+Courtois,Astrid,62,168.7,82.4,F,non,doctorat,Auvergne-Rhône-Alpes,oui,oui,1975,83943
+Carpentier,Renée,60,153.9,96.2,H,non,aucun,Occitanie,non,oui,4157,42087
+Bailly,Charles,70,157.1,80.3,F,oui,bac+2,Normandie,oui,oui,1896,83603
+Leroy,Émilie,61,172.6,74.4,F,non,master,Île-de-France,oui,oui,2218,84326
+Bigot,Denis,26,162.2,59.6,H,oui,bac,Occitanie,non,oui,1400,42278
+Perez,Raymond,54,161.7,69.0,F,oui,bac,Auvergne-Rhône-Alpes,non,oui,1641,83894
+Didier,Frédéric,61,176.8,92.3,F,non,bac+2,Provence-Alpes-Côte d’Azur,oui,non,1803,84371
+Charles,Thérèse,50,172.4,77.5,F,oui,bac+2,Île-de-France,non,non,3066,84007
+Adam,Frédéric,21,170.8,81.1,H,non,aucun,Bretagne,oui,oui,3078,41709
+Mahe,Robert,62,157.6,83.0,F,non,master,Normandie,non,oui,3564,83984
+Leclercq,Noël,31,162.4,70.6,H,non,bac,Corse,non,non,3319,41927
+Letellier,Guillaume,41,167.9,86.1,F,oui,bac+2,Hauts-de-France,oui,oui,5336,83570
+Traore,Julien,59,162.1,49.3,H,oui,master,Normandie,oui,oui,2864,42427
+Prévost,Aimé,59,177.2,66.5,F,non,doctorat,Normandie,oui,oui,4243,83962
+Lemonnier,Camille,45,156.6,80.4,F,non,bac+2,Corse,oui,oui,1772,84476
+Pruvost,Renée,18,187.2,99.9,F,oui,doctorat,Bretagne,non,non,1580,84419
+Fouquet,Victor,54,164.5,82.9,F,oui,aucun,Occitanie,non,oui,2035,83975
+Nguyen,Camille,48,169.5,70.4,H,oui,doctorat,Bretagne,non,oui,500,41658
+Dumas,Odette,51,169.9,59.7,H,oui,master,Provence-Alpes-Côte d’Azur,non,non,1908,42001
+Ferreira,Daniel,75,184.4,51.2,F,oui,master,Occitanie,non,oui,3475,83722
+Pascal,Marine,39,167.2,65.8,F,non,bac+2,Bretagne,oui,oui,3448,84119
+Perrier,Brigitte,56,173.4,78.6,F,non,aucun,Occitanie,oui,oui,3661,84348
+Barbier,Frédérique,60,166.7,60.8,F,oui,bac+2,Occitanie,oui,oui,1197,84119
+Hoarau,Richard,22,161.7,114.2,F,non,bac,Bretagne,non,non,3993,84220
+Diaz,Maryse,18,156.5,50.2,H,oui,doctorat,Hauts-de-France,non,oui,3078,41746
+Guillou,Antoinette,29,175.5,78.2,F,oui,master,Hauts-de-France,oui,oui,2194,83536
+Lefèvre,David,23,168.7,74.9,H,oui,master,Normandie,non,oui,2603,42233
+Martineau,Olivie,46,147.8,66.6,H,oui,doctorat,Auvergne-Rhône-Alpes,oui,non,1478,41620
+Lenoir,Paul,66,171.8,114.8,H,oui,bac,Occitanie,non,oui,2940,42460
+Jacquot,Margaud,48,166.9,83.8,H,non,master,Occitanie,non,oui,3079,42482
+Lagarde,Alexandria,73,174.2,79.1,F,oui,bac+2,Occitanie,non,non,4967,84410
+Carpentier,Thérèse,51,158.7,77.1,H,oui,doctorat,Auvergne-Rhône-Alpes,non,non,1388,41515
+Valette,Nathalie,59,175.6,56.2,F,non,bac+2,Bretagne,oui,oui,1999,83996
+Rémy,Adrienne,55,167.0,84.6,F,non,bac,Corse,non,non,3602,84393
+Grenier,Arthur,29,157.5,70.8,F,oui,aucun,Provence-Alpes-Côte d’Azur,oui,oui,1648,84233
+Lopes,Victoire,51,157.4,66.7,H,non,bac+2,Corse,non,oui,2129,41547
+Rossi,Célina,20,194.3,76.5,H,oui,aucun,Corse,oui,non,846,42057
+Mahe,Isabelle,25,164.4,85.3,H,oui,master,Hauts-de-France,oui,non,5006,42486
+Robin,Robert,34,154.1,41.8,F,non,aucun,Occitanie,non,non,4745,84062
+Carre,Claire,62,173.9,57.0,F,non,bac,Provence-Alpes-Côte d’Azur,non,non,3141,83746
+Gomez,Olivier,42,143.6,70.1,F,non,aucun,Bretagne,non,oui,2893,84203
+Caron,Luce,22,179.2,54.8,F,oui,doctorat,Normandie,oui,non,2602,83791
+Meyer,Anouk,24,160.7,73.8,H,non,bac,Provence-Alpes-Côte d’Azur,non,non,1425,42165
+Andre,Louis,24,165.9,55.1,H,oui,aucun,Bretagne,non,oui,3281,42331
+Albert,Édith,49,178.6,66.5,H,oui,aucun,Normandie,non,oui,2545,41821
+Antoine,Timothée,39,155.5,65.5,F,oui,doctorat,Occitanie,non,oui,2439,84209
+Philippe,Georges,72,196.2,53.3,H,oui,aucun,Normandie,non,oui,4257,42164
+Marques,Matthieu,52,180.0,74.2,F,non,bac+2,Normandie,oui,non,4610,84011
+Picard,Stéphane,59,173.7,75.8,H,non,doctorat,Auvergne-Rhône-Alpes,oui,non,2436,41691
+Seguin,Marie,66,182.2,86.4,F,oui,bac,Île-de-France,non,non,1749,84152
+Moreno,Valentine,37,156.8,67.0,F,oui,bac+2,Occitanie,oui,non,1539,83694
+Allain,Christine,46,169.4,88.6,H,oui,aucun,Corse,oui,non,1951,41912
+Royer,Jeanne,55,169.6,70.9,H,non,master,Provence-Alpes-Côte d’Azur,non,oui,3518,41516
+Perrier,Sébastien,71,147.5,60.9,F,oui,aucun,Auvergne-Rhône-Alpes,oui,oui,2753,84441
+Rocher,Augustin,64,182.0,62.6,H,non,aucun,Corse,non,non,500,41576
+Raynaud,Agnès,73,176.2,60.5,H,oui,aucun,Île-de-France,oui,oui,1072,41893
+Grégoire,Laurent,19,163.8,67.2,F,oui,bac,Hauts-de-France,oui,oui,1774,84289
+Voisin,François,21,147.9,83.5,F,oui,master,Hauts-de-France,oui,non,4029,84193
+Leclercq,Caroline,24,176.5,52.9,H,non,doctorat,Corse,oui,non,2258,42029
+Wagner,Isaac,45,169.9,79.0,F,non,bac+2,Provence-Alpes-Côte d’Azur,oui,oui,3302,83593
+Rousset,Chantal,68,162.7,71.2,H,oui,doctorat,Hauts-de-France,non,oui,3048,42000
+Lagarde,Gérard,35,184.6,80.6,H,non,bac,Auvergne-Rhône-Alpes,oui,oui,3446,42365
+Vasseur,Matthieu,55,170.8,91.2,H,oui,aucun,Normandie,oui,oui,2991,41657
+Martin,Raymond,49,161.4,91.1,H,oui,aucun,Hauts-de-France,oui,non,3337,41922
+Martel,Constance,55,165.6,62.8,F,non,master,Hauts-de-France,oui,oui,2855,83625
+Boyer,Tristan,35,174.6,73.0,F,non,bac,Hauts-de-France,oui,oui,2873,84073
+Rémy,Bernard,63,187.0,86.1,F,oui,bac+2,Auvergne-Rhône-Alpes,non,oui,2728,83501
+Costa,Auguste,33,179.4,54.5,H,oui,doctorat,Provence-Alpes-Côte d’Azur,non,non,2977,41805
+Coste,Gabriel,52,188.1,66.7,H,non,bac,Bretagne,oui,oui,1482,41945
+Gilles,Michelle,68,163.5,53.7,H,non,master,Hauts-de-France,oui,non,1558,42405
+Lombard,Claudine,20,166.3,48.9,H,non,bac+2,Corse,non,oui,2518,42110
+Joseph,Grégoire,57,179.0,56.4,F,oui,aucun,Île-de-France,oui,oui,4323,84283
+Parent,Patrick,19,175.1,85.5,F,oui,aucun,Corse,non,oui,1710,83731
+Gomez,Roger,38,178.5,53.6,F,oui,bac+2,Corse,oui,oui,3568,83635
+Gay,Andrée,24,171.7,78.3,H,non,bac,Normandie,oui,oui,1089,42139
+Cousin,Maryse,55,161.0,79.0,F,oui,master,Hauts-de-France,oui,non,1361,83715
+Garcia,Véronique,47,174.6,49.5,H,non,bac+2,Hauts-de-France,non,non,3517,41709
+Girard,Juliette,58,157.7,78.3,F,non,bac,Auvergne-Rhône-Alpes,oui,oui,3250,84286
+Mercier,Anaïs,54,163.0,78.7,H,non,bac,Provence-Alpes-Côte d’Azur,non,oui,2812,41587
+Delahaye,Céline,28,164.6,54.9,F,oui,bac+2,Hauts-de-France,oui,oui,500,84061
+Berthelot,Louis,53,173.5,46.5,H,oui,master,Occitanie,oui,oui,2614,42063
+Lombard,Victor,71,167.4,80.2,F,non,aucun,Normandie,oui,oui,2137,83588
+Chevalier,Nicolas,45,166.7,81.0,H,oui,doctorat,Île-de-France,non,non,2902,41718
+Buisson,Noël,20,173.2,77.0,F,oui,master,Normandie,non,non,657,84118
+Benoit,Gérard,62,177.6,79.2,H,non,master,Corse,oui,oui,1279,42270
+Faure,Bertrand,18,167.6,69.4,F,oui,bac,Auvergne-Rhône-Alpes,non,oui,2338,84032
+Chauveau,Sylvie,23,173.3,91.5,H,non,bac+2,Hauts-de-France,non,non,3798,41956
+Clément,Margaux,65,156.9,79.3,H,non,master,Hauts-de-France,non,oui,4094,41543
+Aubert,Benjamin,73,173.9,86.4,F,non,aucun,Provence-Alpes-Côte d’Azur,non,non,4914,84153
+Ferrand,Maggie,39,180.2,73.7,H,non,master,Bretagne,oui,non,3754,41515
+Jacques,David,23,171.4,70.4,F,oui,doctorat,Auvergne-Rhône-Alpes,oui,oui,2078,83973
+Perrot,Maggie,41,185.6,57.7,F,oui,bac+2,Auvergne-Rhône-Alpes,oui,non,4338,83782
+Fouquet,Alexandrie,63,175.0,49.0,H,oui,bac,Auvergne-Rhône-Alpes,oui,oui,2941,42425
+Labbé,Hortense,59,149.0,79.4,F,oui,bac,Auvergne-Rhône-Alpes,non,non,3562,83833
+Ribeiro,Lucy,50,164.1,71.9,F,non,aucun,Provence-Alpes-Côte d’Azur,non,oui,4844,83952
+Thomas,Inès,49,164.9,54.1,H,non,doctorat,Bretagne,non,non,4277,41953
+Ferreira,Aurore,69,189.6,70.1,H,oui,master,Provence-Alpes-Côte d’Azur,oui,oui,3713,41926
+Petitjean,Anne,29,183.4,58.9,F,oui,aucun,Hauts-de-France,non,oui,1917,84372
+Leroux,Denise,27,182.3,95.3,F,oui,bac,Île-de-France,non,oui,3175,84059
+Pascal,Mathilde,61,161.2,99.8,H,non,bac+2,Normandie,non,non,1862,41734
+Legrand,Benjamin,19,166.6,75.1,F,oui,aucun,Île-de-France,oui,non,4364,84372
+Pinto,Astrid,51,178.5,76.2,F,non,doctorat,Auvergne-Rhône-Alpes,non,oui,3055,83967
+Arnaud,Thérèse,60,170.4,78.4,F,non,bac+2,Hauts-de-France,non,oui,500,83855
+Roger,Antoine,34,167.0,73.6,H,non,bac+2,Bretagne,oui,oui,1118,41894
+Petit,Geneviève,36,173.9,66.9,F,oui,doctorat,Hauts-de-France,non,oui,4606,84222
+Marques,Bertrand,29,185.7,63.0,H,oui,bac,Provence-Alpes-Côte d’Azur,oui,non,2318,42341
+Goncalves,Joseph,54,169.3,63.2,H,non,bac+2,Auvergne-Rhône-Alpes,oui,oui,2734,42407
+Denis,Gilles,63,162.4,53.0,H,non,bac+2,Hauts-de-France,non,oui,3247,41583
+Bazin,Édith,28,176.3,57.9,F,oui,aucun,Normandie,non,non,3574,84112
+Lecoq,Michelle,47,163.7,73.8,F,oui,aucun,Auvergne-Rhône-Alpes,non,oui,3484,84364
+Techer,Jean,36,169.7,76.8,H,non,bac+2,Provence-Alpes-Côte d’Azur,non,non,1880,41989
+Henry,Emmanuel,26,168.0,66.9,H,non,aucun,Normandie,oui,oui,1604,41977
+Berthelot,Renée,23,168.2,46.8,F,oui,doctorat,Corse,oui,non,1910,84137
+Durand,Patricia,67,167.2,66.2,F,oui,aucun,Provence-Alpes-Côte d’Azur,non,non,2210,84281
+Boucher,Aurélie,23,169.4,77.2,F,oui,master,Auvergne-Rhône-Alpes,oui,non,3549,84398
+Ribeiro,Michel,41,163.5,52.0,F,oui,master,Auvergne-Rhône-Alpes,non,oui,1249,83585
+Carlier,David,36,165.1,64.7,F,non,bac+2,Occitanie,oui,oui,1576,83544
+Pages,Alexandrie,74,157.0,63.2,F,non,master,Bretagne,oui,non,2717,83853
+Simon,Christelle,75,176.0,61.6,F,non,bac,Provence-Alpes-Côte d’Azur,oui,oui,2004,83664
+Charpentier,Amélie,48,160.7,69.5,F,oui,doctorat,Normandie,oui,oui,1481,84139
+Caron,Marcelle,58,175.7,43.2,F,non,bac,Occitanie,oui,oui,2068,83530
+Masse,Benoît,71,173.0,72.8,F,non,doctorat,Occitanie,oui,non,5731,83578
+Neveu,Andrée,37,173.5,54.9,F,non,doctorat,Occitanie,oui,oui,2385,83738
+Louis,Paul,18,152.2,68.8,H,non,bac+2,Occitanie,oui,non,1500,41508
+Gillet,Aimé,75,179.2,61.8,F,non,bac,Occitanie,oui,oui,2359,84480
+Brunel,Margaud,66,163.6,96.1,F,non,aucun,Auvergne-Rhône-Alpes,non,oui,2114,83955
+Garcia,Aurélie,73,188.3,82.2,F,non,aucun,Auvergne-Rhône-Alpes,oui,non,3078,84357
+Delorme,Emmanuel,28,173.7,75.9,H,oui,bac+2,Occitanie,oui,oui,500,41706
+Vallet,Benoît,21,167.2,82.7,F,non,master,Auvergne-Rhône-Alpes,oui,oui,2441,83806
+Neveu,Xavier,51,155.9,69.2,H,oui,bac,Provence-Alpes-Côte d’Azur,oui,oui,4544,41756
+Carpentier,Lucas,73,182.5,69.1,F,non,bac+2,Auvergne-Rhône-Alpes,oui,oui,3641,84112
+Vaillant,Noël,40,166.3,44.4,H,oui,bac,Bretagne,non,non,1390,42030
+Launay,Hélène,44,185.6,65.9,F,oui,aucun,Corse,oui,oui,2207,84417
+Lesage,Raymond,71,167.0,98.6,H,oui,master,Occitanie,oui,oui,4451,41925
+Boyer,Pauline,26,192.2,67.6,H,non,bac+2,Bretagne,non,oui,2854,42123
+Vallée,Sébastien,46,154.8,92.2,F,oui,bac+2,Île-de-France,oui,oui,1098,83941
+Le Roux,Gilbert,72,172.2,53.5,H,oui,bac+2,Hauts-de-France,oui,oui,1793,42391
+Gallet,Cécile,23,161.6,60.9,F,oui,aucun,Île-de-France,non,non,1853,84317
+Philippe,Charles,20,164.5,82.5,H,oui,aucun,Île-de-France,non,oui,1174,42320
+Bousquet,Michelle,34,172.2,88.3,H,oui,bac+2,Île-de-France,oui,non,1884,42195
+Labbé,Hélène,56,162.8,66.5,H,oui,bac,Auvergne-Rhône-Alpes,oui,oui,3915,42306
+Rey,Agnès,72,171.9,62.0,F,non,bac+2,Hauts-de-France,oui,oui,3080,83825
+Dufour,Léon,22,159.0,80.2,H,oui,doctorat,Corse,oui,non,2990,41822
+Rocher,Camille,28,166.9,57.4,H,oui,bac,Occitanie,non,non,1435,42010
+Godard,Louise,29,175.3,88.4,F,oui,bac,Auvergne-Rhône-Alpes,non,oui,1735,84078
+Verdier,Margaux,50,174.6,38.7,H,non,aucun,Auvergne-Rhône-Alpes,oui,oui,1798,41645
+Deschamps,Antoine,51,169.7,56.4,H,non,bac+2,Bretagne,oui,oui,1376,42380
+Fernandes,Raymond,49,163.3,74.4,H,non,bac+2,Occitanie,non,non,2275,42072
+Dumas,Anouk,71,147.6,38.2,F,oui,doctorat,Normandie,non,non,1771,84297
+Gautier,Adrien,45,174.6,28.8,H,oui,master,Auvergne-Rhône-Alpes,oui,oui,1900,42183
+Lemaire,Michelle,61,164.7,90.8,F,oui,master,Occitanie,oui,oui,2037,84250
+Meunier,Éric,43,173.8,72.1,F,oui,bac,Provence-Alpes-Côte d’Azur,non,non,500,84114
+Poulain,Alfred,39,177.7,73.2,H,non,aucun,Corse,non,non,3109,42470
+Lucas,Émile,35,209.3,38.7,F,non,bac+2,Occitanie,non,non,4569,83870
+Bernier,Monique,50,167.1,74.3,F,oui,master,Provence-Alpes-Côte d’Azur,oui,oui,2445,84202
+Deschamps,Dominique,49,165.8,61.5,H,oui,aucun,Provence-Alpes-Côte d’Azur,oui,non,2895,42411
+Pasquier,Raymond,49,154.8,81.3,H,oui,master,Auvergne-Rhône-Alpes,oui,oui,2000,41944
+Brunel,Inès,57,158.7,63.2,H,oui,doctorat,Occitanie,non,oui,4008,42056
+Roux,Léon,60,164.6,75.4,F,non,doctorat,Bretagne,non,non,1622,84374
+Mace,Maggie,52,177.6,80.3,H,oui,master,Provence-Alpes-Côte d’Azur,non,oui,4718,41625
+Maillet,Suzanne,72,168.2,80.0,F,non,master,Île-de-France,oui,oui,2617,83903
+Bernier,Raymond,60,183.0,59.2,F,oui,master,Normandie,oui,oui,3394,83687
+Étienne,Cécile,42,168.1,69.0,F,oui,doctorat,Occitanie,non,oui,2610,84454
+Le Gall,Thérèse,72,172.5,68.3,H,oui,master,Bretagne,non,oui,2757,41945
+Rousset,Jeanne,42,185.8,84.8,F,non,bac+2,Île-de-France,oui,oui,3542,84473
+Poulain,Eugène,26,165.4,56.7,F,non,doctorat,Île-de-France,non,oui,3646,84016
+Gros,Pauline,45,178.8,92.1,F,non,master,Auvergne-Rhône-Alpes,oui,non,1775,84165
+Prévost,Jacqueline,33,167.7,45.4,H,non,doctorat,Provence-Alpes-Côte d’Azur,oui,non,2029,42466
+Antoine,Daniel,25,180.0,63.0,F,oui,aucun,Auvergne-Rhône-Alpes,oui,oui,3268,83754
+Bernier,Marie,73,168.1,74.9,F,non,bac+2,Île-de-France,non,oui,1122,83800
+Rémy,Sébastien,38,170.9,25.1,F,non,bac+2,Provence-Alpes-Côte d’Azur,non,oui,2275,83665
+Grondin,Jérôme,61,153.7,88.1,H,non,master,Auvergne-Rhône-Alpes,oui,non,3432,42016
+Regnier,Anaïs,41,174.7,92.8,F,oui,master,Provence-Alpes-Côte d’Azur,oui,oui,1361,83784
+Giraud,Paul,21,187.5,84.0,F,non,bac,Provence-Alpes-Côte d’Azur,oui,oui,2216,83779
+Maillot,Noël,35,181.4,53.4,H,non,master,Corse,non,non,1510,42155
+Garnier,Danielle,59,163.9,62.1,F,non,master,Auvergne-Rhône-Alpes,oui,oui,1232,84279
+Delannoy,Aimé,34,182.2,66.1,F,oui,aucun,Hauts-de-France,non,oui,2923,84407
+Caron,Adèle,70,164.3,42.7,F,non,doctorat,Normandie,oui,oui,2824,83993
+Laine,Christelle,41,150.9,69.0,F,oui,bac,Hauts-de-France,non,non,858,83591
+Techer,Françoise,44,189.9,83.7,F,oui,bac,Normandie,non,non,2626,83901
+Guillon,Lucy,59,182.6,57.3,H,non,doctorat,Corse,non,oui,3152,42250
+Baudry,Margaux,27,172.0,74.0,H,oui,bac,Bretagne,non,oui,4026,42476
+Dumont,Chantal,45,177.3,74.3,F,oui,bac,Hauts-de-France,non,oui,514,83748
+Pelletier,Geneviève,34,160.4,68.2,F,oui,aucun,Occitanie,oui,oui,2612,84130
+Petit,Roger,75,158.7,106.2,H,non,doctorat,Bretagne,oui,non,4319,42390
+Gallet,Philippine,44,176.0,71.1,F,oui,master,Hauts-de-France,oui,oui,2245,84263
+Perez,Édouard,65,160.5,71.2,H,non,master,Provence-Alpes-Côte d’Azur,oui,oui,2809,42204
+Noël,Xavier,67,157.6,75.0,F,non,doctorat,Normandie,oui,non,2313,83785
+Dias,Paul,31,150.9,57.1,H,oui,bac,Corse,non,oui,2003,42211
+Pierre,Céline,34,188.9,78.3,H,non,doctorat,Auvergne-Rhône-Alpes,oui,oui,897,41720
+Delmas,Marianne,45,174.9,46.8,F,oui,bac+2,Hauts-de-France,non,oui,3799,83530
+Jourdan,Yves,41,165.3,68.6,F,oui,doctorat,Île-de-France,oui,non,4090,83740
+Benoit,Thérèse,68,157.1,49.0,H,non,doctorat,Normandie,non,non,1799,42390
+Ferreira,Alix,62,180.4,47.2,F,oui,doctorat,Corse,non,oui,500,84392
+Valentin,Sébastien,43,165.5,78.3,F,non,aucun,Corse,non,oui,3940,83685
+Peltier,Michelle,74,165.4,63.8,H,non,bac+2,Normandie,oui,oui,3884,41703
+Dos Santos,Anouk,23,151.3,64.2,F,non,master,Auvergne-Rhône-Alpes,non,non,2728,84334
+Langlois,Diane,70,174.5,62.4,H,oui,bac+2,Provence-Alpes-Côte d’Azur,non,oui,2541,41993
+Giraud,Monique,64,145.1,60.1,F,non,aucun,Île-de-France,oui,non,3044,83727
+Étienne,Lucie,68,160.2,70.9,H,oui,master,Corse,non,oui,3036,41913
+Guyon,Olivier,23,166.6,72.6,H,oui,bac,Hauts-de-France,non,non,1344,42327
+Barre,Luce,38,167.9,79.2,F,non,bac,Bretagne,oui,non,2688,84293
+Peltier,Sophie,70,164.1,73.4,F,non,bac,Provence-Alpes-Côte d’Azur,non,oui,3357,84333
+Fernandez,Élise,43,149.5,87.4,F,oui,aucun,Île-de-France,oui,non,2096,83588
+Lopes,Louis,47,174.3,88.0,H,non,bac,Île-de-France,non,non,853,41928
+Coulon,Théodore,56,162.9,65.7,F,oui,aucun,Auvergne-Rhône-Alpes,oui,non,1559,83923
+Boyer,Gilles,25,187.3,57.1,H,non,master,Occitanie,oui,oui,1833,41955
+Guilbert,Léon,31,172.0,52.0,H,non,bac+2,Occitanie,non,oui,2025,42004
+Letellier,Hortense,72,173.2,65.0,H,oui,bac+2,Corse,non,oui,2387,41927
+Delmas,Manon,68,164.7,47.3,H,oui,bac+2,Bretagne,oui,non,2885,41809
+Chevalier,Arthur,33,187.5,70.3,F,non,aucun,Île-de-France,non,oui,2770,83744
+Brunel,Yves,38,176.9,51.0,F,oui,master,Normandie,non,oui,4543,84339
+Laine,Adèle,53,172.0,94.5,H,oui,bac+2,Corse,non,non,1620,42102
+Evrard,Danielle,56,188.2,81.6,H,oui,bac+2,Normandie,non,non,3163,42328
+Lemonnier,Daniel,60,172.3,66.3,F,oui,doctorat,Île-de-France,oui,oui,3940,83760
+Pinto,Antoinette,50,171.4,40.5,F,non,master,Hauts-de-France,oui,oui,1159,83939
+Wagner,Édouard,51,168.1,74.6,F,oui,bac+2,Provence-Alpes-Côte d’Azur,non,oui,2432,83925
+Weber,Thibault,26,182.2,40.7,F,non,bac+2,Normandie,non,non,2672,83979
+Barbe,Alice,34,151.8,81.4,F,non,master,Hauts-de-France,non,non,2386,84480
+Lamy,Auguste,49,174.2,57.0,H,non,aucun,Corse,oui,oui,4035,41667
+Costa,Valentine,29,180.4,78.8,H,non,bac+2,Hauts-de-France,non,oui,2344,41853
+Thierry,Grégoire,75,175.8,59.4,F,oui,master,Auvergne-Rhône-Alpes,non,oui,3526,83676
+Gaudin,Xavier,25,186.5,86.1,H,oui,bac+2,Provence-Alpes-Côte d’Azur,oui,non,1624,42224
+Hamon,Stéphane,29,173.6,50.6,H,non,doctorat,Corse,oui,oui,3186,42209
+Boyer,Pauline,54,174.5,42.0,H,non,aucun,Corse,non,non,1105,41885
+Dias,Paulette,74,167.2,65.5,F,oui,bac+2,Provence-Alpes-Côte d’Azur,non,oui,1048,84174
+Ledoux,Michelle,24,173.9,73.8,F,oui,aucun,Provence-Alpes-Côte d’Azur,non,non,2266,83545
+Blot,Édouard,60,162.4,85.7,F,non,bac+2,Île-de-France,non,non,4486,83794
+Gay,Isaac,59,165.2,60.8,F,non,doctorat,Hauts-de-France,oui,non,3089,84138
+Collin,Bertrand,69,166.4,67.9,F,non,aucun,Provence-Alpes-Côte d’Azur,non,oui,3387,83530
+Bertrand,Audrey,34,150.9,89.8,H,oui,master,Provence-Alpes-Côte d’Azur,oui,non,2587,42269
+Brunel,Alex,28,165.9,68.7,F,non,bac+2,Hauts-de-France,oui,oui,2454,84418
+Hubert,Guillaume,69,152.7,92.4,F,non,doctorat,Hauts-de-France,non,non,2549,83812
+Petit,Geneviève,71,174.4,84.3,F,oui,master,Occitanie,non,oui,1274,84426
+Bonnet,Brigitte,54,174.7,66.0,F,oui,master,Auvergne-Rhône-Alpes,oui,oui,3516,83792
+Toussaint,Renée,45,148.7,68.5,H,oui,doctorat,Auvergne-Rhône-Alpes,non,non,1776,42215
+Parent,Lucas,59,174.3,77.1,H,non,doctorat,Provence-Alpes-Côte d’Azur,non,oui,1650,41613
+Ledoux,Adrien,23,162.9,68.3,F,non,bac,Hauts-de-France,non,non,1424,83546
+Bailly,Zacharie,51,178.4,64.5,F,non,doctorat,Île-de-France,oui,non,500,83792
+Brunet,Marguerite,50,166.3,54.4,H,non,master,Provence-Alpes-Côte d’Azur,non,non,542,41653
+Leconte,Tristan,54,157.6,71.6,F,non,bac+2,Provence-Alpes-Côte d’Azur,oui,oui,4094,83917
+Ferreira,Paul,60,173.1,60.9,F,oui,bac,Normandie,oui,oui,3047,83985
+Marie,Luc,74,165.4,59.6,F,non,doctorat,Occitanie,non,non,1114,83963
+Aubry,Stéphane,34,152.5,64.2,F,oui,bac,Hauts-de-France,oui,non,2689,84106
+Leconte,Roger,56,169.0,63.8,F,oui,master,Île-de-France,oui,oui,1365,83788
+Caron,Marc,18,176.1,50.2,H,non,master,Normandie,non,oui,3431,42183
+Philippe,Lucas,70,160.0,58.7,F,non,bac+2,Provence-Alpes-Côte d’Azur,oui,oui,739,83719
+Clerc,Margaux,30,165.0,84.6,H,oui,bac,Île-de-France,oui,oui,3118,42221
+Faivre,Georges,27,179.8,77.8,H,non,doctorat,Corse,oui,oui,1175,41592
+Gilles,Raymond,47,166.7,58.3,H,non,master,Île-de-France,oui,oui,4096,41644
+Morin,Nicole,27,158.0,83.4,F,non,master,Île-de-France,non,oui,3571,84299
+Garnier,Michel,30,188.3,63.9,F,non,aucun,Auvergne-Rhône-Alpes,oui,oui,3354,83888
+Perrot,Marine,72,192.8,60.7,F,non,master,Bretagne,oui,oui,657,83550
+Guillon,Diane,49,151.2,80.7,F,oui,aucun,Île-de-France,non,oui,500,84376
+Morin,Frédérique,53,166.3,76.6,H,non,master,Occitanie,oui,oui,2722,41913
+Rey,Tristan,59,174.3,73.3,F,non,master,Île-de-France,oui,oui,4034,84369
+Neveu,Océane,30,160.5,59.8,F,non,master,Corse,oui,oui,1572,84038
+Marty,Denis,61,178.3,83.5,F,non,bac,Bretagne,non,non,3041,84048
+Le Gall,Théophile,71,181.8,52.3,F,non,bac,Corse,non,non,4500,84479
+Fabre,Hortense,23,185.2,81.0,F,oui,bac,Corse,oui,non,4638,83827
+Weber,Colette,24,153.4,62.1,F,non,bac+2,Corse,oui,oui,1617,84297
+Legros,Jeanne,19,177.2,54.2,F,non,bac+2,Hauts-de-France,oui,non,3408,83537
+Briand,René,75,183.7,80.4,H,oui,bac+2,Normandie,oui,non,2840,41702
+Launay,Bernadette,25,160.1,57.3,H,non,bac+2,Auvergne-Rhône-Alpes,non,non,3999,41758
+Bouvier,Agnès,67,177.8,69.4,F,oui,doctorat,Provence-Alpes-Côte d’Azur,oui,non,1998,84090
+Dumas,Hortense,46,149.7,53.9,F,oui,aucun,Provence-Alpes-Côte d’Azur,oui,oui,4793,83721
+Delannoy,Sébastien,28,157.2,72.8,H,oui,bac+2,Hauts-de-France,non,non,3708,41921
+Germain,Célina,66,157.5,72.8,F,oui,bac,Auvergne-Rhône-Alpes,non,non,3625,84235
+Baron,Éric,25,170.1,113.0,H,non,master,Île-de-France,oui,non,500,41879
+Guichard,Josette,48,180.6,67.4,F,non,doctorat,Hauts-de-France,oui,oui,3426,84254
+Diaz,Christophe,63,174.4,59.0,F,non,bac,Hauts-de-France,non,non,2774,83798
+Blanchard,Daniel,26,151.4,79.0,F,non,master,Occitanie,non,non,2857,83826
+Legendre,Alexandrie,46,176.4,85.9,H,oui,doctorat,Provence-Alpes-Côte d’Azur,oui,oui,2941,42020
+Hubert,Marc,43,171.5,56.8,H,non,aucun,Normandie,oui,non,1645,41782
+Lebreton,Sébastien,59,181.9,91.5,H,oui,doctorat,Bretagne,non,oui,2214,41701
+Martel,Olivie,61,170.5,56.4,F,non,bac+2,Île-de-France,non,non,3907,84207
+Hamel,Noël,57,176.7,99.1,H,non,master,Corse,non,non,1446,41774
+Bazin,Thibault,74,166.2,73.5,F,oui,bac+2,Provence-Alpes-Côte d’Azur,oui,oui,3275,84316
+Carre,Adèle,42,167.8,56.9,H,non,bac,Provence-Alpes-Côte d’Azur,non,oui,3557,41546
+Parent,Michel,66,177.2,56.3,H,oui,aucun,Bretagne,oui,non,4126,41783
+Guillaume,Raymond,37,181.7,72.0,F,oui,aucun,Auvergne-Rhône-Alpes,non,non,2595,83970
+Hamon,Lorraine,40,175.5,57.1,H,oui,aucun,Occitanie,non,oui,2536,41843
+Camus,Bertrand,18,148.5,83.1,F,non,bac,Corse,non,oui,626,84084
+Barbe,Richard,60,185.0,65.0,H,non,doctorat,Corse,oui,oui,2245,42216
+Vaillant,Alexandre,55,163.7,65.7,H,non,master,Provence-Alpes-Côte d’Azur,oui,non,4202,42220
+Maury,Hélène,71,145.1,89.2,F,oui,aucun,Île-de-France,non,non,2905,84429
+Moreau,Bernadette,48,157.9,53.9,H,non,aucun,Auvergne-Rhône-Alpes,non,oui,4511,42287
+Letellier,Sabine,51,160.5,52.7,F,non,doctorat,Occitanie,non,non,3864,83910
+Étienne,Marthe,62,173.4,55.9,F,non,bac,Hauts-de-France,oui,oui,2759,84029
+Devaux,Céline,47,159.7,86.5,H,oui,bac,Occitanie,non,oui,3773,42000
+Duval,Alain,28,175.3,75.4,F,oui,doctorat,Normandie,oui,oui,4613,83662
+Camus,Xavier,54,170.0,52.3,F,oui,doctorat,Hauts-de-France,oui,oui,3039,84437
+Munoz,Lucas,41,190.9,54.8,F,non,master,Île-de-France,oui,oui,2066,84207
+Joseph,Suzanne,55,174.2,69.2,F,oui,bac+2,Bretagne,oui,oui,1321,83582
+Mathieu,Brigitte,65,181.2,104.8,F,oui,aucun,Auvergne-Rhône-Alpes,oui,non,2735,84231
+Diallo,Jacques,44,161.0,46.8,F,non,doctorat,Occitanie,non,non,2809,84124
+Poulain,Sabine,48,181.0,77.1,H,oui,doctorat,Occitanie,non,non,2497,42221
+Courtois,Daniel,27,164.1,53.6,F,oui,doctorat,Normandie,non,oui,3501,84378
+Robin,Geneviève,43,179.1,46.8,F,oui,master,Bretagne,oui,non,4407,84119
+Potier,Gilbert,63,175.7,91.0,H,non,doctorat,Provence-Alpes-Côte d’Azur,oui,oui,889,42363
+Jacquot,Emmanuelle,57,156.3,67.8,H,oui,master,Île-de-France,oui,non,3103,42351
+Perez,Marianne,52,188.0,80.6,H,oui,bac+2,Corse,oui,non,2208,42481
+Rousseau,Roland,71,159.7,88.5,F,oui,doctorat,Auvergne-Rhône-Alpes,non,oui,1342,84181
+Boucher,Michèle,49,186.3,65.7,H,non,master,Hauts-de-France,non,oui,4408,41590
+Bernier,Madeleine,51,176.8,67.9,F,non,bac+2,Provence-Alpes-Côte d’Azur,oui,non,1876,83783
+Jourdan,Agnès,52,166.6,76.4,H,non,bac,Hauts-de-France,non,non,2592,41843
+Michaud,Michèle,27,164.1,67.5,F,non,bac,Île-de-France,non,oui,2594,84298
+Carpentier,Henri,63,148.7,76.9,H,non,master,Provence-Alpes-Côte d’Azur,non,oui,1324,42232
+Rousseau,Émile,75,158.5,44.7,F,non,master,Provence-Alpes-Côte d’Azur,oui,oui,500,84154
+Devaux,Anaïs,66,156.4,59.4,H,non,doctorat,Normandie,oui,oui,4843,42288
+Maréchal,Philippine,38,164.7,72.7,F,non,aucun,Occitanie,oui,oui,2980,83523
+Clerc,Bertrand,32,171.3,68.8,H,non,doctorat,Provence-Alpes-Côte d’Azur,oui,non,1065,41681
+Louis,Henri,59,184.5,97.1,H,non,doctorat,Normandie,non,oui,500,42318
+Lefebvre,Margaud,58,159.8,65.8,H,oui,bac+2,Hauts-de-France,oui,oui,1342,41609
+Buisson,Marine,45,175.1,59.1,F,oui,aucun,Occitanie,non,non,5098,83701
+Roy,Pauline,28,181.9,73.2,H,oui,master,Bretagne,non,non,3732,42190
+Laine,Victor,42,181.1,61.5,F,oui,doctorat,Bretagne,oui,oui,1520,83672
+Guillon,Nathalie,52,170.8,82.9,H,non,aucun,Normandie,oui,non,2666,42421
+Bigot,William,64,154.2,58.0,F,non,bac,Auvergne-Rhône-Alpes,non,non,2411,83659
+Maillet,Anastasie,66,169.2,99.6,F,non,bac,Auvergne-Rhône-Alpes,non,oui,836,84236
+Jourdan,Renée,56,175.1,92.3,F,oui,bac,Île-de-France,non,oui,5225,84223
+Vaillant,Charles,18,166.0,77.4,H,non,doctorat,Occitanie,non,oui,3183,41638
+Boulay,Claude,68,172.0,68.5,H,oui,master,Provence-Alpes-Côte d’Azur,non,non,3023,42105
+Mace,Éric,42,144.7,80.2,F,non,bac,Île-de-France,oui,oui,2651,84043
+Pottier,Valérie,30,167.8,100.7,F,oui,bac,Île-de-France,non,non,1690,84347
+Roger,Emmanuel,63,166.0,99.9,F,oui,aucun,Bretagne,oui,oui,1501,83642
+Fernandez,Paulette,49,164.5,67.8,F,oui,bac+2,Occitanie,oui,oui,3508,84143
+Collet,Jeannine,70,172.1,50.6,F,oui,bac+2,Occitanie,oui,oui,1861,84011
+Fischer,Suzanne,60,163.9,68.8,H,oui,doctorat,Hauts-de-France,oui,oui,3011,42338
+Lopez,Danielle,54,174.2,43.4,H,non,bac,Île-de-France,non,non,3776,42312
+Rivière,Thierry,74,172.5,90.8,F,oui,master,Île-de-France,non,oui,3033,84147
+Lévêque,Éric,44,181.0,77.0,F,oui,doctorat,Occitanie,non,oui,4115,83670
+Leduc,Thérèse,66,175.2,68.5,H,oui,aucun,Bretagne,non,oui,5226,41999
+Grégoire,Joseph,38,178.9,78.6,H,non,bac,Auvergne-Rhône-Alpes,oui,non,968,42298
+Lemonnier,Catherine,69,157.1,74.4,H,oui,master,Provence-Alpes-Côte d’Azur,oui,oui,2674,42414
+Duhamel,Théodore,39,163.9,72.1,F,oui,aucun,Île-de-France,non,oui,4406,83920
+Meyer,Stéphane,19,177.0,52.9,F,non,bac,Provence-Alpes-Côte d’Azur,non,oui,2366,83578
+Daniel,Julien,39,162.0,64.2,H,non,doctorat,Corse,oui,non,2003,41970
+Delattre,Océane,57,165.2,51.2,F,oui,master,Provence-Alpes-Côte d’Azur,oui,non,2346,83573
+Jourdan,André,20,164.4,26.1,F,non,aucun,Hauts-de-France,oui,non,4963,83819
+Marion,Suzanne,46,180.9,64.4,H,non,doctorat,Normandie,oui,oui,2522,41585
+Couturier,Laure,21,158.3,95.4,H,non,master,Normandie,oui,non,4776,42131
+Vidal,Honoré,44,171.6,85.4,H,oui,master,Normandie,non,non,2710,42373
+Munoz,Renée,74,156.6,63.8,H,non,aucun,Occitanie,non,oui,2658,41731
+Tessier,Édouard,24,165.5,66.7,H,oui,doctorat,Provence-Alpes-Côte d’Azur,oui,non,2390,41968
+Alexandre,Juliette,26,169.2,70.8,F,non,master,Occitanie,non,oui,1227,83846
+Delaunay,Éléonore,26,162.8,50.7,H,oui,bac,Bretagne,non,oui,3673,41634
+Besnard,Grégoire,59,148.9,87.3,F,non,doctorat,Hauts-de-France,oui,oui,4163,83714
+Maillard,Alex,56,167.0,31.0,F,non,bac+2,Île-de-France,oui,oui,2066,83931
+Marie,Charles,50,169.4,54.8,H,non,bac+2,Corse,oui,non,1881,41850
+Rolland,Claire,30,185.3,80.0,H,non,bac,Occitanie,non,oui,1390,42448
+Letellier,Jules,39,154.0,65.1,F,non,master,Auvergne-Rhône-Alpes,oui,oui,2243,83950
+Payet,Maggie,74,175.0,62.0,H,non,bac,Île-de-France,oui,non,3113,42045
+Ledoux,Antoine,47,189.4,82.2,H,oui,master,Auvergne-Rhône-Alpes,non,oui,2442,42467
+Fontaine,Michel,29,168.2,64.6,H,non,aucun,Provence-Alpes-Côte d’Azur,non,oui,3916,41872
+Charrier,Denis,25,163.7,70.7,H,non,master,Corse,non,oui,2561,41830
+Courtois,Julien,19,165.0,49.4,H,oui,bac+2,Hauts-de-France,oui,non,2887,42241
+Cohen,Alain,64,169.4,77.5,H,non,doctorat,Corse,oui,oui,1859,41993
+Grondin,Jérôme,29,182.2,56.8,F,oui,aucun,Hauts-de-France,non,non,4554,83678
+Maréchal,Christiane,74,152.5,76.5,H,non,bac,Bretagne,non,oui,3070,41590
+Andre,Odette,69,162.0,76.4,F,oui,doctorat,Normandie,oui,oui,4035,83888
+Verdier,Victor,74,147.8,77.5,H,oui,bac,Normandie,non,oui,500,42134
+Carre,Jeanne,45,160.3,94.4,H,oui,doctorat,Corse,non,non,1801,42054
+Blanchet,Adrien,38,158.3,67.0,H,oui,bac+2,Hauts-de-France,non,oui,4981,42171
+Leduc,Noémi,23,151.7,54.2,F,oui,bac,Normandie,non,oui,4296,83783
+Marty,Marc,47,188.6,68.4,H,non,bac+2,Occitanie,non,oui,1013,41778
+Pelletier,Marianne,55,191.0,93.9,F,oui,bac,Corse,oui,oui,3314,84489
+Fleury,Céline,33,161.9,69.3,F,oui,bac+2,Normandie,non,oui,2307,84061
+Baron,Danielle,71,173.3,91.8,F,non,doctorat,Provence-Alpes-Côte d’Azur,oui,non,3555,83562
+Rousset,Claire,36,159.2,90.6,F,non,bac,Île-de-France,non,oui,2875,83771
+Collet,Philippe,39,176.9,92.0,F,non,master,Normandie,non,oui,1166,84030
+Labbé,Hélène,49,169.6,62.0,F,non,master,Île-de-France,oui,oui,618,84436
+Charrier,Frédéric,34,173.5,107.7,H,non,aucun,Bretagne,oui,non,500,42397
+Lemaître,Patrick,32,169.7,79.6,H,oui,aucun,Auvergne-Rhône-Alpes,oui,oui,2647,42220
+Roux,Lucas,39,168.9,50.5,H,non,bac+2,Bretagne,non,oui,2779,42431
+Dumas,Victoire,56,162.4,37.2,H,non,aucun,Bretagne,non,non,3933,42211
+Guérin,Paulette,68,179.6,70.8,F,non,doctorat,Île-de-France,non,non,2774,84033
+Rossi,Françoise,66,180.7,73.4,H,non,bac,Corse,oui,oui,3584,42152
+Potier,Anastasie,51,167.0,89.7,F,non,bac+2,Provence-Alpes-Côte d’Azur,non,non,2884,83513
+Lefèvre,Alex,45,171.9,50.9,F,oui,master,Occitanie,oui,oui,2844,83725
+Michel,Marianne,54,161.7,60.4,H,non,aucun,Occitanie,non,oui,1521,42016
+Gérard,Bernard,44,159.3,101.9,F,non,doctorat,Bretagne,non,oui,4097,83769
+Dufour,Adélaïde,54,189.2,51.7,H,oui,bac,Auvergne-Rhône-Alpes,non,non,2585,41905
+Aubry,Margaud,31,157.1,59.6,F,oui,doctorat,Normandie,oui,oui,1398,83612
+Mendès,Marc,39,182.4,64.1,F,non,aucun,Hauts-de-France,oui,non,3782,84322
+Becker,Maryse,29,176.0,104.6,H,non,aucun,Hauts-de-France,oui,oui,724,42008
+Da Costa,Anne,42,182.6,87.2,F,oui,bac,Bretagne,oui,oui,1331,83701
+Guillot,Gilles,41,180.1,75.0,H,oui,bac+2,Normandie,non,oui,2227,42049
+Gautier,Zacharie,25,161.8,59.2,H,non,master,Provence-Alpes-Côte d’Azur,non,non,4959,42416
+Becker,Marcel,73,170.0,81.7,H,oui,bac,Bretagne,non,non,1550,41731
+Guichard,Sébastien,60,162.2,86.2,F,oui,doctorat,Bretagne,oui,oui,880,83836
+Laine,Dominique,61,165.8,70.5,F,non,bac,Île-de-France,oui,oui,2633,84382
+Langlois,Guillaume,70,168.2,75.9,F,oui,doctorat,Auvergne-Rhône-Alpes,non,oui,3331,83996
+Menard,Maryse,54,177.3,55.2,H,oui,bac+2,Occitanie,non,non,2159,41807
+Moreau,Nicolas,63,181.9,83.4,F,non,doctorat,Hauts-de-France,non,oui,852,84171
+Charrier,Élodie,75,173.5,40.3,F,non,master,Hauts-de-France,oui,oui,2556,84408
+Buisson,William,20,189.0,55.8,H,oui,bac+2,Bretagne,oui,non,1498,42066
+Courtois,Nath,64,177.6,46.9,H,non,master,Provence-Alpes-Côte d’Azur,non,oui,1740,42032
+Barbe,Emmanuel,24,176.0,60.5,F,non,master,Hauts-de-France,non,oui,2216,84461
+Monnier,Amélie,20,177.4,76.3,F,oui,aucun,Occitanie,non,oui,2820,84029
+Perrin,André,43,166.6,75.6,H,non,aucun,Île-de-France,non,oui,2351,41670
+Jacquet,Susan,26,174.6,62.5,F,non,master,Occitanie,oui,oui,2280,83666
+Mendès,Emmanuelle,60,160.1,69.5,H,non,bac,Occitanie,non,non,1526,42128
+Blanchet,Colette,28,158.9,73.9,H,oui,bac,Bretagne,oui,oui,2755,42023
+Ollivier,Alex,43,177.8,63.5,H,oui,aucun,Bretagne,oui,oui,2989,42313
+Prévost,Sylvie,29,175.5,76.7,H,oui,doctorat,Corse,non,non,1509,42312
+Blanchard,Élisabeth,71,171.5,75.5,H,non,bac+2,Occitanie,oui,oui,2508,41977
+Guyon,Sophie,21,149.1,72.4,F,oui,bac,Auvergne-Rhône-Alpes,oui,oui,5155,83867
+Hoarau,William,19,166.4,59.1,F,oui,aucun,Auvergne-Rhône-Alpes,oui,non,2948,84114
+Martins,Arnaude,22,173.1,87.9,H,oui,bac,Hauts-de-France,oui,oui,990,42362
+Bouchet,Geneviève,24,177.3,78.9,F,non,doctorat,Corse,oui,non,2329,84052
+Rousset,Antoine,43,173.4,85.4,F,oui,bac,Corse,oui,oui,3546,83584
+Gaillard,Alfred,29,158.6,82.3,H,non,bac+2,Île-de-France,non,oui,2422,42288
+Robert,Jeannine,32,170.7,71.1,H,non,doctorat,Auvergne-Rhône-Alpes,oui,oui,2319,42422
+Guichard,Marine,31,181.9,68.7,F,non,doctorat,Occitanie,oui,non,1156,83579
+Bernard,Luc,68,166.1,72.7,H,non,aucun,Auvergne-Rhône-Alpes,non,non,3975,41533
+Paul,Yves,67,176.0,57.2,H,non,bac,Auvergne-Rhône-Alpes,non,oui,5482,42347
+Prévost,Alexandre,19,172.6,89.1,F,non,doctorat,Corse,oui,oui,2317,83838
+Briand,Capucine,57,175.3,82.6,H,non,bac,Normandie,oui,non,3961,41550
+Guyot,Monique,21,180.6,83.1,H,non,master,Bretagne,oui,oui,2121,42309
+Merle,Timothée,31,164.3,75.0,H,oui,doctorat,Occitanie,non,oui,3619,41849
+Daniel,Théophile,38,167.8,86.0,H,non,bac+2,Île-de-France,oui,non,4243,41898
+Le Gall,Christiane,39,160.8,57.4,F,oui,bac,Île-de-France,oui,non,2331,83885
+Gautier,Lucie,62,173.1,62.1,H,non,doctorat,Auvergne-Rhône-Alpes,oui,oui,4122,42486
+Breton,Henri,18,174.2,70.6,H,non,aucun,Corse,oui,non,776,41667
+Goncalves,Antoinette,27,156.8,74.2,H,oui,aucun,Hauts-de-France,oui,oui,500,41689
+Guillaume,Bertrand,23,180.1,67.6,F,non,bac+2,Hauts-de-France,oui,oui,6391,84422
+Blanchard,Constance,29,193.1,67.3,H,non,bac+2,Occitanie,oui,oui,2372,42192
+Alves,Gilbert,68,180.0,95.5,F,oui,bac+2,Normandie,non,oui,534,84279
+Dos Santos,André,46,152.1,60.7,F,non,bac,Occitanie,oui,non,3199,83624
+Gautier,Nicolas,45,175.0,86.0,H,non,doctorat,Hauts-de-France,oui,oui,1060,42271
+Pascal,Alix,47,146.8,82.9,F,non,bac+2,Normandie,non,oui,1506,84390
+Daniel,Nath,26,149.8,72.2,F,oui,bac,Corse,oui,oui,3451,84388
+Raymond,Jeannine,50,168.8,63.1,F,non,master,Normandie,non,non,2308,83664
+Legros,Agnès,41,166.3,49.8,F,non,bac+2,Provence-Alpes-Côte d’Azur,non,non,1642,83598
+Dufour,Rémy,25,175.2,74.8,F,oui,bac,Normandie,non,non,2701,84042
+Bernier,Olivie,66,160.0,67.3,F,non,bac+2,Île-de-France,non,non,500,83722
+Lévy,Michèle,65,171.8,91.4,H,oui,master,Île-de-France,non,non,731,42275
+Roche,Franck,61,164.1,74.9,H,oui,bac+2,Occitanie,oui,oui,4003,42464
+Briand,Pénélope,56,165.5,59.6,H,oui,aucun,Provence-Alpes-Côte d’Azur,non,oui,500,42087
+Perrier,Marine,55,171.0,100.6,H,oui,master,Hauts-de-France,non,oui,2832,42153
+Grégoire,Manon,37,169.8,74.8,F,non,master,Provence-Alpes-Côte d’Azur,oui,non,2486,84324
+Gautier,David,67,161.9,82.3,F,oui,bac+2,Corse,non,non,2770,84444
+Dubois,Julien,18,170.2,55.4,H,non,aucun,Provence-Alpes-Côte d’Azur,oui,non,4064,41743
+Bruneau,Richard,44,176.6,61.7,F,non,master,Hauts-de-France,oui,oui,3702,84414
+Traore,Gabriel,63,165.0,58.3,H,oui,master,Hauts-de-France,oui,oui,1588,41719
+Perrier,Catherine,70,152.3,77.1,H,oui,bac,Île-de-France,oui,non,500,41975
+Boulanger,Caroline,30,157.7,38.9,F,non,master,Provence-Alpes-Côte d’Azur,oui,oui,2396,84074
+Roger,Clémence,23,168.5,65.1,F,oui,bac+2,Provence-Alpes-Côte d’Azur,non,oui,1248,83820
+Adam,Christiane,33,158.3,77.0,F,non,aucun,Île-de-France,oui,oui,1839,84470
+Collet,Auguste,18,173.2,56.7,H,oui,bac,Île-de-France,non,non,2717,42344
+Lopes,Éléonore,66,183.0,78.8,F,non,master,Auvergne-Rhône-Alpes,non,oui,2005,84043
+Olivier,Thibault,61,172.6,66.4,F,non,bac,Auvergne-Rhône-Alpes,non,oui,2509,83619
+Dupré,Charlotte,21,166.7,67.5,F,non,aucun,Île-de-France,non,non,2754,83683
+Coulon,Emmanuel,43,160.1,54.8,H,oui,doctorat,Provence-Alpes-Côte d’Azur,non,non,833,42176
+Fournier,Christophe,66,154.0,51.7,H,non,master,Occitanie,non,non,2691,42008
+Laurent,Adrienne,18,161.1,77.7,F,oui,bac+2,Île-de-France,non,non,2541,83807
+Rolland,Denise,32,150.3,79.8,F,non,doctorat,Provence-Alpes-Côte d’Azur,non,oui,3472,83801
+Raymond,Raymond,48,160.1,76.3,H,non,bac+2,Corse,oui,non,1472,42051
+Bailly,Claude,74,171.0,51.0,H,oui,master,Provence-Alpes-Côte d’Azur,non,non,500,41746
+Launay,Thomas,53,166.2,68.1,F,oui,master,Provence-Alpes-Côte d’Azur,non,non,2022,84486
+Perrot,Yves,33,158.2,64.0,H,oui,bac,Provence-Alpes-Côte d’Azur,oui,oui,2823,42279
+Lebreton,Thierry,63,169.6,72.7,H,oui,bac+2,Normandie,non,oui,1695,41507
+Bouchet,Guy,34,181.7,52.4,F,oui,bac,Occitanie,oui,non,3085,84491
+Hamon,Frédéric,39,181.8,77.2,H,oui,bac+2,Normandie,non,non,2256,42187
+Benoit,Nathalie,68,164.7,85.5,F,oui,bac,Bretagne,oui,oui,792,83666
+Roussel,Jacqueline,25,160.3,64.0,H,non,doctorat,Corse,oui,oui,3985,42167
+Bernier,Auguste,26,173.8,55.5,F,non,doctorat,Île-de-France,non,oui,2127,84434
+Blanc,Dorothée,52,163.9,59.4,H,non,master,Auvergne-Rhône-Alpes,non,non,3674,42000
+Maillot,Agathe,68,156.3,94.1,H,oui,aucun,Normandie,oui,oui,3493,41663
+Carre,Emmanuel,47,180.9,63.1,F,oui,bac+2,Corse,non,non,2320,83831
+Turpin,Louise,27,155.7,62.1,F,oui,aucun,Auvergne-Rhône-Alpes,non,oui,3092,84347
+Picard,Sébastien,62,183.0,53.4,H,non,doctorat,Occitanie,oui,oui,2061,42241
+Andre,Frédérique,63,168.5,49.1,F,oui,bac+2,Hauts-de-France,oui,non,3209,84460
+Le Roux,Corinne,69,162.8,67.1,H,oui,bac,Occitanie,non,oui,1957,42062
+Jacob,Jules,70,162.1,69.9,H,oui,doctorat,Normandie,non,oui,2241,42095
+Martineau,Anne,48,166.3,59.1,F,non,master,Provence-Alpes-Côte d’Azur,non,oui,2883,84085
+Baudry,René,30,186.5,72.1,F,oui,bac,Auvergne-Rhône-Alpes,oui,non,3695,83618
+Peltier,Michelle,63,156.1,72.4,F,non,bac,Hauts-de-France,non,non,1183,83697
+Bazin,Joseph,36,155.2,58.9,H,oui,bac,Corse,oui,oui,3930,41877
+Bourdon,Nicolas,72,179.5,73.6,H,oui,master,Normandie,oui,non,660,41520
+Morvan,Vincent,24,168.0,74.5,F,non,bac,Île-de-France,oui,non,2710,83929
+Carre,Roger,59,151.6,56.6,F,non,bac,Normandie,oui,oui,2423,83851
+Étienne,Aurore,33,175.4,37.1,F,non,bac+2,Hauts-de-France,non,non,2305,83562
+Delannoy,Cécile,68,171.4,82.7,H,non,master,Bretagne,non,oui,3331,41577
+Vallet,Sabine,25,175.8,58.0,H,oui,aucun,Occitanie,oui,oui,500,42247
+Masson,Victor,54,166.1,85.0,F,non,aucun,Hauts-de-France,non,oui,4172,83540
+Blot,Emmanuelle,59,177.1,76.4,F,non,doctorat,Hauts-de-France,oui,oui,2955,83586
+Schneider,Clémence,63,164.4,68.0,H,non,aucun,Normandie,non,oui,4502,42190
+Jacques,Laurent,71,160.6,94.2,H,oui,aucun,Hauts-de-France,oui,oui,2113,42319
+Leclerc,Laurent,46,183.3,48.9,F,oui,aucun,Hauts-de-France,oui,non,3203,83946
+Benard,Amélie,23,162.6,48.8,F,oui,aucun,Provence-Alpes-Côte d’Azur,non,oui,2762,84449
+Benard,Christophe,52,180.1,57.3,H,non,aucun,Corse,non,oui,701,42230
+Guérin,Isabelle,51,169.1,68.7,F,non,bac,Occitanie,non,oui,3157,84365
+Bousquet,Éléonore,40,179.5,69.1,H,oui,aucun,Corse,oui,oui,4726,42291
+Rodriguez,Laurence,37,172.2,64.8,H,oui,doctorat,Corse,non,oui,566,42339
+Mallet,Aimée,64,167.4,65.0,F,oui,doctorat,Bretagne,non,oui,3652,84064
+Da Costa,Geneviève,75,174.6,52.3,H,non,master,Provence-Alpes-Côte d’Azur,non,non,2706,41775
+Weber,Aimée,62,176.7,92.9,H,oui,aucun,Bretagne,oui,non,3565,41907
+Philippe,Philippe,54,177.6,70.9,H,non,bac,Auvergne-Rhône-Alpes,non,oui,2965,41911
+Diallo,Aurore,56,182.5,50.0,H,oui,bac+2,Provence-Alpes-Côte d’Azur,oui,non,2080,41545
+Regnier,Arnaude,44,162.3,75.7,H,non,aucun,Auvergne-Rhône-Alpes,non,non,3976,41957
+Gonzalez,Clémence,27,164.0,34.1,H,non,aucun,Provence-Alpes-Côte d’Azur,non,non,2005,42475
+Grondin,Noël,32,179.1,78.1,F,oui,aucun,Hauts-de-France,non,oui,3013,83744
+Leclercq,Thibault,69,167.2,50.8,F,oui,doctorat,Auvergne-Rhône-Alpes,non,oui,3118,84441
+Leclercq,David,56,161.7,102.8,H,oui,bac,Auvergne-Rhône-Alpes,non,oui,3184,41814
+Jacques,Alix,69,164.2,60.8,F,non,doctorat,Hauts-de-France,non,oui,2388,84161
+Morin,Chantal,50,167.6,86.8,H,oui,bac,Normandie,non,oui,2723,41908
+Rémy,Martin,64,162.7,98.4,F,oui,doctorat,Normandie,non,oui,2559,84340
+Germain,Cécile,40,177.7,60.9,F,non,bac+2,Normandie,oui,oui,2935,84297
+Pottier,Brigitte,72,173.1,41.7,H,non,master,Auvergne-Rhône-Alpes,oui,non,4918,41933
+Roche,Édith,22,182.9,64.0,H,oui,bac,Île-de-France,oui,non,1177,41913
+Goncalves,Inès,53,173.5,71.3,F,oui,master,Hauts-de-France,non,oui,2926,84401
+Grenier,Richard,61,171.9,77.6,H,non,aucun,Corse,oui,non,4236,41733
+Legros,Bertrand,62,175.7,54.3,F,oui,doctorat,Île-de-France,non,non,4135,84130
+Laroche,Émilie,61,186.4,117.3,H,oui,aucun,Auvergne-Rhône-Alpes,oui,oui,1151,42314
+Bègue,Madeleine,21,172.4,38.8,F,non,master,Hauts-de-France,non,non,3163,84423
+Thibault,Émilie,39,164.5,98.9,H,oui,bac+2,Bretagne,non,oui,1570,41814
+Bonnin,Bernard,31,153.1,62.9,H,non,bac,Bretagne,oui,non,500,42488
+Lopes,Théodore,75,177.5,39.0,F,oui,bac+2,Île-de-France,non,oui,2534,84035
+Cordier,Élisabeth,40,149.2,65.2,H,oui,bac+2,Hauts-de-France,non,oui,4472,42055
+Dubois,Gilles,24,173.6,57.0,F,non,bac,Provence-Alpes-Côte d’Azur,oui,oui,2462,84275
+Antoine,Charlotte,49,170.2,77.1,H,oui,bac+2,Corse,non,oui,859,41685
+Godard,Océane,37,175.9,29.4,F,non,bac,Bretagne,oui,non,1744,84028
+Rodrigues,Thérèse,60,165.1,79.5,F,oui,bac,Auvergne-Rhône-Alpes,non,oui,2527,84052
+Vallet,Anaïs,74,155.9,55.2,H,oui,bac,Bretagne,oui,oui,2738,42152
+Girard,Constance,44,169.2,61.3,F,oui,bac,Corse,non,non,1922,83974
+Berthelot,Théophile,35,177.0,62.2,H,non,master,Occitanie,oui,oui,2394,41998
+Collin,Alexandrie,66,191.7,48.6,F,non,bac,Provence-Alpes-Côte d’Azur,oui,non,500,84244
+Lemoine,Michèle,26,177.8,59.8,H,non,doctorat,Île-de-France,oui,oui,2118,42168
+Martel,Auguste,71,162.2,66.1,F,non,doctorat,Île-de-France,non,oui,4418,84261
+Dupuy,Laetitia,36,178.0,82.9,F,oui,master,Corse,oui,non,800,83825
+Delannoy,Laurent,29,158.5,27.4,H,non,aucun,Bretagne,oui,non,1528,41798
+Philippe,Margaud,45,179.6,77.8,H,non,aucun,Hauts-de-France,oui,non,2234,41839
+Blot,Alexandre,55,169.8,59.7,H,oui,aucun,Hauts-de-France,non,oui,2745,42197
+Gomes,Aurore,30,177.7,45.8,H,non,aucun,Corse,oui,non,2859,42231
+Pottier,Catherine,42,179.3,63.8,F,non,bac,Corse,non,oui,3340,84282
+Lemaître,Adélaïde,21,198.1,68.4,F,oui,bac+2,Provence-Alpes-Côte d’Azur,non,oui,2971,84391
+Morel,Catherine,40,162.6,72.7,F,oui,bac+2,Île-de-France,oui,oui,3052,83887
+Reynaud,Madeleine,21,171.9,54.7,F,oui,bac+2,Occitanie,non,non,2747,83822
+Joubert,Théodore,24,184.6,76.7,F,oui,bac+2,Occitanie,non,oui,3654,84138
+Gallet,Noël,25,167.6,81.2,H,oui,doctorat,Hauts-de-France,non,oui,2835,42325
+Arnaud,Éric,69,160.5,74.8,F,non,bac,Bretagne,oui,oui,1309,84403
+Ruiz,Alex,23,163.7,72.8,H,oui,doctorat,Provence-Alpes-Côte d’Azur,oui,oui,2856,41576
+Riou,Éléonore,74,158.1,85.8,H,oui,master,Provence-Alpes-Côte d’Azur,oui,non,3186,42444
+Lecomte,Édith,57,163.0,46.9,F,non,master,Corse,oui,oui,2326,84205
+Hervé,Denise,30,165.5,71.7,F,non,doctorat,Auvergne-Rhône-Alpes,non,oui,2064,83554
+Dumas,Frédéric,63,149.9,64.2,H,non,aucun,Occitanie,non,oui,2133,42409
+Hamon,Agathe,50,176.3,59.5,H,oui,doctorat,Bretagne,oui,oui,4514,42431
+Grenier,Olivier,54,150.9,89.7,H,oui,master,Occitanie,oui,oui,2230,42214
+Garcia,Marie,66,178.6,71.2,F,non,master,Bretagne,oui,oui,3867,84426
+Chevalier,André,28,166.1,53.5,H,oui,doctorat,Occitanie,non,oui,4204,41860
+Rolland,Jules,32,168.9,73.3,F,non,doctorat,Provence-Alpes-Côte d’Azur,oui,oui,3981,84305
+Perrier,Lucy,52,159.7,78.9,H,non,aucun,Hauts-de-France,non,non,1792,41595
+Regnier,Jean,35,168.7,71.1,H,oui,bac,Provence-Alpes-Côte d’Azur,oui,non,699,41812
+Robin,Monique,58,162.2,90.3,F,non,aucun,Bretagne,oui,oui,3563,84463
+Fontaine,Luce,57,169.4,73.6,F,non,aucun,Île-de-France,non,oui,2146,83674
+Rousseau,Dorothée,35,183.6,67.0,H,non,aucun,Provence-Alpes-Côte d’Azur,non,non,2778,42063
+Benard,Anaïs,34,181.5,58.3,H,non,bac,Auvergne-Rhône-Alpes,non,oui,4370,42479
+Thierry,Alice,58,154.7,94.4,F,oui,master,Corse,non,oui,2052,84207
+Mathieu,Michelle,75,167.6,41.6,F,oui,master,Hauts-de-France,non,oui,1954,83764
+Pascal,Chantal,73,159.6,60.9,H,oui,doctorat,Occitanie,oui,non,2335,41938
+Guillaume,Aurore,19,179.6,73.1,F,oui,bac,Normandie,oui,oui,2869,83800
+Boulay,Maggie,22,159.0,56.8,F,oui,master,Normandie,oui,non,4658,84404
+Toussaint,Bernadette,26,162.6,94.8,H,oui,master,Normandie,oui,oui,2208,41860
+Pons,Célina,18,170.0,86.1,H,oui,bac,Provence-Alpes-Côte d’Azur,non,oui,4026,41632
+Fernandez,Laure,58,168.9,64.2,H,oui,aucun,Auvergne-Rhône-Alpes,oui,oui,2432,41744
+Thibault,Alice,48,173.4,83.4,F,oui,bac+2,Auvergne-Rhône-Alpes,non,oui,2505,83949
+Antoine,Suzanne,21,176.2,94.6,F,oui,aucun,Île-de-France,oui,oui,2957,83647
+Gomes,Antoinette,24,173.1,47.2,F,oui,aucun,Corse,oui,oui,500,83857
+Leroux,Laetitia,42,173.9,68.6,H,non,bac+2,Corse,non,non,1882,41880
+Hoarau,Éléonore,63,172.4,69.1,H,non,bac,Provence-Alpes-Côte d’Azur,oui,oui,3853,41814
+Clément,Émilie,36,170.9,58.8,F,oui,doctorat,Auvergne-Rhône-Alpes,oui,oui,3688,84373
+Lecomte,Léon,23,167.8,77.9,H,oui,bac,Normandie,non,oui,1927,42031
+Peron,Jeannine,61,163.5,71.3,F,oui,bac+2,Bretagne,non,non,2515,83656
+Philippe,Corinne,35,174.8,66.0,F,non,bac+2,Provence-Alpes-Côte d’Azur,oui,non,500,83981
+Da Silva,Patricia,27,165.7,81.9,H,non,bac,Normandie,non,non,2143,42225
+Allain,Laurent,68,167.5,84.8,F,oui,aucun,Normandie,non,oui,1645,84197
+Henry,Michelle,38,154.6,67.6,H,oui,master,Auvergne-Rhône-Alpes,non,oui,1918,41956
+Auger,Pénélope,48,160.3,67.4,F,non,bac,Corse,non,oui,3089,83583
+Jacques,Madeleine,49,169.9,74.6,F,oui,master,Provence-Alpes-Côte d’Azur,non,oui,4676,83522
+Joly,William,67,166.6,74.2,H,oui,bac,Auvergne-Rhône-Alpes,oui,oui,1888,41880
+Lacombe,Aimé,72,161.5,61.2,H,non,doctorat,Occitanie,oui,non,1925,42216
+Becker,Agnès,21,173.6,105.2,F,non,bac,Bretagne,non,oui,1640,83857
+Huet,Benoît,72,165.8,69.1,F,oui,bac,Corse,oui,non,2974,83837
+Mendès,Sylvie,25,172.6,89.3,H,non,aucun,Normandie,non,oui,500,41929
+Guillot,Grégoire,24,146.1,62.6,H,non,doctorat,Hauts-de-France,oui,oui,3816,41785
+Guérin,Inès,27,154.3,24.9,H,oui,aucun,Île-de-France,non,oui,3185,42450
+Auger,Laure,29,172.4,53.6,F,oui,doctorat,Bretagne,non,oui,1317,83602
+Hamon,Arnaude,39,160.3,71.7,F,oui,bac+2,Provence-Alpes-Côte d’Azur,oui,oui,1748,83637
+Jacquet,Zoé,59,174.9,27.2,H,oui,doctorat,Hauts-de-France,oui,oui,1471,42047
+Bourdon,Stéphanie,45,158.7,66.2,F,non,doctorat,Bretagne,oui,oui,1854,84006
+Weiss,Philippe,28,178.0,42.1,F,oui,doctorat,Normandie,oui,non,2554,84470
+Petitjean,Anaïs,43,175.6,97.8,H,oui,master,Hauts-de-France,oui,non,1921,42325
+Carre,Honoré,47,173.2,42.9,F,non,master,Normandie,oui,oui,500,84196
+Normand,Inès,41,178.4,69.9,F,oui,bac+2,Provence-Alpes-Côte d’Azur,oui,oui,3914,84074
+Blondel,Daniel,56,156.3,77.8,F,oui,bac,Bretagne,oui,oui,4742,84340
+Adam,Zoé,22,174.2,74.1,H,oui,bac+2,Corse,oui,non,2510,42207
+Dupuis,Isabelle,20,154.3,90.3,H,non,aucun,Île-de-France,non,oui,1766,41653
+Hervé,Jeanne,38,175.0,46.6,H,non,aucun,Auvergne-Rhône-Alpes,non,non,1084,41989
+Raymond,Corinne,50,184.4,64.8,H,non,master,Auvergne-Rhône-Alpes,oui,non,4243,41939
+Guérin,Madeleine,24,169.2,42.4,F,non,doctorat,Provence-Alpes-Côte d’Azur,oui,oui,3570,84154
+Poulain,Adrienne,68,164.1,80.5,F,non,doctorat,Île-de-France,non,oui,2530,83535
+Dumas,Luc,61,154.6,72.5,F,oui,aucun,Corse,oui,non,5135,84483
+Besnard,Dominique,59,174.9,69.1,H,oui,doctorat,Auvergne-Rhône-Alpes,non,non,3790,41618
+Pages,Rémy,39,172.1,73.1,F,non,doctorat,Normandie,oui,non,1190,84308
+Roux,Alain,67,172.3,85.5,F,oui,bac,Provence-Alpes-Côte d’Azur,oui,oui,1496,83527
+Godard,Antoine,49,184.2,68.6,H,oui,bac,Bretagne,oui,oui,1434,42493
+Raymond,Patricia,47,180.0,65.7,F,oui,bac+2,Hauts-de-France,oui,oui,3411,83641
+Jourdan,Olivier,41,167.1,69.1,F,oui,aucun,Hauts-de-France,non,oui,3092,83727
+Jacquet,Anaïs,48,172.9,40.1,F,non,bac,Provence-Alpes-Côte d’Azur,non,oui,1154,84336
+Benoit,Jules,72,179.3,68.0,F,non,master,Hauts-de-France,non,oui,1871,84469
+Didier,Jeannine,72,156.4,53.8,F,non,aucun,Normandie,non,oui,500,84283
+Fabre,Alain,74,169.0,61.0,H,oui,bac,Île-de-France,oui,non,1340,41966
+Verdier,Marc,36,169.3,75.5,F,oui,doctorat,Normandie,oui,oui,5011,83582
+Nguyen,Joséphine,73,154.9,87.4,F,oui,bac+2,Occitanie,non,non,3667,84250
+Renault,Noémi,75,162.2,73.0,F,oui,aucun,Hauts-de-France,oui,non,1950,83631
+Lambert,Rémy,43,171.9,92.6,F,oui,master,Auvergne-Rhône-Alpes,oui,oui,3226,83838
+Gomes,Michelle,56,175.1,63.5,F,oui,master,Provence-Alpes-Côte d’Azur,non,oui,719,84222
+Pereira,André,52,167.9,88.1,H,non,bac,Corse,non,oui,667,42041
+Normand,Gilbert,56,159.4,71.9,F,oui,bac+2,Normandie,non,oui,1318,83689
+Delmas,Lorraine,31,162.1,63.6,H,non,bac+2,Bretagne,oui,oui,861,42335
+Laurent,Isabelle,22,160.3,80.6,F,non,aucun,Bretagne,non,non,931,83784
+Weber,Éric,51,154.0,60.5,H,non,bac,Île-de-France,oui,non,3378,42052
+Hamel,Isabelle,45,168.0,63.0,F,non,bac,Corse,non,non,2553,83632
+Vallet,Alice,48,152.5,77.4,F,oui,master,Auvergne-Rhône-Alpes,non,non,2960,84171
+Delmas,Thérèse,53,165.9,85.1,H,oui,doctorat,Hauts-de-France,non,non,1147,41790
+Clerc,Hortense,70,181.3,72.3,F,oui,bac,Occitanie,oui,oui,2096,83543
+Le Gall,Auguste,38,169.8,68.4,H,non,bac+2,Île-de-France,non,non,3964,42206
+Fleury,Matthieu,72,159.2,58.6,H,non,doctorat,Provence-Alpes-Côte d’Azur,oui,oui,3743,41657
+Marchand,Adrien,30,164.0,83.5,F,oui,doctorat,Normandie,oui,oui,4539,84476
+François,Grégoire,30,166.0,80.2,H,non,bac+2,Île-de-France,non,non,1115,41615
+Simon,Nicolas,50,177.5,73.0,H,non,master,Normandie,non,oui,3067,41919
+Olivier,Valentine,71,163.5,45.1,F,non,aucun,Hauts-de-France,non,oui,3103,84334
+Loiseau,Thomas,29,149.4,65.2,H,non,master,Bretagne,non,non,3629,41867
+Deschamps,Clémence,62,171.9,99.2,H,oui,aucun,Provence-Alpes-Côte d’Azur,oui,non,3730,41831
+Rolland,Rémy,44,163.5,70.4,H,non,doctorat,Provence-Alpes-Côte d’Azur,non,oui,2443,41886
+Moreau,Denis,69,154.2,55.9,H,non,master,Corse,oui,non,1827,42041
+Cousin,Aimée,53,149.6,70.7,F,oui,bac,Occitanie,oui,oui,2201,84237
+Roy,Laurence,68,153.3,76.1,F,non,master,Île-de-France,non,non,3359,83969
+Maillet,René,50,172.3,65.1,F,non,bac+2,Bretagne,non,non,3209,84342
+Michaud,Célina,18,176.8,74.6,F,oui,aucun,Île-de-France,oui,non,1510,84193
+Ruiz,Joseph,71,172.8,87.9,F,non,bac,Normandie,oui,oui,1784,84000
+Perrot,Thierry,43,191.0,62.1,H,non,aucun,Normandie,oui,non,2538,41873
+Lombard,Céline,42,163.3,73.3,H,non,bac+2,Hauts-de-France,non,oui,500,41540
+Dupré,Suzanne,63,164.5,53.6,H,oui,doctorat,Normandie,non,non,2662,42007
+Bertrand,Amélie,28,179.9,79.7,F,oui,aucun,Provence-Alpes-Côte d’Azur,oui,oui,500,84056
+Perrier,Denis,58,190.4,74.4,H,oui,doctorat,Provence-Alpes-Côte d’Azur,non,oui,1568,42430
+Pons,Margot,64,171.6,72.6,H,non,bac+2,Hauts-de-France,oui,non,1699,41675
+Launay,Margaux,32,172.0,60.9,F,oui,doctorat,Corse,non,non,2014,84362
+Langlois,Margaux,60,163.1,48.5,H,non,aucun,Hauts-de-France,oui,non,2675,41911
+Petitjean,Danielle,55,175.9,77.7,H,oui,master,Provence-Alpes-Côte d’Azur,oui,oui,3483,42121
+Letellier,Étienne,34,173.2,62.0,H,oui,aucun,Occitanie,non,non,3507,42209
+Benoit,Isabelle,31,156.4,56.5,F,oui,master,Île-de-France,non,oui,1342,83805
+Boulanger,Maggie,58,180.8,84.1,H,oui,master,Normandie,non,non,3084,42424
+Riou,Auguste,46,180.7,56.8,H,oui,bac+2,Île-de-France,oui,non,2918,41503
+Boulay,Susanne,58,168.7,82.7,H,oui,bac+2,Auvergne-Rhône-Alpes,non,non,2361,41666
+Alves,Geneviève,56,166.2,78.1,H,oui,doctorat,Bretagne,oui,oui,3551,42423
+Lambert,Louis,19,163.3,69.1,H,oui,bac,Auvergne-Rhône-Alpes,oui,non,1229,41628
+Clément,Noël,19,145.0,73.0,F,oui,bac,Provence-Alpes-Côte d’Azur,oui,oui,3230,83567
+Perrin,Joséphine,48,172.6,40.8,H,oui,bac+2,Bretagne,non,non,2078,41537
+Lemaire,Frédérique,49,147.8,90.5,F,non,bac,Bretagne,oui,oui,1196,84389
+Boulay,Anne,72,182.6,84.2,F,non,aucun,Bretagne,oui,non,1419,83747
+Vincent,André,64,158.7,75.3,F,non,master,Normandie,non,non,1486,83788
+Andre,Marianne,57,171.0,62.8,H,non,master,Corse,non,oui,500,41867
+Roy,Charlotte,58,147.7,73.4,H,non,bac,Île-de-France,non,oui,1826,42194
+Dupré,Adrienne,36,164.5,80.4,F,non,aucun,Provence-Alpes-Côte d’Azur,oui,non,3908,84093
+Charrier,Théodore,45,167.3,64.9,H,non,bac,Provence-Alpes-Côte d’Azur,oui,non,3100,41569
+Voisin,Diane,41,156.4,73.3,H,non,aucun,Île-de-France,non,non,3162,41986
+Bouvet,Marcelle,63,176.8,40.9,F,oui,master,Auvergne-Rhône-Alpes,oui,oui,1586,83787
+Techer,Timothée,42,161.2,71.5,F,oui,doctorat,Corse,oui,oui,3076,84441
+Lopes,Jeanne,63,185.0,62.6,H,non,master,Auvergne-Rhône-Alpes,non,oui,1902,42280
+Lévy,Margaux,21,181.5,74.4,F,non,aucun,Bretagne,non,oui,4021,83925
+Antoine,Claude,46,172.9,52.6,H,non,doctorat,Normandie,oui,oui,900,41986
+Le Roux,Bertrand,36,154.5,79.9,H,oui,master,Bretagne,oui,non,3926,42138
+Tanguy,Capucine,43,188.5,82.6,H,oui,bac+2,Île-de-France,oui,oui,3895,42120
+Jacob,Frédéric,71,164.2,52.7,F,non,bac+2,Auvergne-Rhône-Alpes,non,oui,3520,84036
+Vaillant,Élisabeth,53,174.2,71.6,F,non,doctorat,Île-de-France,non,oui,2964,83945
+Benard,Xavier,47,173.2,89.3,F,oui,bac+2,Provence-Alpes-Côte d’Azur,oui,oui,4053,84309
+Thierry,Christelle,70,175.4,82.7,H,oui,aucun,Auvergne-Rhône-Alpes,non,oui,3116,42420
+Morel,Colette,23,165.4,81.3,H,non,doctorat,Île-de-France,oui,oui,826,42466
+Fouquet,Michel,68,180.5,52.1,H,oui,aucun,Bretagne,oui,oui,2842,42206
+Joubert,Aurélie,62,161.5,78.3,F,non,bac,Hauts-de-France,non,oui,2459,83535
+Fischer,Monique,38,154.1,76.3,H,non,master,Provence-Alpes-Côte d’Azur,oui,oui,1806,42293
+Rivière,Caroline,60,178.8,70.0,F,non,bac+2,Occitanie,oui,oui,2974,84075
+Muller,Lucy,67,160.4,61.2,F,oui,bac+2,Corse,oui,non,1949,83600
+Courtois,Julien,22,178.6,95.2,F,oui,bac,Île-de-France,oui,oui,1533,84131
+Hamel,Michelle,42,180.8,37.5,H,non,aucun,Auvergne-Rhône-Alpes,oui,non,1066,42090
+Ruiz,Paul,66,160.4,49.7,F,non,master,Hauts-de-France,oui,non,599,84139
+Guillaume,Éléonore,32,174.1,66.8,F,non,master,Corse,non,oui,2955,83864
+Carlier,Gabriel,35,176.9,74.0,F,oui,bac+2,Provence-Alpes-Côte d’Azur,oui,oui,3289,83623
+Duval,Audrey,24,169.3,52.2,H,oui,aucun,Occitanie,oui,oui,3769,41833
+Gros,Nathalie,48,164.1,56.0,F,non,bac+2,Provence-Alpes-Côte d’Azur,oui,oui,2286,84024
+Courtois,Élise,31,160.9,63.7,H,non,doctorat,Normandie,non,oui,2912,41579
+Normand,Thibault,35,173.5,56.5,F,oui,aucun,Normandie,non,oui,1914,84390
+Ledoux,Marc,30,180.7,77.4,F,oui,doctorat,Bretagne,non,oui,4990,84207
+Lemaire,Yves,24,181.8,87.2,H,oui,aucun,Corse,oui,oui,834,41651
+Cousin,Véronique,20,177.6,69.2,F,oui,aucun,Provence-Alpes-Côte d’Azur,non,oui,1838,84480
+Pruvost,Adélaïde,57,171.7,84.2,F,non,master,Provence-Alpes-Côte d’Azur,oui,non,3100,83715
+Bègue,Sabine,74,161.2,81.1,F,non,bac,Hauts-de-France,oui,oui,1734,83683
+Guillet,Claudine,36,172.2,65.4,F,oui,aucun,Hauts-de-France,non,non,2237,83548
+Lambert,Catherine,72,177.7,54.4,H,oui,bac+2,Provence-Alpes-Côte d’Azur,oui,oui,4834,41505
+Lefort,Hortense,75,151.8,61.0,F,oui,aucun,Occitanie,non,oui,2944,83910
+Marion,Claire,29,175.8,68.5,F,oui,bac,Île-de-France,non,non,2431,84493
+Paris,Bertrand,55,174.1,66.5,H,non,bac,Occitanie,oui,oui,4171,42276
+Neveu,Susanne,19,178.4,83.1,F,oui,doctorat,Hauts-de-France,oui,non,1340,83698
+Perret,Antoine,24,169.2,65.5,F,non,master,Occitanie,non,non,1293,84073
+Blin,Hortense,34,173.6,61.9,F,non,bac+2,Occitanie,oui,non,3286,84222
+Charles,Alexandria,37,159.3,95.8,F,non,aucun,Bretagne,oui,oui,1424,83915
+Maréchal,Jules,44,172.2,81.9,H,oui,bac+2,Occitanie,oui,oui,1815,42130
+Hubert,Anaïs,65,178.5,51.6,F,non,bac,Provence-Alpes-Côte d’Azur,oui,non,4242,83623
+Parent,Roger,42,170.1,61.1,H,non,doctorat,Occitanie,oui,oui,2140,41535
+Étienne,Josette,61,178.1,61.2,F,non,master,Normandie,non,oui,1600,83761
+Leroy,Victoire,20,167.8,52.3,F,oui,master,Occitanie,non,oui,4684,83601
+Leleu,Julie,18,164.3,82.5,F,oui,master,Hauts-de-France,non,non,2751,83744
+Labbé,Isaac,60,160.2,69.9,H,non,master,Bretagne,oui,non,3440,41967
+Vallée,Daniel,18,168.1,87.9,F,oui,bac,Bretagne,oui,oui,3725,83547
+Grondin,Claire,37,179.2,63.1,H,non,bac+2,Île-de-France,oui,oui,1204,42362
+Valentin,Édouard,40,163.9,72.9,F,oui,aucun,Bretagne,oui,non,3154,83958
+Pons,Chantal,30,148.3,69.9,F,oui,bac+2,Corse,oui,oui,2689,84398
+Dupuis,Théophile,40,167.2,89.4,H,non,master,Normandie,oui,non,3006,41751
+Legrand,Marcelle,37,183.1,66.8,F,oui,doctorat,Normandie,non,non,3624,84351
+Simon,Alain,26,186.4,89.7,H,non,bac,Normandie,oui,oui,1189,41677
+Bouvier,Suzanne,23,167.5,64.8,F,non,doctorat,Hauts-de-France,non,non,3087,84013
+Boyer,Pénélope,71,176.9,57.4,F,oui,bac,Occitanie,non,oui,2581,84383
+Coulon,Maryse,61,149.8,91.6,F,non,bac+2,Normandie,non,oui,1885,84486
+Rousseau,Clémence,44,170.6,65.4,F,oui,doctorat,Île-de-France,non,oui,3875,84482
+Bouvier,Alex,26,141.6,69.8,F,oui,doctorat,Auvergne-Rhône-Alpes,oui,non,2373,84115
+Vallet,Stéphane,75,165.5,95.9,F,oui,master,Hauts-de-France,non,non,1435,84156
+Samson,Adrienne,47,177.7,75.3,F,oui,aucun,Île-de-France,non,non,4013,84400
+Dupont,Anaïs,59,163.3,59.0,H,non,doctorat,Provence-Alpes-Côte d’Azur,non,oui,3815,41769
+Moreno,Astrid,62,174.3,46.8,F,oui,aucun,Île-de-France,oui,oui,1852,84343
+Allard,Julien,53,173.9,82.6,F,oui,bac,Hauts-de-France,non,non,1684,83877
+Prévost,Renée,64,140.9,77.8,H,non,doctorat,Corse,oui,oui,1035,41969
+Roussel,Agathe,27,149.8,27.5,H,oui,bac,Corse,oui,oui,3476,41668
+Renault,Frédéric,71,171.3,66.6,F,non,aucun,Provence-Alpes-Côte d’Azur,non,oui,4166,84493
+Pasquier,Denis,29,176.4,94.2,H,non,doctorat,Occitanie,oui,oui,828,41517
+Peltier,Noël,58,169.7,45.7,H,oui,bac,Corse,oui,oui,2224,41886
+Simon,Manon,62,167.5,79.4,H,non,master,Bretagne,non,non,2554,41977
+Marty,Théodore,55,176.2,80.6,F,non,bac+2,Normandie,non,non,5085,83925
+Munoz,Gérard,24,166.8,55.9,F,non,master,Hauts-de-France,oui,oui,2795,84242
+Cordier,Aurore,25,162.0,92.2,F,oui,doctorat,Bretagne,oui,non,2160,83631
+Boulanger,Christophe,75,164.3,62.9,F,oui,bac+2,Hauts-de-France,non,non,3362,83977
+Georges,André,47,168.4,60.4,F,oui,bac,Auvergne-Rhône-Alpes,oui,oui,4498,83968
+Boucher,Catherine,63,161.4,70.5,F,oui,bac,Hauts-de-France,non,non,3282,84338
+Garnier,William,54,153.7,77.2,F,non,bac,Bretagne,non,non,1233,84053
+Carre,Sébastien,22,178.2,55.6,F,non,master,Hauts-de-France,non,oui,3331,84389
+Valette,Raymond,38,181.1,82.9,F,non,aucun,Île-de-France,oui,non,2801,83938
+Schneider,Xavier,28,167.7,61.4,H,oui,aucun,Occitanie,non,oui,4265,42131
+Marques,Monique,32,163.0,54.4,H,oui,bac,Normandie,non,non,3298,41775
+Ribeiro,Bernadette,21,162.0,55.7,F,oui,aucun,Provence-Alpes-Côte d’Azur,non,non,767,84367
+Rémy,Julie,56,165.2,68.8,H,oui,bac+2,Provence-Alpes-Côte d’Azur,non,oui,2791,41600
+Bazin,Julie,58,179.5,77.9,H,oui,bac+2,Occitanie,non,non,2270,42337
+Olivier,Jeanne,32,168.0,77.7,H,oui,master,Corse,oui,oui,4027,41938
+Torres,Alphonse,58,171.3,63.0,H,oui,aucun,Hauts-de-France,oui,oui,1308,41681
+Lenoir,Théodore,44,155.5,80.0,H,non,bac,Occitanie,oui,non,3193,41960
+Marie,Noël,54,175.8,68.1,F,non,bac+2,Hauts-de-France,oui,oui,4188,84319
+Fischer,Patrick,58,165.2,84.3,F,oui,doctorat,Provence-Alpes-Côte d’Azur,oui,non,2453,84260
+Barbe,Alain,37,163.9,78.9,H,oui,master,Corse,oui,non,2991,42071
+Perrier,Stéphanie,39,173.6,71.2,H,oui,bac+2,Bretagne,non,non,2454,42004
+Pereira,Gabriel,22,193.9,87.8,H,non,aucun,Corse,non,oui,3367,42127
+Barre,Agathe,21,171.1,85.1,H,non,bac+2,Île-de-France,oui,oui,3121,41553
+Lebreton,Olivier,34,170.3,65.4,H,non,aucun,Hauts-de-France,oui,oui,2402,41977
+Schmitt,Tristan,64,138.3,73.2,F,oui,bac,Occitanie,oui,non,1913,83854
+Turpin,Henriette,54,185.9,70.3,H,non,aucun,Normandie,oui,non,1073,41987
+Peltier,Constance,48,169.5,54.3,H,non,aucun,Provence-Alpes-Côte d’Azur,oui,oui,3068,41560
+Dupuis,Suzanne,32,172.9,84.4,F,non,master,Bretagne,oui,oui,1550,84452
+Ribeiro,Laure,21,170.3,49.5,H,oui,doctorat,Normandie,oui,oui,3341,42439
+Olivier,Thibaut,21,175.2,77.4,F,non,bac,Normandie,non,oui,2501,83771
+Maillot,Zoé,25,174.1,94.1,F,oui,doctorat,Auvergne-Rhône-Alpes,non,oui,2157,84460
+Grondin,Monique,45,171.4,53.7,H,oui,bac,Provence-Alpes-Côte d’Azur,oui,oui,1458,42494
+Traore,Dominique,65,171.0,86.6,H,oui,bac,Île-de-France,oui,oui,2192,42282
+Gérard,Hugues,46,167.6,63.9,H,non,aucun,Auvergne-Rhône-Alpes,non,non,1858,41939
+Collin,Édith,74,172.9,47.5,H,non,bac,Normandie,non,non,4037,41585
+Clément,Robert,60,163.3,80.8,H,oui,bac+2,Corse,non,non,976,42382
+Techer,Édith,70,176.7,80.1,F,oui,master,Bretagne,non,non,2961,84092
+Carpentier,Bertrand,36,160.1,73.7,H,non,bac+2,Provence-Alpes-Côte d’Azur,oui,oui,1080,41606
+Devaux,Hortense,44,167.5,85.4,F,non,aucun,Corse,oui,non,3456,84316
+Wagner,Rémy,51,170.2,55.4,H,non,doctorat,Corse,oui,oui,3274,41734
+Michaud,Laure,70,170.2,35.2,H,oui,bac,Occitanie,non,non,3439,42319
+Hoarau,Arthur,19,169.8,88.0,F,oui,bac+2,Bretagne,non,oui,1185,84219
+Blondel,Martin,23,138.2,74.2,H,non,doctorat,Normandie,non,oui,2849,41596
+Lejeune,Susan,42,153.1,55.3,F,non,aucun,Corse,oui,oui,5806,84391
+Labbé,Nathalie,60,166.9,81.0,F,oui,bac+2,Île-de-France,non,non,1719,83948
+Noël,Marcelle,56,149.1,67.4,F,non,doctorat,Corse,oui,oui,2181,84438
+Cousin,Capucine,71,166.0,68.3,F,non,aucun,Provence-Alpes-Côte d’Azur,non,non,2817,83524
+Lamy,Zacharie,61,168.5,51.0,F,non,master,Bretagne,oui,non,3083,83701
+Louis,Juliette,47,150.5,39.2,H,oui,aucun,Bretagne,non,oui,3387,42299
+David,Édouard,33,175.1,69.1,F,non,doctorat,Normandie,oui,non,825,84455
+Schmitt,Andrée,41,162.9,66.1,F,non,doctorat,Île-de-France,oui,oui,584,83518
+Leroy,Guillaume,60,162.6,79.8,F,non,bac,Occitanie,non,oui,4212,84442
+Pelletier,Joséphine,18,165.8,81.3,F,oui,bac+2,Occitanie,oui,oui,500,83726
+Lévêque,Sébastien,55,176.6,57.9,H,non,doctorat,Auvergne-Rhône-Alpes,oui,oui,2868,42311
+Gaillard,Audrey,34,167.5,89.8,F,non,master,Hauts-de-France,oui,non,1450,83573
+Meunier,Timothée,27,176.3,65.8,H,oui,aucun,Île-de-France,oui,non,2310,41610
+Lefort,Valérie,73,168.2,57.3,F,non,aucun,Corse,oui,non,2483,83613
+Deschamps,Valentine,34,169.4,73.6,F,oui,bac+2,Île-de-France,oui,oui,2601,83746
+De Oliveira,Antoinette,22,178.0,83.9,F,oui,doctorat,Provence-Alpes-Côte d’Azur,oui,oui,1239,83577
+Traore,Corinne,54,178.7,52.2,F,non,aucun,Normandie,non,oui,3205,83748
+Hoarau,Marie,38,176.2,41.3,F,non,master,Auvergne-Rhône-Alpes,non,non,2611,83556
+Clément,Suzanne,36,165.3,58.6,H,oui,bac+2,Île-de-France,non,non,4121,41581
+Perez,Camille,55,163.5,57.9,H,oui,doctorat,Corse,non,oui,2590,42055
+Deschamps,Aurélie,67,176.9,67.9,F,oui,master,Île-de-France,oui,oui,3899,84465
+Leroy,Honoré,59,175.3,37.3,H,oui,bac,Normandie,oui,non,1864,41916
+Morin,Denise,51,164.4,77.2,H,non,doctorat,Occitanie,non,oui,500,42042
+Charpentier,Théodore,71,195.5,78.0,F,oui,bac+2,Corse,non,oui,2678,83594
+Wagner,Richard,38,181.8,105.2,H,oui,master,Normandie,non,oui,3544,42453
+Rousset,Laetitia,53,179.5,72.0,H,non,master,Corse,non,non,2330,42457
+Giraud,Manon,32,165.2,57.6,H,oui,master,Hauts-de-France,non,non,1675,41620
+Giraud,Grégoire,39,156.5,68.9,F,oui,aucun,Normandie,non,oui,500,84338
+Voisin,Marguerite,27,171.9,69.5,F,oui,bac,Occitanie,oui,oui,2676,84085
+Julien,Thérèse,44,164.8,116.2,F,non,aucun,Hauts-de-France,oui,non,4132,83750
+Lemoine,Danielle,19,157.6,73.5,H,oui,bac,Normandie,non,oui,1770,42162
+Coste,Lucy,43,159.9,49.9,H,non,aucun,Auvergne-Rhône-Alpes,non,oui,3018,42210
+Boyer,Thibaut,57,163.2,84.5,H,oui,aucun,Auvergne-Rhône-Alpes,non,non,3692,41780
+Guilbert,Adrien,58,183.7,57.2,F,non,bac+2,Occitanie,oui,non,3070,84351
+Henry,Robert,64,176.3,62.9,H,oui,aucun,Auvergne-Rhône-Alpes,non,oui,1573,42013
+Ferreira,Michèle,46,186.1,73.4,H,non,aucun,Corse,non,oui,3263,42343
+Fabre,Emmanuel,21,161.8,51.7,F,non,bac+2,Normandie,non,non,1816,84371
+Nguyen,Stéphanie,27,168.8,54.0,H,oui,master,Bretagne,non,oui,2488,42001
+Germain,Bertrand,36,153.1,53.2,H,oui,bac+2,Bretagne,non,oui,3305,41884
+Hamel,Denis,74,176.0,64.1,H,non,bac+2,Provence-Alpes-Côte d’Azur,oui,non,1278,42482
+Ollivier,Matthieu,27,159.7,64.4,H,oui,doctorat,Hauts-de-France,oui,oui,3273,42050
+Mendès,Victoire,20,179.3,62.6,H,oui,master,Île-de-France,non,oui,1115,41522
+Colas,Raymond,54,172.7,57.6,F,non,doctorat,Hauts-de-France,non,oui,1878,83811
+Goncalves,Olivier,25,183.3,82.4,H,non,master,Occitanie,non,oui,2689,42049
+De Sousa,Christophe,26,157.3,73.2,F,oui,bac+2,Provence-Alpes-Côte d’Azur,oui,non,3775,83629
+Lecomte,Chantal,38,166.2,90.3,H,non,bac+2,Occitanie,oui,non,4051,41962
+Coulon,Aimée,38,186.6,74.6,H,non,aucun,Auvergne-Rhône-Alpes,oui,non,3204,41565
+Gillet,Marine,60,184.1,76.7,H,oui,bac,Hauts-de-France,non,non,1898,42325
+Wagner,Alphonse,32,165.5,73.6,H,non,master,Hauts-de-France,non,non,951,42212
+Thierry,Emmanuelle,64,168.6,86.4,F,non,bac,Corse,oui,non,500,84205
+Labbé,Yves,72,185.3,86.8,H,oui,master,Provence-Alpes-Côte d’Azur,non,oui,1948,41951
+Courtois,Virginie,31,175.4,70.0,H,oui,master,Bretagne,non,non,3975,42474
+Robin,Marine,33,179.8,49.0,F,non,doctorat,Hauts-de-France,non,non,3204,84308
+Lefèvre,Marguerite,74,167.9,71.2,F,non,master,Normandie,non,oui,1626,84118
+Chartier,Susan,36,187.5,85.6,H,oui,aucun,Bretagne,non,non,1612,41602
+Gonzalez,Guillaume,38,156.7,64.2,H,non,aucun,Hauts-de-France,non,non,3021,41980
+Benard,Bernard,60,172.4,88.8,H,non,master,Hauts-de-France,non,non,3447,42294
+Jourdan,Julie,73,179.7,74.9,F,non,bac,Île-de-France,non,oui,832,83817
+Guillet,Célina,31,168.0,85.9,F,oui,doctorat,Auvergne-Rhône-Alpes,non,non,2438,84063
+Torres,Colette,44,175.0,65.2,F,non,master,Normandie,non,non,1264,84395
+Marchal,Marthe,35,168.8,74.6,F,oui,bac+2,Île-de-France,non,oui,1713,83740
+Bazin,Michelle,32,167.6,55.9,H,oui,aucun,Auvergne-Rhône-Alpes,oui,non,3843,42226
+Sauvage,Denis,19,167.1,91.8,H,non,aucun,Auvergne-Rhône-Alpes,non,non,4334,41753
+De Sousa,Aimée,53,169.2,54.9,H,oui,doctorat,Corse,non,oui,500,42359
+Munoz,Odette,28,155.3,49.4,F,oui,bac+2,Hauts-de-France,non,oui,4154,83748
+Lagarde,Diane,31,171.2,75.8,H,oui,aucun,Île-de-France,oui,oui,500,42412
+Paul,Océane,68,158.0,83.3,F,oui,bac,Bretagne,non,oui,2844,84174
+Gimenez,Adrienne,58,168.5,78.5,H,oui,bac+2,Provence-Alpes-Côte d’Azur,non,non,4462,42186
+Bourgeois,Georges,26,167.8,71.0,F,oui,aucun,Provence-Alpes-Côte d’Azur,non,oui,2731,84373
+Petitjean,Nicole,65,193.9,38.5,H,oui,doctorat,Normandie,oui,non,3319,42484
+Rodrigues,Stéphanie,72,168.9,78.5,F,non,master,Île-de-France,non,oui,1711,84313
+Vaillant,Patrick,30,169.5,80.7,H,non,doctorat,Occitanie,non,oui,6235,42075
+Bègue,Matthieu,23,178.1,57.3,H,non,doctorat,Bretagne,non,oui,1991,41948
+Hebert,Luc,62,165.5,43.1,H,non,aucun,Occitanie,non,non,2103,41936
+Laporte,Paulette,66,177.3,50.9,H,non,bac,Île-de-France,non,non,3758,41900
+Jacques,René,46,174.9,59.0,F,non,doctorat,Provence-Alpes-Côte d’Azur,non,oui,2330,83683
+Pierre,Émilie,69,186.0,81.0,H,oui,doctorat,Hauts-de-France,oui,non,2510,42496
+Pereira,Georges,49,167.6,71.1,H,oui,bac,Normandie,non,oui,1885,41869
+Coulon,Frédéric,71,149.0,100.6,H,oui,master,Bretagne,non,oui,2686,42177
+Legendre,Andrée,39,174.0,69.1,H,oui,bac+2,Normandie,oui,oui,1617,41877
+Petit,Xavier,31,168.1,46.0,F,non,bac+2,Corse,non,oui,5232,84203
+Descamps,Audrey,48,157.7,54.5,H,oui,master,Provence-Alpes-Côte d’Azur,non,oui,1971,41977
+Maillet,William,18,182.9,70.2,H,oui,bac,Corse,non,non,1016,41606
+Gaillard,Renée,25,182.5,81.0,H,non,master,Hauts-de-France,non,oui,3146,41925
+Colin,William,73,177.2,105.9,F,non,aucun,Bretagne,oui,oui,5122,84387
+Barre,Alix,36,163.1,94.4,F,non,doctorat,Auvergne-Rhône-Alpes,oui,oui,2959,83700
+Texier,Clémence,51,175.0,44.6,H,non,doctorat,Bretagne,non,oui,2295,41536
+Prévost,Noémi,39,161.9,82.4,H,oui,doctorat,Occitanie,oui,oui,3785,42230
+Boulay,Audrey,29,149.3,69.7,H,non,aucun,Île-de-France,non,non,3846,42256
+Auger,Aimé,30,168.1,80.9,H,non,bac+2,Provence-Alpes-Côte d’Azur,oui,non,2921,42420
+Bègue,Céline,56,173.4,65.9,H,oui,bac+2,Corse,non,non,1040,41588
+Martinez,Yves,30,158.8,80.6,F,non,master,Bretagne,non,non,2523,84182
+Bouchet,Colette,43,168.6,63.6,F,oui,aucun,Hauts-de-France,oui,non,2133,83578
+Texier,Arnaude,35,180.5,65.0,H,non,doctorat,Provence-Alpes-Côte d’Azur,oui,non,890,42294
+Hoarau,Renée,55,177.4,66.9,F,non,doctorat,Bretagne,non,oui,2537,83866
+Jacob,Laurent,18,186.1,69.7,H,oui,aucun,Hauts-de-France,oui,oui,2847,41943
+Arnaud,Frédérique,73,158.2,66.7,H,non,aucun,Île-de-France,oui,oui,3231,42434
+Costa,Guy,46,154.4,73.0,F,non,bac+2,Bretagne,oui,oui,2620,83670
+Mace,Marine,43,170.4,85.6,F,non,master,Auvergne-Rhône-Alpes,non,non,2901,83511
+Roger,Adélaïde,38,184.8,55.1,H,oui,bac,Bretagne,oui,non,2663,42124
+Thibault,Vincent,53,170.8,54.0,F,non,bac+2,Provence-Alpes-Côte d’Azur,non,non,3647,83988
+Simon,André,29,193.2,69.7,H,non,master,Auvergne-Rhône-Alpes,non,oui,3106,41552
+Costa,Claude,53,170.8,59.3,H,non,bac+2,Hauts-de-France,oui,oui,500,41725
+Lebreton,Maryse,41,162.9,49.1,H,oui,doctorat,Bretagne,non,oui,4544,41788
+Marie,Alexandre,41,168.8,64.8,F,oui,doctorat,Bretagne,oui,non,3566,83829
+Rodrigues,Aurélie,59,158.8,58.5,F,non,aucun,Bretagne,non,non,2581,83715
+Chauveau,Aurore,54,180.3,77.5,H,non,doctorat,Occitanie,non,oui,2797,41917
+Delahaye,Clémence,65,170.8,76.0,H,oui,bac+2,Île-de-France,oui,non,2741,42051
+Rossi,Gabrielle,29,159.7,70.7,H,oui,master,Provence-Alpes-Côte d’Azur,oui,oui,1211,41961
+Grenier,Claudine,63,170.8,62.8,H,non,aucun,Bretagne,oui,non,5547,42303
+Barre,Émile,65,169.6,48.9,H,non,bac+2,Hauts-de-France,non,oui,2338,42267
+Besnard,Monique,60,175.2,95.1,F,non,aucun,Provence-Alpes-Côte d’Azur,oui,non,1792,83583
+Robin,Sébastien,50,154.2,82.3,H,non,aucun,Hauts-de-France,non,oui,843,42025
+Jacques,Paulette,56,165.6,66.1,H,non,bac,Île-de-France,non,oui,2416,41614
+Jourdan,Corinne,40,176.9,59.7,H,non,master,Provence-Alpes-Côte d’Azur,non,oui,2171,41514
+Techer,Auguste,23,169.9,72.2,H,oui,bac,Auvergne-Rhône-Alpes,oui,non,2617,42438
+Bouchet,Véronique,68,174.4,82.7,H,oui,bac+2,Occitanie,oui,non,2971,42291
+Langlois,Camille,33,174.5,46.3,F,oui,bac,Bretagne,oui,oui,2560,84490
+Durand,Théophile,36,174.8,80.9,H,non,bac,Auvergne-Rhône-Alpes,non,oui,1669,41512
+Lemonnier,Christelle,30,163.4,61.4,F,oui,bac,Bretagne,non,non,3143,83549
+Guillon,Clémence,34,180.3,63.9,H,non,bac+2,Auvergne-Rhône-Alpes,non,non,3589,42124
+Poulain,Catherine,51,171.2,68.1,F,oui,aucun,Normandie,oui,oui,2246,84012
+Leblanc,Catherine,31,177.5,74.9,F,non,bac+2,Corse,non,non,5230,83875
+Picard,Antoinette,50,161.5,77.8,F,oui,doctorat,Corse,non,oui,1864,83874
+Rivière,Denise,34,161.3,69.8,H,oui,doctorat,Hauts-de-France,non,oui,2664,41567
+Samson,Monique,55,199.2,67.2,F,non,doctorat,Normandie,oui,oui,1143,83587
+Rousset,Margot,24,172.7,38.9,F,oui,bac,Normandie,non,oui,2389,83501
+Dos Santos,Jeanne,59,170.2,81.9,H,oui,bac+2,Bretagne,oui,oui,3668,41644
+Gomes,Laurence,29,165.0,67.7,H,non,doctorat,Occitanie,non,non,1580,41736
+Launay,Diane,48,158.7,74.6,H,non,bac+2,Auvergne-Rhône-Alpes,non,non,971,41554
+Jacquet,François,37,165.9,55.1,H,oui,doctorat,Provence-Alpes-Côte d’Azur,non,oui,3159,41971
+Lecomte,Guillaume,35,188.0,50.5,F,oui,bac,Hauts-de-France,non,non,500,84161
+David,Pauline,62,168.8,70.2,H,oui,bac,Auvergne-Rhône-Alpes,oui,non,2762,42141
+Joseph,Dominique,37,165.5,67.0,H,non,master,Normandie,oui,oui,2941,42081
+Menard,Océane,60,180.4,40.7,H,oui,bac,Bretagne,non,oui,2057,42029
+Moreno,Julie,33,172.1,56.2,H,non,aucun,Corse,oui,non,4577,42487
+Briand,Élise,72,163.6,69.4,F,oui,master,Hauts-de-France,non,oui,3167,83997
+Martineau,Jacques,53,164.1,42.3,F,oui,master,Normandie,non,non,1985,84216
+Lesage,Claudine,66,180.3,64.9,H,non,bac,Auvergne-Rhône-Alpes,oui,oui,1484,41895
+Rodriguez,Théodore,38,179.3,65.0,F,non,doctorat,Normandie,oui,oui,1887,83865
+Menard,Pauline,60,171.5,81.6,H,oui,doctorat,Hauts-de-France,oui,oui,5358,42322
+Humbert,Emmanuel,39,178.3,87.4,H,non,aucun,Corse,oui,oui,1892,41991
+Roux,Eugène,20,159.7,70.9,H,non,master,Provence-Alpes-Côte d’Azur,non,oui,2628,41865
+Antoine,Alexandre,29,159.2,67.4,F,oui,bac+2,Bretagne,non,non,2979,83998
+Munoz,Antoine,48,173.6,77.6,H,non,master,Hauts-de-France,oui,oui,2849,42270
+Monnier,Denis,51,164.9,62.3,H,non,aucun,Auvergne-Rhône-Alpes,oui,non,1061,42186
+Pasquier,Susanne,43,187.8,70.2,H,oui,bac+2,Hauts-de-France,non,non,2230,42035
+Grenier,Frédéric,18,160.7,114.0,F,non,master,Île-de-France,non,oui,1212,84073
+Leclercq,Raymond,65,165.7,76.2,H,non,doctorat,Auvergne-Rhône-Alpes,non,non,3220,42061
+Hervé,Lucie,72,179.6,97.1,F,oui,bac,Normandie,non,non,3107,84114
+Toussaint,Josette,23,159.4,66.1,H,oui,bac+2,Bretagne,oui,oui,2869,42307
+Delahaye,Margaux,57,190.7,49.0,F,non,aucun,Occitanie,non,oui,3943,84352
+Guillot,Franck,73,171.8,82.6,F,non,bac+2,Île-de-France,non,oui,2377,84231
+Prévost,Benjamin,39,161.6,81.3,F,oui,doctorat,Bretagne,oui,oui,3285,83545
+Charrier,Capucine,44,179.7,69.8,H,non,bac+2,Bretagne,oui,oui,1780,42071
+Costa,Robert,40,154.4,82.3,H,non,bac,Hauts-de-France,oui,oui,3008,42367
+Godard,Jeanne,26,160.3,61.9,H,non,master,Bretagne,non,non,1939,41838
+Letellier,Sébastien,62,155.2,57.7,H,non,aucun,Provence-Alpes-Côte d’Azur,non,oui,1139,41731
+Mercier,Timothée,27,165.9,58.9,H,non,doctorat,Provence-Alpes-Côte d’Azur,non,non,547,41971
+Colas,Alice,65,190.2,88.8,F,non,master,Île-de-France,oui,non,1565,84464
+Guillet,Margot,34,172.7,76.3,H,non,aucun,Corse,non,non,3929,41691
+Robert,Alain,57,161.8,86.4,H,oui,bac+2,Occitanie,oui,non,1842,42448
+Gimenez,William,45,156.6,80.9,F,oui,bac+2,Île-de-France,non,non,4048,83973
+Bouvier,Augustin,61,195.9,52.0,F,non,aucun,Normandie,oui,oui,3338,83508
+Delorme,Sylvie,44,165.9,81.8,H,non,bac+2,Occitanie,non,oui,735,41558
+Léger,Thierry,32,157.4,58.4,H,non,bac,Provence-Alpes-Côte d’Azur,non,non,2594,42092
+Nicolas,Corinne,56,163.6,79.9,F,non,doctorat,Auvergne-Rhône-Alpes,non,oui,3732,84144
+Collin,Manon,53,176.0,94.3,H,non,bac+2,Auvergne-Rhône-Alpes,non,non,2998,41906
+Tanguy,Charles,27,157.8,90.5,F,non,bac,Hauts-de-France,non,oui,1773,83582
+Fournier,Stéphane,20,179.1,93.6,H,non,doctorat,Auvergne-Rhône-Alpes,oui,oui,3048,42319
+Legendre,Sébastien,51,155.0,56.2,F,non,bac+2,Auvergne-Rhône-Alpes,non,non,4087,83521
+Menard,Marine,19,168.3,71.2,H,oui,doctorat,Auvergne-Rhône-Alpes,non,oui,3410,41639
+Lagarde,Océane,66,177.0,74.2,H,non,doctorat,Occitanie,oui,oui,2249,42403
+Garnier,Joséphine,52,166.9,82.9,H,non,doctorat,Provence-Alpes-Côte d’Azur,oui,oui,3164,42461
+Peron,Denis,31,167.4,86.2,H,non,bac,Hauts-de-France,non,oui,2345,42393
+Neveu,Zoé,40,161.5,58.6,H,non,doctorat,Bretagne,non,non,1325,42009
+Gros,Dorothée,58,167.3,88.5,H,non,doctorat,Normandie,oui,non,1533,41887
+Hamel,Martin,49,171.9,60.1,F,non,master,Hauts-de-France,oui,oui,2187,83690
+Boucher,Valentine,18,154.9,66.7,F,non,bac,Provence-Alpes-Côte d’Azur,non,oui,2267,83500
+Valette,Gabrielle,44,175.4,73.3,F,non,bac,Île-de-France,oui,oui,1061,83552
+Carlier,Caroline,57,180.8,73.2,H,non,aucun,Auvergne-Rhône-Alpes,oui,oui,2738,42108
+Auger,William,58,169.9,62.2,F,oui,bac+2,Île-de-France,non,oui,2761,83897
+Renaud,Sébastien,73,174.8,43.8,H,oui,master,Auvergne-Rhône-Alpes,oui,oui,1853,41882
+Alves,Capucine,63,167.5,73.8,H,non,bac,Bretagne,oui,non,3931,41886
+Lemaître,Alfred,31,162.3,62.5,F,non,bac,Occitanie,oui,non,1884,84254
+Thierry,Hugues,47,162.0,64.8,H,non,bac,Corse,non,non,3424,42298
+Lagarde,Suzanne,22,159.5,76.4,H,oui,master,Occitanie,non,oui,500,41513
+Lebreton,Suzanne,44,164.4,65.1,F,oui,doctorat,Île-de-France,non,oui,4509,83587
+Monnier,Constance,64,167.3,37.0,H,non,master,Île-de-France,non,oui,500,41909
+Benard,Élodie,50,170.3,79.2,F,non,aucun,Provence-Alpes-Côte d’Azur,oui,non,2950,84036
+Gautier,Xavier,66,171.7,87.4,H,oui,bac+2,Normandie,non,oui,1852,41666
+Gay,Laure,33,178.9,45.5,F,oui,bac+2,Provence-Alpes-Côte d’Azur,non,non,1414,84435
+Vasseur,Henri,22,151.9,65.9,F,non,bac,Bretagne,non,oui,2444,83664
+Lombard,Pauline,46,171.1,70.9,F,non,bac+2,Bretagne,oui,non,1386,84301
+Robert,Michelle,27,168.1,47.5,F,oui,bac,Auvergne-Rhône-Alpes,non,non,4135,84269
+Leduc,Alexandria,37,167.0,62.7,H,non,master,Occitanie,non,oui,4406,42158
+Rivière,Noël,69,157.6,53.1,H,oui,doctorat,Bretagne,non,oui,1184,42209
+Alves,Agnès,32,169.3,76.5,H,oui,doctorat,Bretagne,oui,oui,3387,41927
+Barbier,Émilie,34,195.7,36.3,F,non,master,Hauts-de-France,non,non,3230,83811
+Lecomte,Denise,55,164.4,61.2,F,non,master,Occitanie,oui,non,1756,84028
+Lebon,Renée,48,160.9,95.3,H,non,master,Île-de-France,oui,oui,3510,41706
+Hamel,Dorothée,37,170.2,90.3,H,oui,bac,Bretagne,oui,non,684,42272
+Mahe,Antoinette,40,156.7,37.3,F,non,doctorat,Île-de-France,oui,non,1660,84328
+Denis,Lucy,41,171.6,71.5,H,non,aucun,Auvergne-Rhône-Alpes,oui,oui,2679,42092
+Lebreton,André,52,155.9,82.0,H,oui,master,Corse,oui,oui,2787,41985
+Neveu,Pierre,65,177.3,41.6,H,oui,bac,Occitanie,oui,oui,2873,41535
+Hamon,Thibault,56,158.1,64.0,F,non,aucun,Corse,oui,non,3141,83667
+Laine,Luce,26,170.9,57.2,F,oui,bac,Corse,oui,oui,2507,83750
+Barthelemy,Xavier,55,154.7,87.3,F,non,aucun,Île-de-France,non,non,2253,83934
+Boulanger,Claudine,22,181.2,62.1,H,non,aucun,Occitanie,oui,oui,1871,41941
+Vincent,Auguste,24,162.4,83.1,H,non,bac+2,Île-de-France,non,non,1648,41789
+Rossi,Adélaïde,25,176.4,64.3,F,oui,doctorat,Occitanie,oui,oui,500,83694
+Moreau,Emmanuelle,44,164.3,52.3,F,non,bac,Auvergne-Rhône-Alpes,non,oui,2540,84174
+Benoit,Capucine,59,158.1,83.9,F,non,doctorat,Corse,non,oui,2390,84234
+Ledoux,Julien,53,168.2,79.8,F,non,aucun,Hauts-de-France,non,oui,3656,83995
+Hervé,Élisabeth,75,169.8,58.4,F,non,bac,Hauts-de-France,oui,non,500,84033
+Munoz,Franck,61,163.1,60.7,F,oui,master,Auvergne-Rhône-Alpes,oui,oui,2628,83969
+Colin,Raymond,24,166.5,80.3,H,oui,bac+2,Bretagne,non,non,1764,41712
+Maurice,Catherine,48,169.4,87.8,H,non,doctorat,Corse,oui,oui,2910,42261
+Bourdon,Alexandrie,30,169.4,61.0,F,oui,bac,Hauts-de-France,non,non,1740,83808
+Verdier,Adèle,48,161.5,61.9,F,non,bac,Bretagne,non,non,3406,83648
+Roy,Arthur,71,167.8,49.8,F,non,bac,Bretagne,non,non,4621,84423
+Baron,Bertrand,71,173.2,48.9,F,non,bac+2,Normandie,non,non,1969,84048
+Berthelot,Michel,18,171.1,95.6,F,oui,master,Auvergne-Rhône-Alpes,oui,non,1170,84376
+Monnier,Honoré,67,179.8,91.0,F,oui,bac,Corse,non,oui,1745,83971
+Lecomte,Théodore,41,167.2,54.5,H,non,master,Normandie,non,oui,2255,41620
+Merle,Célina,65,169.6,79.9,H,oui,doctorat,Occitanie,non,oui,3808,42448
+Renaud,Juliette,33,162.5,40.5,H,non,master,Occitanie,oui,non,2474,41749
+Pascal,Mathilde,42,172.9,73.7,F,oui,bac+2,Normandie,oui,oui,2107,83906
+Poirier,Christine,58,171.2,92.7,F,non,doctorat,Auvergne-Rhône-Alpes,non,non,2958,83784
+Albert,Gabriel,25,166.3,62.5,F,oui,aucun,Auvergne-Rhône-Alpes,non,non,2296,83946
+Salmon,Océane,73,186.4,67.3,H,non,doctorat,Corse,oui,oui,2476,41817
+Salmon,Isabelle,38,165.2,86.5,F,non,aucun,Hauts-de-France,oui,non,4851,84445
+Chevalier,Jeanne,62,174.5,71.2,F,non,master,Corse,oui,oui,2544,84392
+Lebreton,Véronique,32,146.2,81.2,F,non,bac+2,Corse,non,oui,2660,83807
+Picard,Antoinette,65,174.3,59.3,H,oui,aucun,Normandie,non,oui,2038,41831
+Salmon,Éléonore,49,165.9,85.3,H,oui,doctorat,Auvergne-Rhône-Alpes,oui,oui,2045,41754
+Brunet,Roger,20,190.8,76.5,F,non,bac+2,Auvergne-Rhône-Alpes,oui,non,969,84319
+Guyot,Astrid,54,168.7,60.2,H,oui,doctorat,Hauts-de-France,oui,oui,500,42431
+Allard,Vincent,47,186.0,80.5,H,oui,master,Bretagne,non,oui,3139,41877
+Lucas,Susan,74,171.7,49.3,H,non,aucun,Hauts-de-France,non,oui,1919,41854
+Julien,Suzanne,67,178.4,54.2,F,oui,master,Bretagne,oui,non,500,84489
+Ollivier,William,42,167.7,67.9,H,oui,bac,Auvergne-Rhône-Alpes,non,oui,2662,41606
+Ruiz,Nath,72,177.3,79.6,H,non,doctorat,Occitanie,oui,non,2810,41706
+Seguin,Diane,54,182.0,47.2,F,oui,bac,Hauts-de-France,oui,oui,3105,83834
+Lagarde,Victoire,24,176.3,51.4,H,oui,bac,Auvergne-Rhône-Alpes,oui,oui,696,42088
+Vidal,Thérèse,38,162.5,60.1,H,oui,bac,Bretagne,oui,oui,3404,42210
+Dubois,Luce,35,163.9,57.2,H,oui,bac+2,Île-de-France,oui,non,1766,41518
+Legros,Paulette,46,181.2,70.2,H,non,aucun,Occitanie,oui,oui,2284,41952
+Legrand,Bertrand,46,168.9,89.4,F,non,bac,Corse,non,oui,1600,83890
+Perrin,Alix,25,183.2,73.2,H,oui,doctorat,Provence-Alpes-Côte d’Azur,oui,non,2307,41661
+Roy,Corinne,25,195.0,54.2,F,non,bac+2,Normandie,oui,oui,2075,84238
+Ruiz,Luc,23,157.7,84.3,F,non,bac+2,Provence-Alpes-Côte d’Azur,non,oui,4527,83722
+Fleury,Agathe,42,186.7,88.4,F,non,aucun,Auvergne-Rhône-Alpes,non,non,2262,83629
+Lambert,Pénélope,71,166.3,44.9,H,non,bac+2,Corse,oui,non,4943,42467
+Guérin,Danielle,69,174.7,62.6,F,non,aucun,Bretagne,non,oui,4093,83940
+Delannoy,Hélène,72,160.3,76.1,H,oui,doctorat,Île-de-France,oui,oui,2292,41559
+Ferreira,Françoise,26,176.4,69.0,F,oui,aucun,Corse,non,oui,758,84115
+Garnier,Guy,44,170.8,85.7,H,non,bac,Hauts-de-France,oui,non,2464,42278
+Nguyen,Geneviève,69,177.8,54.3,H,non,aucun,Hauts-de-France,oui,oui,2468,42357
+Lemonnier,David,37,163.8,81.2,F,non,bac+2,Auvergne-Rhône-Alpes,oui,non,2537,83914
+Leclercq,Colette,39,176.9,86.3,H,non,aucun,Hauts-de-France,non,oui,3329,41533
+Pinto,Édouard,42,172.7,55.0,H,oui,aucun,Île-de-France,non,non,2496,41962
+Grenier,Sophie,23,164.7,64.8,F,oui,aucun,Occitanie,non,non,2050,83958
+Duval,Franck,72,160.2,40.6,F,oui,doctorat,Île-de-France,non,oui,1698,83958
+Sauvage,Éléonore,75,171.9,49.8,F,oui,bac+2,Auvergne-Rhône-Alpes,oui,oui,2518,83946
+Le Goff,Roger,65,189.0,85.3,H,oui,bac,Hauts-de-France,oui,oui,4472,42292
+Valette,Emmanuel,23,173.9,87.5,H,non,bac+2,Provence-Alpes-Côte d’Azur,oui,oui,1631,41699
+Benoit,Isaac,29,163.6,28.9,F,non,master,Bretagne,oui,oui,3923,83670
+Barthelemy,Gabriel,41,185.4,61.7,H,oui,master,Île-de-France,oui,non,2195,41717
+Maréchal,Alice,18,162.5,75.7,H,oui,bac,Hauts-de-France,non,oui,3849,41520
+Andre,Agathe,54,152.6,76.1,F,non,bac+2,Corse,non,oui,2167,83895
+Perez,Agnès,31,171.1,76.9,F,non,doctorat,Occitanie,oui,non,2274,83940
+Teixeira,Michelle,59,169.0,66.8,F,non,bac,Bretagne,non,non,3664,83999
+Langlois,Élisabeth,49,174.2,73.3,F,oui,bac+2,Bretagne,oui,non,974,83730
+Chevalier,Monique,45,166.2,83.5,H,oui,aucun,Corse,non,non,2545,41949
+Raymond,Gilbert,25,176.6,96.5,F,oui,bac+2,Bretagne,non,oui,3746,83688
+Wagner,Pénélope,23,170.9,62.3,H,non,doctorat,Corse,oui,non,500,41627
+Denis,Christophe,32,168.3,65.1,H,oui,bac+2,Hauts-de-France,oui,non,2968,41878
+Thibault,Monique,41,168.5,65.2,H,oui,bac+2,Hauts-de-France,oui,non,500,42498
+Guillou,Céline,58,160.6,77.1,H,oui,doctorat,Normandie,oui,oui,4559,41839
+Marchand,Alex,43,169.0,74.9,F,non,doctorat,Normandie,non,oui,3642,84123
+Hardy,Raymond,26,161.9,75.5,F,oui,aucun,Bretagne,non,oui,1611,84268
+Fontaine,Camille,64,178.6,72.3,H,oui,master,Hauts-de-France,oui,oui,2858,42245
+Durand,Xavier,28,162.2,80.6,H,non,bac,Normandie,non,oui,5001,42451
+Arnaud,Michelle,33,159.9,64.9,F,oui,bac,Bretagne,oui,non,2777,83931
+Marques,Véronique,25,177.9,61.6,H,oui,master,Hauts-de-France,non,non,500,42174
+Traore,Marcel,18,183.6,81.4,H,non,doctorat,Provence-Alpes-Côte d’Azur,non,oui,500,41900
+Maillot,Diane,46,163.9,93.5,F,oui,doctorat,Occitanie,oui,oui,4237,84044
+Moreau,Agnès,66,179.4,67.4,F,non,aucun,Normandie,non,oui,2599,84299
+Labbé,Charlotte,47,168.7,86.9,F,oui,master,Bretagne,oui,oui,1448,84457
+Ollivier,Éléonore,23,161.9,85.2,F,oui,master,Normandie,non,oui,2446,83988
+Allard,Christelle,24,183.8,59.9,F,non,bac+2,Auvergne-Rhône-Alpes,non,non,2434,83756
+Fernandez,Diane,34,160.8,70.1,F,oui,aucun,Provence-Alpes-Côte d’Azur,non,oui,725,83845
+Buisson,Anastasie,49,165.1,48.5,H,non,bac+2,Provence-Alpes-Côte d’Azur,non,oui,3332,42058
+Jacquet,Philippine,71,177.2,44.0,F,non,aucun,Provence-Alpes-Côte d’Azur,oui,oui,4100,83537
+Laroche,André,25,195.0,70.7,H,non,doctorat,Normandie,non,non,1730,41690
+Marchal,Monique,20,198.2,50.2,F,non,master,Île-de-France,non,non,2524,83924
+Vidal,Raymond,58,171.8,90.2,F,oui,bac,Hauts-de-France,oui,non,2931,84124
+Lelièvre,Susanne,39,165.0,55.7,H,non,master,Île-de-France,non,non,2089,41636
+Martineau,Hortense,34,159.9,70.7,F,non,bac+2,Corse,non,oui,1822,83907
+Bruneau,Thomas,21,155.1,88.8,F,non,bac+2,Hauts-de-France,oui,oui,1902,84092
+Guillet,Camille,73,157.3,67.5,F,non,bac+2,Hauts-de-France,non,non,2582,83978
+Lejeune,Robert,39,152.5,75.0,F,oui,bac+2,Bretagne,oui,non,1243,83770
+Lombard,Louise,23,187.1,77.9,F,non,doctorat,Occitanie,oui,non,2020,83874
+Delattre,Luce,30,162.5,68.4,F,non,bac+2,Auvergne-Rhône-Alpes,non,non,3235,83682
+Delahaye,Olivie,66,169.7,66.7,H,oui,bac+2,Île-de-France,oui,oui,2570,41985
+Marion,Antoinette,37,164.0,64.9,F,oui,master,Provence-Alpes-Côte d’Azur,oui,oui,500,83598
+Picard,Emmanuel,63,179.7,74.5,F,non,bac,Auvergne-Rhône-Alpes,non,oui,1571,84074
+Traore,Christine,42,189.0,71.3,H,non,doctorat,Provence-Alpes-Côte d’Azur,non,non,1256,41755
+Leleu,William,46,178.6,76.0,H,oui,doctorat,Hauts-de-France,non,oui,2973,41517
+Camus,Philippe,32,165.7,76.8,H,oui,bac,Occitanie,oui,oui,2185,42236
+Carpentier,Christophe,36,175.6,41.4,H,oui,doctorat,Occitanie,non,oui,1979,42337
+Thierry,Laurent,53,187.2,58.5,H,non,bac,Normandie,non,non,1775,42231
+Marie,Joseph,63,165.5,51.8,F,non,master,Auvergne-Rhône-Alpes,non,non,500,84154
+Noël,Mathilde,33,167.7,72.0,F,non,aucun,Hauts-de-France,non,non,2436,83679
+Renaud,Thérèse,62,168.6,70.6,H,oui,aucun,Occitanie,non,oui,3727,41931
+Le Roux,David,70,168.1,61.4,H,non,doctorat,Corse,non,oui,2162,41843
+Pinto,Aurore,71,175.8,91.2,H,non,doctorat,Occitanie,non,oui,1746,41827
+Blanchard,Éléonore,22,171.0,75.1,H,oui,doctorat,Occitanie,oui,non,1308,41800
+Barre,Roger,48,170.2,48.0,H,oui,bac+2,Provence-Alpes-Côte d’Azur,non,oui,500,42107
+Boyer,Renée,75,173.7,64.2,H,non,master,Hauts-de-France,non,oui,2742,41824
+Bonneau,Pénélope,46,169.8,55.4,F,non,bac+2,Corse,non,oui,2445,84241
+Duval,Isabelle,52,157.7,90.9,F,oui,doctorat,Île-de-France,non,oui,872,83964
+Fischer,Philippine,67,168.0,54.4,H,oui,doctorat,Normandie,oui,non,3184,42421
+Letellier,Adrien,33,166.7,62.2,H,oui,aucun,Occitanie,oui,oui,3523,42291
+Jean,Nicole,24,170.3,77.7,F,non,master,Normandie,non,oui,1322,83975
+Bouchet,Zacharie,39,156.0,71.6,H,oui,bac+2,Auvergne-Rhône-Alpes,oui,non,2117,42487
+Turpin,Clémence,74,176.3,68.8,F,non,aucun,Hauts-de-France,non,oui,2746,84174
+Weber,Laurent,32,153.8,98.3,F,oui,bac+2,Occitanie,oui,oui,2302,83948
+Briand,Luce,19,177.0,57.5,H,oui,bac+2,Provence-Alpes-Côte d’Azur,oui,oui,2869,42071
+Duhamel,Philippe,51,157.0,76.8,H,oui,bac+2,Normandie,non,oui,2072,42377
+Duhamel,Laurent,75,170.3,80.5,F,oui,bac,Corse,non,oui,1020,84260
+Sauvage,Alexandrie,31,163.2,76.9,F,oui,bac,Auvergne-Rhône-Alpes,oui,non,5017,84120
+Courtois,Maggie,63,168.6,78.9,H,oui,master,Île-de-France,oui,non,2371,42431
+Mahe,Aurélie,74,189.4,43.8,H,non,bac+2,Provence-Alpes-Côte d’Azur,non,non,2613,42464
+Laine,Antoinette,55,153.7,32.4,H,oui,master,Corse,oui,non,2856,41923
+Maury,Bernard,39,171.4,65.7,F,non,master,Provence-Alpes-Côte d’Azur,oui,oui,2372,83983
+Étienne,Antoinette,41,201.0,66.1,H,oui,master,Corse,non,oui,3112,42100
+Ribeiro,Benjamin,21,163.5,74.4,F,oui,doctorat,Provence-Alpes-Côte d’Azur,non,non,2214,84023
+Collin,Claude,54,165.9,97.3,F,oui,bac+2,Auvergne-Rhône-Alpes,oui,oui,3912,84326
+Meyer,Marine,30,171.4,35.4,F,non,master,Normandie,non,oui,2066,83522
+Pelletier,Jean,19,197.0,66.5,F,oui,bac+2,Occitanie,non,oui,3823,84140
+Devaux,Monique,68,184.4,73.3,F,oui,doctorat,Île-de-France,oui,non,1489,83849
+Bouchet,Margaud,37,145.6,80.3,H,non,aucun,Île-de-France,oui,non,1522,42096
+Raymond,Catherine,42,171.8,51.3,H,non,doctorat,Île-de-France,non,non,2181,41952
+Legros,Henri,51,170.3,74.0,H,non,aucun,Corse,oui,oui,1162,41805
+Andre,Astrid,29,182.0,61.0,H,non,aucun,Corse,non,oui,500,41663
+Lecoq,Marianne,58,168.9,70.5,H,oui,master,Corse,oui,non,2692,42088
+Rocher,Adrien,18,183.6,66.5,H,non,bac,Normandie,oui,oui,2356,42350
+Lefebvre,Éric,71,159.0,82.3,F,oui,bac,Hauts-de-France,oui,non,2721,83752
+Pascal,Alexandrie,34,165.8,41.4,F,non,bac,Bretagne,non,non,4233,83884
+Rodrigues,François,44,157.7,61.1,F,non,bac+2,Corse,non,oui,2930,83951
+Voisin,Gérard,18,158.0,47.6,F,oui,master,Hauts-de-France,oui,oui,500,84302
+Colin,Mathilde,25,177.2,61.8,H,oui,master,Provence-Alpes-Côte d’Azur,oui,oui,6012,41983
+Delorme,Bernadette,28,160.1,56.2,F,non,bac+2,Bretagne,non,non,1821,84109
+Charpentier,Jérôme,34,172.4,62.9,H,oui,master,Corse,oui,oui,3234,41547
+Weber,Laurent,49,160.2,49.3,H,oui,doctorat,Île-de-France,non,oui,500,42081
+Hamel,Roland,25,147.8,62.2,H,oui,master,Hauts-de-France,oui,non,2138,41755
+François,Margot,69,163.7,88.7,H,oui,master,Auvergne-Rhône-Alpes,non,non,3973,41755
+Nguyen,Michelle,46,166.7,43.1,H,oui,bac,Auvergne-Rhône-Alpes,oui,oui,1819,41925
+Martineau,Marcel,27,164.0,60.1,F,non,bac,Auvergne-Rhône-Alpes,non,oui,1662,84034
+Gallet,Emmanuel,59,163.5,64.2,H,non,master,Hauts-de-France,non,oui,1737,41888
+Lévêque,Suzanne,32,172.1,75.4,H,oui,bac+2,Occitanie,oui,non,1407,42193
+Lambert,Adèle,22,182.7,55.3,H,non,doctorat,Hauts-de-France,oui,oui,558,41962
+Bègue,Honoré,38,173.8,57.7,H,oui,aucun,Normandie,oui,non,2885,41718
+Evrard,Bernadette,28,146.0,90.9,F,non,aucun,Hauts-de-France,oui,non,3306,83777
+Thierry,Dorothée,18,155.0,47.8,F,oui,doctorat,Île-de-France,non,non,4506,84449
+Delahaye,Paulette,25,162.6,57.5,H,oui,doctorat,Provence-Alpes-Côte d’Azur,oui,non,500,41517
+Deschamps,Maryse,48,166.5,66.6,F,non,doctorat,Normandie,non,non,3358,84446
+Letellier,Stéphane,33,156.0,47.2,F,non,bac+2,Occitanie,non,non,3041,83586
+Thomas,Richard,27,180.1,46.4,F,non,bac,Hauts-de-France,non,non,3797,84219
+Roy,Nath,29,170.4,86.4,F,non,bac,Auvergne-Rhône-Alpes,oui,oui,2415,83812
+Dupuis,Nathalie,37,144.8,67.7,H,oui,master,Normandie,oui,non,3772,42430
+Pineau,Marcel,26,161.1,64.2,F,oui,master,Normandie,non,oui,2288,83526
+Marty,Thibaut,46,141.0,95.1,F,non,master,Auvergne-Rhône-Alpes,non,oui,1418,83869
+Bailly,Franck,43,175.1,68.7,H,oui,bac,Corse,oui,oui,4009,42329
+Dubois,Constance,73,174.1,66.5,F,non,doctorat,Normandie,non,non,1427,83906
+Peron,Nath,31,178.0,41.9,F,oui,master,Provence-Alpes-Côte d’Azur,non,oui,3275,83905
+Antoine,Nath,71,159.0,88.8,F,oui,bac,Corse,non,oui,2693,84368
+Bousquet,Laetitia,28,176.4,71.2,F,non,bac,Occitanie,oui,non,500,83618
+Thibault,Sébastien,42,161.4,80.1,H,non,doctorat,Hauts-de-France,non,oui,2699,41614
+Lemonnier,Juliette,69,181.8,76.0,H,oui,master,Auvergne-Rhône-Alpes,non,oui,1339,42467
+Weber,Aimé,65,162.0,71.5,H,non,bac+2,Île-de-France,oui,non,500,41501
+Renaud,Stéphanie,23,186.7,76.6,H,oui,aucun,Auvergne-Rhône-Alpes,oui,oui,3972,42366
+Lagarde,Dorothée,75,154.2,88.7,F,oui,bac,Corse,non,non,5177,83819
+Bailly,Anouk,41,156.8,81.6,F,non,master,Auvergne-Rhône-Alpes,oui,oui,2501,84449
+Leroy,Auguste,24,154.6,77.4,H,oui,bac,Normandie,oui,oui,3500,41984
+Merle,Stéphane,57,164.0,87.5,F,oui,doctorat,Occitanie,non,non,500,83632
+Duval,Astrid,75,155.1,72.0,H,oui,bac,Occitanie,oui,non,2530,41586
+Peron,Roger,26,162.8,82.1,F,non,master,Occitanie,oui,non,3137,83749
+Guyon,Henri,55,178.6,68.2,F,non,doctorat,Hauts-de-France,non,non,3223,83618
+Regnier,Lucie,49,165.5,100.8,F,non,aucun,Auvergne-Rhône-Alpes,oui,oui,1524,83781
+Jourdan,Maggie,57,191.1,70.5,F,non,bac,Provence-Alpes-Côte d’Azur,oui,non,849,83872
+Maillet,Capucine,38,183.7,71.9,F,oui,bac+2,Occitanie,oui,non,3521,83561
+Briand,Christelle,55,182.2,75.1,F,oui,bac+2,Bretagne,oui,oui,1789,84404
+Bernard,Constance,51,179.8,70.0,H,non,bac+2,Hauts-de-France,oui,non,3323,42006
+Caron,Christelle,62,148.5,76.7,F,non,master,Normandie,non,oui,1733,84173
+Huet,Gérard,65,186.5,79.3,F,oui,bac+2,Île-de-France,oui,non,2787,84488
+Leclerc,Cécile,57,174.9,55.0,H,oui,bac+2,Normandie,oui,non,4447,42491
+Breton,Christelle,42,189.9,75.9,F,oui,bac+2,Normandie,non,oui,4408,83728
+Muller,Océane,50,164.3,58.0,F,non,bac+2,Hauts-de-France,non,non,2549,84492
+Valentin,Andrée,53,174.3,64.1,H,non,bac+2,Bretagne,oui,non,3145,42289
+Roche,Laure,60,173.1,55.0,H,non,doctorat,Provence-Alpes-Côte d’Azur,oui,non,3122,41763
+Hamon,Jacqueline,69,178.6,72.6,H,oui,aucun,Hauts-de-France,non,oui,3883,41747
+Giraud,Laurent,54,157.8,77.0,H,oui,aucun,Île-de-France,oui,non,1095,41634

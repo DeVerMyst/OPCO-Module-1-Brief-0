@@ -173,9 +173,7 @@ Les models créé sont stockés dans le dossier `models/` et pictures du drawlos
 - 5 entrainnements ce n'est pas assez ? 
 - influence du random ? quelle dif entre 5x sur meme seed ou 5x sur 5 seed différents ?
 
-- La route retrain doit réentrainer sur un nouveau dataset ou juste avec qq valeurs ? 
-Quel interet de réentrainer si on a déja entrainé un modèle jusqu'à sa meilleur valeur? Qu'est ce tu attend ?
-on peux réentrainer un modèle depuis 0 ou à partir d'un modèle déjà entrainé, pour l'améliorer ou le stabiliser. -- ça me parait mieux le 2 ?
+
 
 - X = df.drop(columns=["nom", "prenom", "montant_pret"])
 => "est ce qu'on retire nom premon parce que ça n'a pas de sens statistique ou pour éthique et rgpd ?"
@@ -240,4 +238,7 @@ MSE: 13500678.8155, MAE: 2363.6760, R²: 0.8753
 
 
 
+** docker : 
+docker build -t mlflow-app .
+docker run -p 8000:8000 mlflow-app
 
