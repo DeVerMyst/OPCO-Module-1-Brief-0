@@ -9,21 +9,28 @@ try:
 except Exception:
     regions = ["Corse", "Île-de-France", "Normandie", "Auvergne-Rhône-Alpes", "Provence-Alpes-Côte d’Azur", "Bretagne", "Hauts-de-France", "Occitanie"]
 
-st.title("Prédiction de montant de prêt avec FastIA")
+st.title("Prédiction de montant de prêt avec FastIA et MLFlow")
 
 st.write("Remplissez le formulaire ci-dessous pour obtenir une prédiction.")
+st.warning("Les données recueillis sont utilisées uniquement pour la prédiction et ne sont pas stockées. Vous pouvez vous oposer à leur utilisation en fermant cette application.")
+st.markdown('<span style="font-size: 0.9em;"><i>Les champs marqués d\'un * sont obligatoires.</i></span>', unsafe_allow_html=True)
 
-# Champs du formulaire
-age = st.number_input("Âge", min_value=0, max_value=120, value=30)
-taille = st.number_input("Taille (cm)", min_value=100, max_value=250, value=170)
-poids = st.number_input("Poids (kg)", min_value=30, max_value=250, value=70)
-revenu_estime_mois = st.number_input("Revenu estimé par mois", min_value=0, value=2500)
-sexe = st.selectbox("Sexe", ["M", "F"])
-sport_licence = st.selectbox("Sport licencié ?", ["Oui", "Non"])
-niveau_etude = st.selectbox("Niveau d'étude", ["Aucun", "Bac", "Bac+2", "Bac+3", "Bac+5", "Doctorat"])
-region = st.selectbox("Région", regions)
-smoker = st.selectbox("Fumeur ?", ["Oui", "Non"])
-nationalite_francaise = st.selectbox("Nationalité française ?", ["Oui", "Non"])
+# Champs du formulaire : 2 colonnes pour les 4 indicateurs numériques, puis 1 colonne pour le reste
+col1, col2 = st.columns(2)
+with col1:
+    age = st.slider("Âge *", min_value=0, max_value=120, value=30)
+    taille = st.slider("Taille (cm) *", min_value=100, max_value=250, value=170)
+with col2:
+    poids = st.slider("Poids (kg) *", min_value=30, max_value=250, value=70)
+    revenu_estime_mois = st.slider("Revenu estimé par mois *", min_value=0, max_value=20000, value=2500, step=100)
+
+# Champs catégoriels sur une seule colonne
+sexe = st.selectbox("Sexe *", ["M", "F"])
+sport_licence = st.selectbox("Sport licencié ? *", ["Oui", "Non"])
+niveau_etude = st.selectbox("Niveau d'étude *", ["Aucun", "Bac", "Bac+2", "Bac+3", "Bac+5", "Doctorat"])
+region = st.selectbox("Région *", regions)
+smoker = st.selectbox("Fumeur ? *", ["Oui", "Non"])
+nationalite_francaise = st.selectbox("Nationalité française ? *", ["Oui", "Non"])
 
 # Préparer les données dans l'ordre attendu
 features = [
@@ -39,16 +46,27 @@ features = [
     str(nationalite_francaise)
 ]
 
-if st.button("Prédire"):
+# Bouton de validation vert
+validate_btn = st.button("Prédire", key="predict_btn")
+st.markdown("""
+    <style>
+    div.stButton > button#predict_btn {
+        background-color: #28a745;
+        color: white;
+        font-weight: bold;
+    }
+    </style>
+    """, unsafe_allow_html=True)
+
+if validate_btn:
     # Appel à l'API FastAPI
     url = "http://localhost:8000/predict"
     payload = {"data": features}
-    # st.write(f"[DEBUG] Payload envoyé à l'API : {payload}")
     try:
         response = requests.post(url, json=payload)
         if response.status_code == 200:
             prediction = response.json()["prediction"]
-            st.success(f"Montant de prêt prédit : {prediction:.2f} €")
+            st.success(f"Bravo! Montant de prêt estimé : {prediction:.2f} €")
         else:
             st.error(f"Erreur API : {response.status_code} - {response.text}")
     except Exception as e:
