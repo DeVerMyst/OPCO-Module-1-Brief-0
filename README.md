@@ -161,9 +161,11 @@ Les models créé sont stockés dans le dossier `models/` et pictures du drawlos
 
 - C'est quoi la meilleur valeur ? 
 - 5 entrainnements ce n'est pas assez ? 
-- influence du random ?
+- influence du random ? quelle dif entre 5x sur meme seed ou 5x sur 5 seed différents ?
 
-- Quel interet de réentrainer si on a déja entrainé un modèle jusqu'à sa meilleur valeur?
+- La route retrain doit réentrainer sur un nouveau dataset ou juste avec qq valeurs ? 
+Quel interet de réentrainer si on a déja entrainé un modèle jusqu'à sa meilleur valeur? Qu'est ce tu attend ?
+on peux réentrainer un modèle depuis 0 ou à partir d'un modèle déjà entrainé, pour l'améliorer ou le stabiliser. -- ça me parait mieux le 2 ?
 
 - X = df.drop(columns=["nom", "prenom", "montant_pret"])
 => "est ce qu'on retire nom premon parce que ça n'a pas de sens statistique ou pour éthique et rgpd ?"

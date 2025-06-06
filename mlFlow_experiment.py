@@ -252,6 +252,38 @@ async def retrain(request: Request, payload: RetrainRequest):
         # Conversion en DataFrame
         df_new = pd.DataFrame(payload.data)
         logger.info(f"Nouvelles données reçues pour réentraînement: colonnes={df_new.columns.tolist()}, shape={df_new.shape}")
+        # Charger le dataset choisis : old ou new
+        df_hist = pd.read_csv(join('data', settings["dataversion"]))
+        
+        # Concaténer les nouvelles données à l'historique
+        df_full = pd.concat([df_hist, df_new], ignore_index=True)
+        logger.info(f"Dataset concaténé: shape={df_full.shape}")
+        X_train, X_test, y_train, y_test = prepare_data(df_full)
+        
+        run_desc = f"API retrain {datetime.now().isoformat()} (historique + nouvelles données)"
+        
+        run_id = None
+        for i in range(wanted_train_cycle):
+            logger.info(f"Starting retraining iteration {i + 1} of {wanted_train_cycle}")
+            run_id = train_and_log_model(X_train, y_train, X_test, y_test, run_desc, model_id=run_id, run_idx=i)
+        
+        # run_id = train_and_log_model(X_train, y_train, X_test, y_test, run_desc, prediction_model, run_idx=1)
+        return {"status": "success", "run_id": run_id}
+    except Exception as e:
+        logger.error(f"Erreur lors du réentraînement: {e}")
+        raise HTTPException(status_code=500, detail=str(e))
+    
+    
+    
+async def retrain_old(request: Request, payload: RetrainRequest):
+    """
+    Réentraîne le modèle à partir de nouvelles données reçues (format liste de dicts).
+    """
+    logger.info(f"Route '{request.url.path}' called for retraining with {len(payload.data)} new samples.")
+    try:
+        # Conversion en DataFrame
+        df_new = pd.DataFrame(payload.data)
+        logger.info(f"Nouvelles données reçues pour réentraînement: colonnes={df_new.columns.tolist()}, shape={df_new.shape}")
         # Charger le dataset historique
         df_hist = pd.read_csv(join('data', settings["dataversion"]))
         # Concaténer les nouvelles données à l'historique
