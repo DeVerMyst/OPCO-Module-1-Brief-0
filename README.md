@@ -125,7 +125,7 @@ pip install nltk fastapi streamlit uvicorn requests pydantic
 ```
 - #### Pour lancer le serveur MLflow :
 ```bash
-uvicorn mlFlow_experiment:app --host 127.0.0.1 --port 9000 --reload
+uvicorn mlFlow_api:app --host 127.0.0.1 --port 9000 --reload
 ```
 - #### Description des routes de l'API FastAPI :
 [GET /docs](http://127.0.0.1:9000/docs#/)
@@ -140,8 +140,6 @@ pytest test_predict_api.py
 - ### Installations des requis pour MLflow : 
   > **mlFlow**
   MlFlow est un outil de gestion des expériences de machine learning. Il permet de suivre les expériences, de gérer les modèles et de visualiser les résultats.
-  
-
 ```bash
 pip install mlflow scikit-learn pandas matplotlib
 ```
@@ -151,6 +149,19 @@ pip install mlflow scikit-learn pandas matplotlib
 mlflow ui
 ```
 
+## Streamlit
+lancer le serveur Streamlit pour l'interface utilisateur :
+```bash
+streamlit run streamlit_app.py
+```
+### Pour accéder à l'interface utilisateur, ouvrez votre navigateur et allez à l'adresse
+[http://localhost:8501](http://localhost:8501)
+
+
+
+
+
+## Déroulé du travail
 Création d'un script pour générer 3 entrainements et les stocker sur MLflow : 
 Les models créé sont stockés dans le dossier `models/` et pictures du drawloss sont stockés dans le dossier `figures/`.
 
@@ -163,23 +174,34 @@ Les models créé sont stockés dans le dossier `models/` et pictures du drawlos
   -- les images des couts stockés dans le dossier `figures/`.
   -- Une route `/predict` pour faire des prédictions sur des données envoyées via questionnaire *Streamlit*.
   -- Une route `/retrain` pour réentrainer le modèle (in progress).
+  -- Containerisation ?
+  -- Stockage de l'id du model en local pour le retrouver depuis docker
+
+
+
+** docker : 
+docker build -t mlflow-app .
+docker run -p 8000:8000 mlflow-app
+docker run -p 8000:8000 -p 8501:8501 -p 5000:5000 mlflow-app
+
+[FastAPI](http://localhost:8000/docs)
+[FastAPI](http://localhost:8501/)
+
+
+
+docker build -t mlflow-app .
+docker run -p 8000:8000 -p 8501:8501 -p 5000:5000 mlflow-app
+
+FastAPI : http://localhost:8000/docs
+Streamlit : http://localhost:8501
+MLflow UI : http://localhost:5000
+
+
+
+## Annexes / data
 
 
 ```code
-
-# Question pour follow-up :
-
-- C'est quoi la meilleur valeur ? 
-- 5 entrainnements ce n'est pas assez ? 
-- influence du random ? quelle dif entre 5x sur meme seed ou 5x sur 5 seed différents ?
-
-
-
-- X = df.drop(columns=["nom", "prenom", "montant_pret"])
-=> "est ce qu'on retire nom premon parce que ça n'a pas de sens statistique ou pour éthique et rgpd ?"
-
-
-
 # Entrainements RESULTS
 ## Entrainement sur les **anciennes données** :
 ==================Performance for run 0/5===================
@@ -235,10 +257,4 @@ MSE: 13500678.8155, MAE: 2363.6760, R²: 0.8753
 > Arrivé au bout de la 3ème itération, on a un modèle qui semble stable et performant sur les nouvelles données. 
 > **Pas d'amélioration notable** de réentrainer sur les ancienne données
 
-
-
-
-** docker : 
-docker build -t mlflow-app .
-docker run -p 8000:8000 mlflow-app
 

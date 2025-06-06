@@ -301,3 +301,44 @@ Arguments received by Sequential.call():
 2025-06-06T13:49:24.489926+0200 INFO Données chargées pour réentraînement: shape=(2000, 13), colonnes=['nom', 'prenom', 'age', 'taille', 'poids', 'sexe', 'sport_licence', 'niveau_etude', 'region', 'smoker', 'nationalité_francaise', 'revenu_estime_mois', 'montant_pret']
 2025-06-06T13:49:24.489926+0200 INFO Starting training iteration 0 of 3 (from_existing_model=False)
 2025-06-06T13:49:24.490927+0200 ERROR Erreur lors du réentraînement: [Errno 2] No such file or directory: 'data\\data/df_new.csv'
+2025-06-06T14:09:03.359022+0200 INFO Route '/retrain' called for retraining with data_path=data/df_modifie.csv, from_existing_model=False
+2025-06-06T14:09:03.366023+0200 INFO Données chargées pour réentraînement: shape=(2000, 13), colonnes=['nom', 'prenom', 'age', 'taille', 'poids', 'sexe', 'sport_licence', 'niveau_etude', 'region', 'smoker', 'nationalité_francaise', 'revenu_estime_mois', 'montant_pret']
+2025-06-06T14:09:03.366023+0200 INFO Starting training iteration 0 of 3 (from_existing_model=False)
+2025-06-06T14:09:03.397022+0200 INFO No previous model_id, creating new model.
+2025-06-06T14:09:11.736022+0200 INFO Model performances: {'MSE': 143872320.0, 'MAE': 11848.58203125, 'R²': 0.6723835468292236}
+2025-06-06T14:09:24.346606+0200 INFO Run 1 terminé, run_id=8b341a9c96af48eb8b8c45541ca68bf7
+2025-06-06T14:09:24.374608+0200 INFO Starting training iteration 1 of 3 (from_existing_model=False)
+2025-06-06T14:09:24.390606+0200 INFO Loading model from previous model_id: 8b341a9c96af48eb8b8c45541ca68bf7
+2025-06-06T14:09:33.674208+0200 INFO Model performances: {'MSE': 684601.6875, 'MAE': 723.40625, 'R²': 0.9984411001205444}
+2025-06-06T14:09:43.499209+0200 INFO Run 2 terminé, run_id=a0d15038b438414ab43e283e8d265079
+2025-06-06T14:09:43.530210+0200 INFO Starting training iteration 2 of 3 (from_existing_model=False)
+2025-06-06T14:09:43.548208+0200 INFO Loading model from previous model_id: a0d15038b438414ab43e283e8d265079
+2025-06-06T14:09:52.885588+0200 INFO Model performances: {'MSE': 84691.0390625, 'MAE': 252.36651611328125, 'R²': 0.9998071193695068}
+2025-06-06T14:10:03.233675+0200 INFO Run 3 terminé, run_id=3366968e6add45ddaad09162c63578e5
+2025-06-06T14:21:23.253608+0200 INFO Route '/predict' called with data: [30, 170.0, 70.0, 2500.0, 'F', 'Oui', 'Aucun', 'Auvergne-Rhône-Alpes', 'Oui', 'Oui']
+2025-06-06T14:21:27.597188+0200 INFO Model loaded from MLflow run ID: 60ca87cde38a42dab673c4c6491ba076
+2025-06-06T14:21:27.715187+0200 INFO Prediction made: [3505.657], prediction value: 3505.656982421875
+2025-06-06T14:30:05.608428+0200 INFO Route '/predict' called with data: [30, 170.0, 70.0, 2500.0, 'F', 'Oui', 'Aucun', 'Auvergne-Rhône-Alpes', 'Oui', 'Oui']
+2025-06-06T14:30:09.969427+0200 INFO Model loaded from MLflow run ID: 3366968e6add45ddaad09162c63578e5
+2025-06-06T14:30:10.096427+0200 INFO Prediction made: [46400.094], prediction value: 46400.09375
+2025-06-06T14:30:21.998427+0200 INFO Route '/predict' called with data: [30, 170.0, 70.0, 2500.0, 'M', 'Oui', 'Aucun', 'Auvergne-Rhône-Alpes', 'Oui', 'Oui']
+2025-06-06T14:30:26.241427+0200 INFO Model loaded from MLflow run ID: 3366968e6add45ddaad09162c63578e5
+2025-06-06T14:30:26.345427+0200 INFO Prediction made: [18508.934], prediction value: 18508.93359375
+2025-06-06T14:31:36.364733+0200 INFO Route '/predict' called with data: [30, 170.0, 70.0, 2500.0, 'F', 'Oui', 'Aucun', 'Auvergne-Rhône-Alpes', 'Oui', 'Oui']
+2025-06-06T14:31:40.922735+0200 INFO Model loaded from MLflow run ID: 3366968e6add45ddaad09162c63578e5
+2025-06-06T14:31:41.055736+0200 INFO Prediction made: [46400.094], prediction value: 46400.09375
+2025-06-06T14:33:26.711115+0200 INFO Route '/retrain' called for retraining with data_path=data/df_modifie.csv, from_existing_model=False
+2025-06-06T14:33:26.717114+0200 INFO Données chargées pour réentraînement: shape=(2000, 13), colonnes=['nom', 'prenom', 'age', 'taille', 'poids', 'sexe', 'sport_licence', 'niveau_etude', 'region', 'smoker', 'nationalité_francaise', 'revenu_estime_mois', 'montant_pret']
+2025-06-06T14:33:26.718115+0200 INFO Starting training iteration 0 of 3 (from_existing_model=False)
+2025-06-06T14:33:26.743115+0200 INFO No previous model_id, creating new model.
+2025-06-06T14:33:36.383298+0200 INFO Model performances: {'MSE': 134075144.0, 'MAE': 11432.0, 'R²': 0.6946930885314941}
+2025-06-06T14:33:49.985301+0200 INFO Run 1 terminé, run_id=0386bb6446df42869dc9fb3cee8b826b
+2025-06-06T14:33:50.023299+0200 INFO Starting training iteration 1 of 3 (from_existing_model=False)
+2025-06-06T14:33:50.048298+0200 INFO Loading model from previous model_id: 0386bb6446df42869dc9fb3cee8b826b
+2025-06-06T14:34:00.591296+0200 INFO Model performances: {'MSE': 432109.90625, 'MAE': 558.4544677734375, 'R²': 0.9990160465240479}
+2025-06-06T14:34:07.752299+0200 INFO Run 2 terminé, run_id=cfef5b3b801544cfb976906ccf2578bc
+2025-06-06T14:34:07.783296+0200 INFO Starting training iteration 2 of 3 (from_existing_model=False)
+2025-06-06T14:34:07.802300+0200 INFO Loading model from previous model_id: cfef5b3b801544cfb976906ccf2578bc
+2025-06-06T14:34:20.169312+0200 INFO Model performances: {'MSE': 84891.4375, 'MAE': 253.5156707763672, 'R²': 0.9998067021369934}
+2025-06-06T14:34:30.590923+0200 INFO Run 3 terminé, run_id=e20b7c394bad484c8adce0f5b05f59c2
+2025-06-06T14:34:30.628926+0200 INFO Nouveau modèle de prédiction mis à jour avec run_id: e20b7c394bad484c8adce0f5b05f59c2

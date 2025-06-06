@@ -6,6 +6,7 @@ from sklearn.metrics import mean_squared_error, mean_absolute_error
 from sklearn.model_selection import train_test_split
 from sklearn.datasets import make_regression
 
+import json
 
 from modules.preprocess import preprocessing, split
 from modules.evaluate import evaluate_performance
@@ -29,7 +30,34 @@ app = create_app()
 today_str = datetime.now().strftime("%Y%m%d_%H%M")
 
 # Force url for MLFlow
-mlflow.set_tracking_uri('http://localhost:5000')
+mlflow.set_tracking_uri(os.environ.get("MLFLOW_TRACKING_URI", "http://localhost:5000"))
+
+
+# Utilitaire pour lire le run_id courant
+
+def set_last_run_id(run_id):
+    try:
+        result = {
+            "run_id": run_id,
+            "timestamp": datetime.now().isoformat(),
+            # futur : ajouter le r²
+        }
+        with open("models/current_model.json", "w") as f:
+            json.dump(result, f)
+        
+        logger.info(f"Nouveau modèle de prédiction mis à jour avec run_id: {run_id} (sauvegardé dans models/current_model.json)")
+                     
+    except Exception:
+        return ""
+    
+    
+def get_last_run_id():
+    try:
+        with open("models/current_model.json") as f:
+            data = json.load(f)
+            return data.get("run_id", "")
+    except Exception:
+        return None
 
 
 settings = {
@@ -45,12 +73,7 @@ settings = {
 wanted_train_cycle = settings.get("wanted_train_cycle", 1)  # nombre d'entraînements à effectuer
 artifact_path = "linear_regression_model"
 
-# prediction_model = None  # Variable to hold the prediction model
-# prediction_model = "1a22f130b64744ba9b235c1b6be1a7be"  # Variable to hold the BEST predicted model
-# prediction_model = None  # Variable to hold the BEST predicted model
-# prediction_model = "60ca87cde38a42dab673c4c6491ba076"  # Variable to hold the BEST predicted model
-prediction_model = "3366968e6add45ddaad09162c63578e5"  # from df_modifie
-
+prediction_model = get_last_run_id()  # Variable to hold the prediction model
 
 def MLFlow_train_model(options, model, X, y, X_val=None, y_val=None, epochs=50, batch_size=32, verbose=0):
     """
@@ -186,6 +209,9 @@ if __name__ == "__main__":
         for i in range(wanted_train_cycle):
             logger.info(f"Starting training iteration {i} of {wanted_train_cycle}")
             run_id = train_and_log_iterative(i, settings, run_id)
+        # Mettre à jour le modèle de prédiction avec le dernier run_id
+        set_last_run_id(run_id)
+        
     else:
         print("Aucune action lancée. Pour entraîner, lancez : python mlFlow_experiment.py train")
         
@@ -209,14 +235,11 @@ async def predict(request: Request, payload: PredictRequest):
     """
     logger.info(f"Route '{request.url.path}' called with data: {payload.data}")
     try:
-        # # Charger le modèle MLflow le plus récent (dernier run)
-        # client = mlflow.tracking.MlflowClient()
-        # runs = client.search_runs(experiment_ids=["0"], order_by=["attributes.start_time DESC"], max_results=1)
-        # if not runs:
-        #     raise HTTPException(status_code=404, detail="Aucun modèle MLflow trouvé.")
-        run_id = prediction_model
+        # Charger le run_id courant depuis le fichier local
+        run_id = get_last_run_id()
+        if not run_id:
+            raise HTTPException(status_code=404, detail="Aucun run_id trouvé. Veuillez entraîner un modèle d'abord.")
         model = MLFlow_load_model(run_id, artifact_path)
-        
         logger.info(f"Model loaded from MLflow run ID: {run_id}")
                 
         # Charger le préprocesseur
@@ -252,9 +275,7 @@ async def retrain(request: Request, payload: RetrainRequest):
     """
     
     settings = {
-        "description": "not set ",
-        "dataversion": "df_new.csv", # version de données de base d'entrainnement
-        # "best_model": "1a22f130b64744ba9b235c1b6be1a7be",  # ID du meilleur modèle
+        "description": "retrain model with new data",
         "wanted_train_cycle": 3,  # nombre d'entraînements à effectuer 3 est le meilleur
         "epochs": 50,  
         "train_seed": 42,  
@@ -275,11 +296,14 @@ async def retrain(request: Request, payload: RetrainRequest):
             run_id = train_and_log_iterative(i, settings, run_id)
             
         # Mettre à jour le modèle de prédiction avec le dernier run_id
-        prediction_model = run_id  # Mettre à jour le modèle de prédiction avec le dernier 
-        logger.info(f"Nouveau modèle de prédiction mis à jour avec run_id: {run_id}")
-        return {"status": "success", "nouveau modèle actif pour la prévision : ": run_id}
+        # Sauvegarder le run_id et les scores dans un fichier local
+        set_last_run_id(run_id)
+        
+        return {"status": "success", "nouveau modèle actif pour la prévision": run_id}
+    
     except Exception as e:
         logger.error(f"Erreur lors du réentraînement: {e}")
         raise HTTPException(status_code=500, detail=str(e))
-    
-    
+
+
+
