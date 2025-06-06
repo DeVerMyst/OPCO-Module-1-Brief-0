@@ -35,9 +35,9 @@ settings = {
     "description": "not set ",
     "dataversion": "df_new.csv", # version de données de base d'entrainnement
     "best_model": "1a22f130b64744ba9b235c1b6be1a7be",  # ID du meilleur modèle
-    "wanted_train_cycle": 5,  # nombre d'entraînements à effectuer
+    "wanted_train_cycle": 3,  # nombre d'entraînements à effectuer 3 est le meilleur
     "epochs": 50,  
-    "prepareDataSeed": 42,  
+    "train_seed": 42,  
 }
 
 # Paramètres d'entraînement
@@ -46,30 +46,39 @@ artifact_path = "linear_regression_model"
 
 # prediction_model = None  # Variable to hold the prediction model
 # prediction_model = "1a22f130b64744ba9b235c1b6be1a7be"  # Variable to hold the BEST predicted model
-prediction_model = None  # Variable to hold the BEST predicted model
+# prediction_model = None  # Variable to hold the BEST predicted model
+prediction_model = "60ca87cde38a42dab673c4c6491ba076"  # Variable to hold the BEST predicted model
 
 
 def MLFlow_train_model(options, model, X, y, X_val=None, y_val=None, epochs=50, batch_size=32, verbose=0):
     """
-    Train a model and log it to MLFlow.
-    
-    Parameters:
-    model: The model to be trained.
-    X_train: The training features.
-    y_train: The training labels.
-    Returns:
-    model: The trained model.
+    Entraîne un modèle et le log le loss et ou le model.
+    Args:
+        options (dict): Options pour l'entraînement et le logging.
+        model: Le modèle à entraîner.
+        X (DataFrame): Les données d'entrée.
+        y (Series): Les étiquettes cibles.
+        X_val (DataFrame, optional): Les données de validation. Si None, pas de validation.
+        y_val (Series, optional): Les étiquettes cibles de validation. Si None, pas de validation.
+        epochs (int): Nombre d'époques pour l'entraînement.
+        batch_size (int): Taille du batch pour l'entraînement.
+        verbose (int): Niveau de verbosité pour l'entraînement.
+        Returns:
+        model: Le modèle entraîné.
+        hist: L'historique de l'entraînement.
     """
     model, hist = train_model(model, X, y, X_val, y_val, epochs, batch_size, verbose)
     
+    step_base_name = options.get("step_base_name", f"model_{today_str}_ml_{options.get('step', 'default')}")
     if options.get("save_model", False):
-        
-        step_base_name = options.get("step_base_name", f"model_{today_str}_ml_{options.get('step', 'default')}")
-        # sauvegarder le drawloss
-        draw_loss(hist, join('figures',f'{step_base_name}.jpg'))
         # sauvegarder le modèle
         joblib.dump(model, join('models', f'{step_base_name}.pkl'))
         logger.info(f"Model saved as {step_base_name}.pkl")
+        
+    if options.get("save_cost", False):
+        # sauvegarder le drawloss
+        draw_loss(hist, join('figures',f'{step_base_name}.jpg'))
+        
     
     return model, hist
 
@@ -103,8 +112,6 @@ def MLFlow_make_prediction(model, X):
     return preds
     
 
-
-
 ### Function to train and log a model iteratively in MLFlow
 def train_and_log_iterative(run_idx, info, run_id=None):
     """
@@ -128,29 +135,29 @@ def prepare_data(df, run_idx=0):
     X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state= 42)  # Ajout de run_idx pour la reproductibilité
     return X_train, X_test, y_train, y_test
 
-def train_and_log_model(X_train, y_train, X_test, y_test, run_desc, run_id=None, run_idx=0, artifact_path="linear_regression_model"):
+def train_and_log_model(X_train, y_train, X_test, y_test, run_desc, model_id=None, run_idx=0, artifact_path="linear_regression_model"):
     """
-    Entraîne un modèle, loggue dans MLflow, retourne le run_id.
+    Entraîne un modèle, loggue dans MLflow, retourne le model_id.
     """
      # Charger le modèle du run précédent ou créer un nouveau modèle
-    if run_id is not None:
-        logger.info(f"Loading model from previous run_id: {run_id}")
-        model = MLFlow_load_model(run_id, artifact_path)
+    if model_id is not None:
+        logger.info(f"Loading model from previous model_id: {model_id}")
+        model = MLFlow_load_model(model_id, artifact_path)
     else:
-        logger.info("No previous run_id, creating new model.")
+        logger.info("No previous model_id, creating new model.")
         model = create_nn_model(X_train.shape[1])
-        run_id = today_str
+        model_id = "None"  # Reset model_id if no previous model is loaded
     
-    step_base_name = f"model_{run_id}"
+    step_base_name = f"model_{today_str}_{run_idx}_{model_id}"
     model, hist = MLFlow_train_model({
-        "save_model": True, # should be False when tests are finished
+        "save_model": False, # should be False when tests are finished
+        "save_cost": True, # should be False when tests are finished
         "step_base_name": step_base_name,
         "step": run_idx
     }, model, X_train, y_train, X_val=X_test, y_val=y_test, epochs=50, batch_size=32, verbose=0)
     
     preds = MLFlow_make_prediction(model, X_test)
     
-
     perf = evaluate_performance(y_test, preds)
     print_data(perf, exp_name=run_desc)
     logger.info(f"Model performances: {perf}")
@@ -158,9 +165,9 @@ def train_and_log_model(X_train, y_train, X_test, y_test, run_desc, run_id=None,
 
     with mlflow.start_run() as run:
         mlflow.log_param("description", run_desc)
-        # mlflow.log_param("data_version", info["dataversion"])
-        mlflow.log_param("random_state", 42)
-        mlflow.log_param("previous_run_id", run_id if run_id else "None")
+        mlflow.log_param("data_version", settings.get("dataversion", "df_old.csv"))
+        mlflow.log_param("random_state", settings.get("train_seed", 42))
+        mlflow.log_param("previous_run_id", model_id if model_id else "None")
         mlflow.log_metric("mse", perf['MSE'])
         mlflow.log_metric("mae", perf['MAE'])
         mlflow.log_metric("r2", perf['R²'])
@@ -256,7 +263,7 @@ async def retrain(request: Request, payload: RetrainRequest):
         run_id = None
         for i in range(wanted_train_cycle):
             logger.info(f"Starting retraining iteration {i + 1} of {wanted_train_cycle}")
-            run_id = train_and_log_model(X_train, y_train, X_test, y_test, run_desc, run_id=run_id, run_idx=i)
+            run_id = train_and_log_model(X_train, y_train, X_test, y_test, run_desc, model_id=run_id, run_idx=i)
         
         # run_id = train_and_log_model(X_train, y_train, X_test, y_test, run_desc, prediction_model, run_idx=1)
         return {"status": "success", "run_id": run_id}
@@ -264,26 +271,3 @@ async def retrain(request: Request, payload: RetrainRequest):
         logger.error(f"Erreur lors du réentraînement: {e}")
         raise HTTPException(status_code=500, detail=str(e))
     
-async def retrain_old(request: Request, payload: RetrainRequest):
-    """
-    Réentraîne le modèle à partir de nouvelles données reçues (format liste de dicts).
-    """
-    logger.info(f"Route '{request.url.path}' called for retraining with {len(payload.data)} new samples.")
-    try:
-        # Conversion en DataFrame
-        df_new = pd.DataFrame(payload.data)
-        logger.info(f"Nouvelles données reçues pour réentraînement: colonnes={df_new.columns.tolist()}, shape={df_new.shape}")
-        # Charger le dataset historique
-        df_hist = pd.read_csv(join('data', settings["dataversion"]))
-        # Concaténer les nouvelles données à l'historique
-        df_full = pd.concat([df_hist, df_new], ignore_index=True)
-        logger.info(f"Dataset concaténé: shape={df_full.shape}")
-        X_train, X_test, y_train, y_test = prepare_data(df_full)
-        run_desc = f"API retrain {datetime.now().isoformat()} (historique + nouvelles données)"
-        # run_id = train_and_log_model(X_train, y_train, X_test, y_test, run_desc, run_id=None, run_idx=1)
-        run_id = train_and_log_model(X_train, y_train, X_test, y_test, run_desc, prediction_model, run_idx=1)
-        return {"status": "success", "run_id": run_id}
-    except Exception as e:
-        logger.error(f"Erreur lors du réentraînement: {e}")
-        raise HTTPException(status_code=500, detail=str(e))
-

@@ -106,36 +106,42 @@ On espère que cette petite virée dans notre projet t'a plu. N'hésite pas à j
 *Fait avec amour, code et une bonne dose de caféine (et un peu de folie).*
 
 
-# Génération requirements.txt à chaque installation de module
+# TD => GOGOGO
+## setup
+
+- ### Génération requirements.txt à chaque installation de module
 ```bash
 pip freeze > requirements.txt
 ```
 
-# Installations des requis loguru: 
+- ### Installations des requis loguru: 
 ```bash
 pip install loguru
 ```
 
-# Installations des requis FastAPI/Streamlit: 
+- ### Installations des requis FastAPI/Streamlit: 
 ```bash
 pip install nltk fastapi streamlit uvicorn requests pydantic
 ```
-## Pour lancer le serveur MLflow :
+- #### Pour lancer le serveur MLflow :
 ```bash
 uvicorn mlFlow_experiment:app --host 127.0.0.1 --port 9000 --reload
 ```
-### Description des routes de l'API FastAPI :
+- #### Description des routes de l'API FastAPI :
 [GET /docs](http://127.0.0.1:9000/docs#/)
 
 
-
-# Installation des bibliothèques pour les tests unitaires: 
+- ### Installation des bibliothèques pour les tests unitaires: 
 ```bash
 pip install pytest httpx
 pytest test_predict_api.py
 ```
 
-# Installations des requis pour MLflow : 
+- ### Installations des requis pour MLflow : 
+  > **mlFlow**
+  MlFlow est un outil de gestion des expériences de machine learning. Il permet de suivre les expériences, de gérer les modèles et de visualiser les résultats.
+  
+
 ```bash
 pip install mlflow scikit-learn pandas matplotlib
 ```
@@ -148,37 +154,78 @@ mlflow ui
 Création d'un script pour générer 3 entrainements et les stocker sur MLflow : 
 Les models créé sont stockés dans le dossier `models/` et pictures du drawloss sont stockés dans le dossier `figures/`.
 
-```python
 
+```code
 
+# Question pour follow-up :
 
-# mlFlow test repro: 
-## 1er essai :
-mae
-4036.682826764578
-mse
-26815043.702234305
-r2
-0.8172922647660517
-## 2eme essai :
-mae
-4036.682826764578
-mse
-26815043.702234305
-r2
-0.8172922647660517
-
-** Arrivé au bout de la 3ème itération, on a un modèle qui semble stable et performant sur les nouvelles données. **
-=> revenir sur la version 1/3 (eme run de cette passe de 3 entrainnement pour valider le model qui est le + optimisé)
-==================Performance for run 1/3===================
-MSE: 13484279.8583, MAE: 2341.7107, R²: 0.8754
-============================================================
-
-==================Performance for run 2/3===================
-MSE: 13509056.0376, MAE: 2336.8635, R²: 0.8752
-============================================================
-
+- C'est quoi la meilleur valeur ? 
+- 5 entrainnements ce n'est pas assez ? 
+- influence du random ?
 
 - Quel interet de réentrainer si on a déja entrainé un modèle jusqu'à sa meilleur valeur?
 
-- Next step : Entrainer le modèle sur nouvelles données 5x puisque c'est le max puis sur les anciennes données ?
+- X = df.drop(columns=["nom", "prenom", "montant_pret"])
+=> "est ce qu'on retire nom premon parce que ça n'a pas de sens statistique ou pour éthique et rgpd ?"
+
+
+
+# Entrainements RESULTS
+## Entrainement sur les **anciennes données** :
+==================Performance for run 0/5===================
+MSE: 35648332.4621, MAE: 4868.7535, R²: 0.7571
+============================================================
+==================Performance for run 1/5===================
+MSE: 21110141.2394, MAE: 3514.9460, R²: 0.8562
+============================================================
+==================Performance for run 2/5=================== => *Best OLD*
+MSE: 21087705.3786, MAE: 3499.9798, R²: 0.8563
+============================================================
+==================Performance for run 3/5===================
+MSE: 21079447.9325, MAE: 3500.0007, R²: 0.8564
+============================================================
+==================Performance for run 4/5===================
+MSE: 21088151.5108, MAE: 3503.9029, R²: 0.8563
+============================================================
+
+***
+
+## Train de 5 avec les nouvelles données : 
+==================Performance for run 0/5===================
+MSE: 17590206.6978, MAE: 2934.2774, R²: 0.8375
+============================================================
+==================Performance for run 1/5===================
+MSE: 13534161.0819, MAE: 2393.7978, R²: 0.8750
+============================================================
+==================Performance for run 2/5=================== => *Best NEW*
+MSE: 13484831.7345, MAE: 2363.3283, R²: 0.8754
+============================================================
+==================Performance for run 3/5===================
+MSE: 13548757.8251, MAE: 2348.1724, R²: 0.8748
+============================================================
+==================Performance for run 4/5===================
+MSE: 13529502.2254, MAE: 2339.3840, R²: 0.8750
+============================================================
+
+***
+
+## 3 entrainement depuis le meilleur modèle de la passe old (60ca87cde38a42dab673c4c6491ba076) avec les données new pour voir si on a un meilleur résultat :
+==================Performance for run 0/3===================
+MSE: 13519659.5319, MAE: 2393.4214, R²: 0.8751
+============================================================
+==================Performance for run 1/3===================
+MSE: 13564161.1756, MAE: 2389.5547, R²: 0.8747
+============================================================
+==================Performance for run 2/3===================
+MSE: 13500678.8155, MAE: 2363.6760, R²: 0.8753
+============================================================
+
+
+```
+> Arrivé au bout de la 3ème itération, on a un modèle qui semble stable et performant sur les nouvelles données. 
+> **Pas d'amélioration notable** de réentrainer sur les ancienne données
+
+
+
+
+
