@@ -155,6 +155,16 @@ Création d'un script pour générer 3 entrainements et les stocker sur MLflow :
 Les models créé sont stockés dans le dossier `models/` et pictures du drawloss sont stockés dans le dossier `figures/`.
 
 
+- J'ai mis en place :
+  -- Un script pour lancer 5 entrainements sur les anciennes données et 5 sur les nouvelles données.
+  -- le suivi des performances de chaque entrainement dans MLflow.
+  -- les tests unitaires
+  -- le loging des performances avec `loguru` et un setup simplifié pour le logger.
+  -- les images des couts stockés dans le dossier `figures/`.
+  -- Une route `/predict` pour faire des prédictions sur des données envoyées via questionnaire *Streamlit*.
+  -- Une route `/retrain` pour réentrainer le modèle (in progress).
+
+
 ```code
 
 # Question pour follow-up :

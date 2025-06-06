@@ -291,3 +291,9 @@ Arguments received by Sequential.call():
 2025-06-06T11:47:38.801350+0200 INFO Loading model from previous model_id: 016fd921e4764c51841b3acb9883ae36
 2025-06-06T11:47:49.155055+0200 INFO Model performances: {'MSE': 13500678.815478561, 'MAE': 2363.6759925448373, 'R²': 0.8752850007614676}
 2025-06-06T11:47:59.382054+0200 INFO Run 3 terminé, run_id=537e19546d684122a7d23fd5f1c3feea
+2025-06-06T12:36:35.521689+0200 INFO Route '/predict' called with data: [108, 151.0, 223.0, 800.0, 'M', 'Oui', 'Aucun', 'Auvergne-Rhône-Alpes', 'Oui', 'Non']
+2025-06-06T12:36:39.957687+0200 INFO Model loaded from MLflow run ID: 60ca87cde38a42dab673c4c6491ba076
+2025-06-06T12:36:40.142686+0200 INFO Prediction made: [8305.412], prediction value: 8305.412109375
+2025-06-06T13:08:44.244900+0200 INFO Route '/predict' called with data: [68, 151.0, 121.0, 6600.0, 'M', 'Oui', 'Doctorat', 'Auvergne-Rhône-Alpes', 'Non', 'Oui']
+2025-06-06T13:08:48.619913+0200 INFO Model loaded from MLflow run ID: 60ca87cde38a42dab673c4c6491ba076
+2025-06-06T13:08:48.757911+0200 INFO Prediction made: [21131.578], prediction value: 21131.578125
