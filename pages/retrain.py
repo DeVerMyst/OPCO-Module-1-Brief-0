@@ -18,7 +18,7 @@ data_path = st.selectbox("Fichier de données (CSV) *", csv_files)
 # Option pour fine-tuning ou nouveau modèle
 from_existing = st.radio(
     "Type de réentraînement :",
-    ("Continuer à partir du modèle actuel (fine-tuning)", "Réentraîner un nouveau modèle")
+    ("Continuer à partir du modèle actuel", "Réentraîner un nouveau modèle")
 )
 from_existing_model = from_existing == "Continuer à partir du modèle actuel"
 

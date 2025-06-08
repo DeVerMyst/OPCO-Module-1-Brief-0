@@ -72,3 +72,51 @@
 2025-06-08T07:02:19.787414+0000 INFO Model performances: {'MSE': 13503135.880122967, 'MAE': 2391.356168394, 'R²': 0.875262303175706}
 2025-06-08T07:02:25.674654+0000 INFO Run 3 terminé, run_id=e68a2055f1a84f30aaff68726060634f
 2025-06-08T07:02:25.690974+0000 INFO Nouveau modèle de prédiction mis à jour avec run_id: e68a2055f1a84f30aaff68726060634f (sauvegardé dans models/current_model.json)
+2025-06-08T07:06:33.619685+0000 INFO Route '/predict' called with data: [30, 170.0, 70.0, 2500.0, 'M', 'Oui', 'Aucun', 'Auvergne-Rhône-Alpes', 'Oui', 'Oui']
+2025-06-08T07:06:33.688579+0000 INFO Model loaded from MLflow run ID: e68a2055f1a84f30aaff68726060634f
+2025-06-08T07:06:33.790651+0000 INFO Prediction made: [3182.0725], prediction value: 3182.072509765625
+2025-06-08T07:06:52.006191+0000 INFO Route '/predict' called with data: [30, 137.0, 96.0, 11100.0, 'M', 'Oui', 'Aucun', 'Auvergne-Rhône-Alpes', 'Oui', 'Oui']
+2025-06-08T07:06:52.089430+0000 INFO Model loaded from MLflow run ID: e68a2055f1a84f30aaff68726060634f
+2025-06-08T07:06:52.168607+0000 INFO Prediction made: [38043.96], prediction value: 38043.9609375
+2025-06-08T07:07:33.355974+0000 INFO Route '/retrain' called for retraining with data_path=data/df_modifie.csv, from_existing_model=False
+2025-06-08T07:07:33.366430+0000 INFO Données chargées pour réentraînement: shape=(2000, 13), colonnes=['nom', 'prenom', 'age', 'taille', 'poids', 'sexe', 'sport_licence', 'niveau_etude', 'region', 'smoker', 'nationalité_francaise', 'revenu_estime_mois', 'montant_pret']
+2025-06-08T07:07:33.366866+0000 INFO Starting training iteration 0 of 3 (from_existing_model=False)
+2025-06-08T07:07:33.388117+0000 INFO No previous model_id, creating new model.
+2025-06-08T07:07:40.352846+0000 INFO Model performances: {'MSE': 146266288.0, 'MAE': 11943.537109375, 'R²': 0.666932225227356}
+2025-06-08T07:07:46.142722+0000 INFO Run 1 terminé, run_id=9ff972d81d1f40898fa9e4c1f26f6a9b
+2025-06-08T07:07:46.160619+0000 INFO Starting training iteration 1 of 3 (from_existing_model=False)
+2025-06-08T07:07:46.178586+0000 INFO Loading model from previous model_id: 9ff972d81d1f40898fa9e4c1f26f6a9b
+2025-06-08T07:07:54.114708+0000 INFO Model performances: {'MSE': 805235.9375, 'MAE': 793.504150390625, 'R²': 0.9981663823127747}
+2025-06-08T07:08:00.305635+0000 INFO Run 2 terminé, run_id=5508df8b28f140e8b6ce86035df4148c
+2025-06-08T07:08:00.320568+0000 INFO Starting training iteration 2 of 3 (from_existing_model=False)
+2025-06-08T07:08:00.337884+0000 INFO Loading model from previous model_id: 5508df8b28f140e8b6ce86035df4148c
+2025-06-08T07:08:08.067684+0000 INFO Model performances: {'MSE': 85412.78125, 'MAE': 254.39431762695312, 'R²': 0.9998055100440979}
+2025-06-08T07:08:14.663926+0000 INFO Run 3 terminé, run_id=10a7b3c05afa44f8992a1e69aff59eb2
+2025-06-08T07:08:14.679573+0000 INFO Nouveau modèle de prédiction mis à jour avec run_id: 10a7b3c05afa44f8992a1e69aff59eb2 (sauvegardé dans models/current_model.json)
+2025-06-08T07:14:56.189544+0000 INFO Route '/predict' called with data: [30, 170.0, 70.0, 2500.0, 'F', 'Oui', 'Aucun', 'Auvergne-Rhône-Alpes', 'Oui', 'Oui']
+2025-06-08T07:14:56.315106+0000 INFO Model loaded from MLflow run ID: 10a7b3c05afa44f8992a1e69aff59eb2
+2025-06-08T07:14:56.398832+0000 INFO Prediction made: [46463.16], prediction value: 46463.16015625
+2025-06-08T07:15:00.376746+0000 INFO Route '/predict' called with data: [30, 170.0, 70.0, 2500.0, 'M', 'Oui', 'Aucun', 'Auvergne-Rhône-Alpes', 'Oui', 'Oui']
+2025-06-08T07:15:00.449834+0000 INFO Model loaded from MLflow run ID: 10a7b3c05afa44f8992a1e69aff59eb2
+2025-06-08T07:15:00.541808+0000 INFO Prediction made: [18479.904], prediction value: 18479.904296875
+2025-06-08T07:42:17.818632+0000 INFO Route '/retrain' called for retraining with data_path=data/df_new.csv, from_existing_model=False
+2025-06-08T07:42:17.829415+0000 INFO Données chargées pour réentraînement: shape=(2000, 13), colonnes=['nom', 'prenom', 'age', 'taille', 'poids', 'sexe', 'sport_licence', 'niveau_etude', 'region', 'smoker', 'nationalité_francaise', 'revenu_estime_mois', 'montant_pret']
+2025-06-08T07:42:17.829813+0000 INFO Starting training iteration 0 of 3 (from_existing_model=False)
+2025-06-08T07:42:17.880399+0000 INFO No previous model_id, creating new model.
+2025-06-08T07:42:26.075025+0000 INFO Model performances: {'MSE': 18382725.01025585, 'MAE': 3066.298711844458, 'R²': 0.8301862027094716}
+2025-06-08T07:42:35.261960+0000 INFO Run 1 terminé, run_id=b9a2f330458a47c097a049520b089b79
+2025-06-08T07:42:35.281857+0000 INFO Starting training iteration 1 of 3 (from_existing_model=False)
+2025-06-08T07:42:35.306237+0000 INFO Loading model from previous model_id: b9a2f330458a47c097a049520b089b79
+2025-06-08T07:42:42.114958+0000 INFO Model performances: {'MSE': 13492112.390705328, 'MAE': 2320.5130409942385, 'R²': 0.875364134683078}
+2025-06-08T07:42:48.157424+0000 INFO Run 2 terminé, run_id=b9a44b9b70a743739df4efb3127f31b5
+2025-06-08T07:42:48.173599+0000 INFO Starting training iteration 2 of 3 (from_existing_model=False)
+2025-06-08T07:42:48.190983+0000 INFO Loading model from previous model_id: b9a44b9b70a743739df4efb3127f31b5
+2025-06-08T07:42:56.489808+0000 INFO Model performances: {'MSE': 13451429.478846755, 'MAE': 2278.4720555161316, 'R²': 0.8757399505506214}
+2025-06-08T07:43:04.318686+0000 INFO Run 3 terminé, run_id=b7881843aa8049729d314d77ff057338
+2025-06-08T07:43:04.339538+0000 INFO Nouveau modèle de prédiction mis à jour avec run_id: b7881843aa8049729d314d77ff057338 (sauvegardé dans models/current_model.json)
+2025-06-08T07:43:39.211652+0000 INFO Route '/predict' called with data: [10, 142.0, 224.0, 18100.0, 'M', 'Non', 'Aucun', 'Auvergne-Rhône-Alpes', 'Oui', 'Oui']
+2025-06-08T07:43:39.297618+0000 INFO Model loaded from MLflow run ID: b7881843aa8049729d314d77ff057338
+2025-06-08T07:43:39.388651+0000 INFO Prediction made: [66503.375], prediction value: 66503.375
+2025-06-08T07:44:19.350338+0000 INFO Route '/predict' called with data: [48, 174.0, 82.0, 2700.0, 'M', 'Oui', 'Aucun', 'Bretagne', 'Non', 'Oui']
+2025-06-08T07:44:19.426791+0000 INFO Model loaded from MLflow run ID: b7881843aa8049729d314d77ff057338
+2025-06-08T07:44:19.510266+0000 INFO Prediction made: [5732.161], prediction value: 5732.1611328125

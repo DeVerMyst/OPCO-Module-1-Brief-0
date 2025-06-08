@@ -269,7 +269,13 @@ class RetrainRequest(BaseModel):
     data_path: str  # Chemin du fichier CSV à utiliser comme nouvelle source de données
     from_existing_model: bool = True  # True: fine-tuning, False: nouveau modèle
 
-@app.post("/retrain")
+class RetrainResponse(BaseModel):
+    status: str
+    run_id: str
+
+
+@app.post("/retrain",
+    response_model=RetrainResponse)
 async def retrain(request: Request, payload: RetrainRequest):
     """
     Réentraîne le modèle à partir d'un fichier CSV fourni (data_path) et d'une option pour fine-tuning ou nouveau modèle.
@@ -302,7 +308,7 @@ async def retrain(request: Request, payload: RetrainRequest):
         # Sauvegarder le run_id et les scores dans un fichier local
         set_last_run_id(run_id)
         
-        return {"status": "success", "nouveau modèle actif pour la prévision": run_id}
+        return {"status": "success", "run_id": run_id}
     
     except Exception as e:
         logger.error(f"Erreur lors du réentraînement: {e}")
