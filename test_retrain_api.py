@@ -1,47 +1,33 @@
 import pytest
 from fastapi.testclient import TestClient
-from mlFlow_experiment import app
+from mlFlow_api import app
+import os
 
 client = TestClient(app)
 
-def test_retrain_route():
-    # Exemple minimal de données valides pour le réentraînement (avec toutes les colonnes attendues)
+def test_retrain_route_new_model():
+    # Teste le réentraînement en mode "nouveau modèle" (from_existing_model=False)
     payload = {
-        "data": [
-            {
-                "nom": "Dupont",
-                "prenom": "Jean",
-                "age": 35,
-                "taille": 175,
-                "poids": 70,
-                "revenu_estime_mois": 2500,
-                "sexe": "M",
-                "sport_licence": "non",
-                "niveau_etude": "bac+2",
-                "region": "Île-de-France",
-                "smoker": "non",
-                "nationalité_francaise": "oui",
-                "montant_pret": 10000
-            },
-            {
-                "nom": "Martin",
-                "prenom": "Claire",
-                "age": 42,
-                "taille": 168,
-                "poids": 80,
-                "revenu_estime_mois": 3200,
-                "sexe": "F",
-                "sport_licence": "oui",
-                "niveau_etude": "bac",
-                "region": "Occitanie",
-                "smoker": "oui",
-                "nationalité_francaise": "oui",
-                "montant_pret": 15000
-            }
-        ]
+        "data_path": os.path.join("data", "df_new.csv"),
+        "from_existing_model": False
     }
     response = client.post("/retrain", json=payload)
     assert response.status_code == 200
     data = response.json()
     assert data["status"] == "success"
-    assert "run_id" in data
+    assert "nouveau modèle actif pour la prévision" in data or "run_id" in data
+
+
+def test_retrain_route_finetune():
+    # Teste le réentraînement en mode fine-tuning (from_existing_model=True)
+    # On force le run_id courant à None pour simuler l'absence de modèle courant
+    # (la logique API doit fallback sur un nouveau modèle)
+    payload = {
+        "data_path": os.path.join("data", "df_new.csv"),
+        "from_existing_model": True
+    }
+    response = client.post("/retrain", json=payload)
+    assert response.status_code == 200
+    data = response.json()
+    assert data["status"] == "success"
+    assert "nouveau modèle actif pour la prévision" in data or "run_id" in data

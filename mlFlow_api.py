@@ -53,9 +53,10 @@ def set_last_run_id(run_id):
     
 def get_last_run_id():
     try:
-        with open("models/current_model.json") as f:
+        with open("models/current_model.json", encoding="utf-8") as f:
             data = json.load(f)
-            return data.get("run_id", "")
+            run_id = data.get("run_id", None)
+            return None if run_id == "" else run_id
     except Exception:
         return None
 
@@ -288,7 +289,9 @@ async def retrain(request: Request, payload: RetrainRequest):
         # Charger le dataset fourni
         df = pd.read_csv(payload.data_path)
         logger.info(f"Données chargées pour réentraînement: shape={df.shape}, colonnes={df.columns.tolist()}")
-        run_id = prediction_model if payload.from_existing_model else None
+
+        run_id = get_last_run_id() if payload.from_existing_model else None
+        
         # Mettre à jour la version des données avec seulement le nom du fichier
         settings["dataversion"] = os.path.basename(payload.data_path)
         for i in range(wanted_train_cycle):
@@ -306,4 +309,14 @@ async def retrain(request: Request, payload: RetrainRequest):
         raise HTTPException(status_code=500, detail=str(e))
 
 
-
+@app.get("/current_model")
+async def current_model(request: Request):
+    """
+    Endpoint pour obtenir le run_id du modèle courant.
+    """
+    logger.info(f"Route '{request.url.path}' called by {request.client.host}")
+    run_id = get_last_run_id()
+    if not run_id:
+        raise HTTPException(status_code=404, detail="Aucun modèle courant trouvé.")
+    
+    return {"run_id": run_id}

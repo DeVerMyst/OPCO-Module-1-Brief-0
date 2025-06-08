@@ -17,4 +17,4 @@ COPY . .
 EXPOSE 8000 8501 5000
 
 # Commande de démarrage multi-process (MLflow + API + Streamlit)
-CMD ["sh", "-c", "mlflow server --host 0.0.0.0 --port 5000 --backend-store-uri sqlite:///mlflow.db --default-artifact-root /app/mlartifacts & uvicorn mlFlow_api:app --host 0.0.0.0 --port 8000 & streamlit run app.py --server.port 8501 --server.address 0.0.0.0"]
+CMD ["sh", "-c", "mlflow server --host 0.0.0.0 --port 5000 --default-artifact-root /app/mlartifacts & uvicorn mlFlow_api:app --host 0.0.0.0 --port 8000 & streamlit run app.py --server.port 8501 --server.address 0.0.0.0"]

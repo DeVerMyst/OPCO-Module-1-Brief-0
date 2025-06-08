@@ -281,5 +281,4 @@ async def retrain(request: Request, payload: RetrainRequest):
     except Exception as e:
         logger.error(f"Erreur lors du réentraînement: {e}")
         raise HTTPException(status_code=500, detail=str(e))
-    
-    
+

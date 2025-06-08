@@ -179,24 +179,47 @@ Les models créé sont stockés dans le dossier `models/` et pictures du drawlos
 
 
 
-** docker : 
+**Docker : Build & Run**
+
+Pour builder l’image Docker manuellement :
+```bash
 docker build -t mlflow-app .
-docker run -p 8000:8000 mlflow-app
+```
+Puis lancer le conteneur (tous services dans le même conteneur) :
+```bash
 docker run -p 8000:8000 -p 8501:8501 -p 5000:5000 mlflow-app
+```
 
-[FastAPI](http://localhost:8000/docs)
-[FastAPI](http://localhost:8501/)
+- FastAPI : http://localhost:8000/docs
+- Streamlit : http://localhost:8501
+- MLflow UI : http://localhost:5000
+
+**Avec Docker Compose (recommandé)**
+
+Pour builder et lancer tous les services (API, Streamlit, MLflow) dans des conteneurs séparés :
+```bash
+docker compose up --build
+```
+
+**Mettre à jour l’application après modification**
+
+Après avoir modifié le code, les requirements ou la configuration, il suffit de relancer :
+```bash
+docker compose up --build
+```
+Cela va reconstruire l’image et redémarrer les services avec la dernière version.
+
+Pour tout arrêter proprement :
+```bash
+docker compose down
+```
 
 
 
-docker build -t mlflow-app .
-docker run -p 8000:8000 -p 8501:8501 -p 5000:5000 mlflow-app
-
-FastAPI : http://localhost:8000/docs
-Streamlit : http://localhost:8501
-MLflow UI : http://localhost:5000
-
-
+```powershell
+wsl --unregister docker-desktop
+wsl --unregister docker-desktop-data
+```
 
 ## Annexes / data
 

@@ -1,6 +1,7 @@
 import streamlit as st
 import requests
 import pandas as pd
+import os
 
 st.set_page_config(page_title="Prédiction de prêt", page_icon=":money_with_wings:")
 
@@ -61,8 +62,10 @@ st.markdown("""
     """, unsafe_allow_html=True)
 
 if validate_btn:
-    url = "http://localhost:8000/predict"
     payload = {"data": features}
+    api_url = os.getenv("API_URL", "http://localhost:8000")
+    # route to predict
+    url = f"{api_url}/predict"
     try:
         response = requests.post(url, json=payload)
         if response.status_code == 200:
