@@ -72,13 +72,16 @@ Pour ne pas se perdre dans les méandres de notre génie, voici comment on a org
 │   ├── models.py
 │   ├── model_2024_08.pkl
 │   └── preprocessor.pkl
+├── figures/
+│   ├── ...
 ├── modules/
 │   ├── evaluate.py
 │   ├── preprocess.py
 │   └── print_draw.py
 ├── .gitignore
 ├── README.md
-├── main.py
+├── app.py  => root de front
+├── mlFlow_api.py => API FastAPI 
 └── requirements.txt
 ```
 
@@ -86,6 +89,9 @@ Pour ne pas se perdre dans les méandres de notre génie, voici comment on a org
 Ici, c'est là que nos précieuses données vivent.
 * `df_new.csv` : Les données fraîches du jour, prêtes à être dévorées par notre IA.
 * `df_old.csv` : Les classiques, les vétérans, ceux qui ont tout vu. On les garde par nostalgie (et pour la rétrospective).
+
+###### `figures/` (L'analyste visuelle)
+Sauvegarde des images des courbes de coût et autres graphiques pour visualiser les performances de notre modèle.
 
 ###### `models/` (Le garage à cerveaux)
 Ce dossier, c'est notre caverne d'Ali Baba des cerveaux artificiels.
@@ -125,10 +131,10 @@ pip install nltk fastapi streamlit uvicorn requests pydantic
 ```
 - #### Pour lancer le serveur MLflow :
 ```bash
-uvicorn mlFlow_api:app --host 127.0.0.1 --port 9000 --reload
+uvicorn mlFlow_api:app --host 127.0.0.1 --port 8000 --reload
 ```
 - #### Description des routes de l'API FastAPI :
-[GET /docs](http://127.0.0.1:9000/docs#/)
+[GET /docs](http://127.0.0.1:8000/docs#/)
 
 
 - ### Installation des bibliothèques pour les tests unitaires: 
@@ -154,11 +160,8 @@ lancer le serveur Streamlit pour l'interface utilisateur :
 ```bash
 streamlit run streamlit_app.py
 ```
-### Pour accéder à l'interface utilisateur, ouvrez votre navigateur et allez à l'adresse
-[http://localhost:8501](http://localhost:8501)
-
-
-
+### Pour accéder au front (root + pages entrainnement et prediction :)
+[Streamlit Front](http://localhost:8501)
 
 
 ## Déroulé du travail
@@ -167,15 +170,15 @@ Les models créé sont stockés dans le dossier `models/` et pictures du drawlos
 
 
 - J'ai mis en place :
-  -- Un script pour lancer 5 entrainements sur les anciennes données et 5 sur les nouvelles données.
-  -- le suivi des performances de chaque entrainement dans MLflow.
-  -- les tests unitaires
-  -- le loging des performances avec `loguru` et un setup simplifié pour le logger.
-  -- les images des couts stockés dans le dossier `figures/`.
-  -- Une route `/predict` pour faire des prédictions sur des données envoyées via questionnaire *Streamlit*.
-  -- Une route `/retrain` pour réentrainer le modèle (in progress).
-  -- Containerisation ?
-  -- Stockage de l'id du model en local pour le retrouver depuis docker
+  - Un script pour lancer 5 entrainements sur les anciennes données et 5 sur les nouvelles données.
+  - le suivi des performances de chaque entrainement dans MLflow. (possibilité de stocker ou pas les modèles et les graph de loss)
+  - les tests unitaires avec pytest
+  - le loging des performances avec `loguru` et un setup simplifié pour le logger.
+  - les images des couts stockés dans le dossier `figures/`.
+  - Une route `/predict` pour faire des prédictions sur des données envoyées via questionnaire *Streamlit*.
+  - Une route `/retrain` pour réentrainer le modèle (in progress).
+  - Containerisation avec docker File puis docker-compose 
+  - Stockage de l'id du model en local dans un fichier pour le retrouver depuis docker
 
 
 
@@ -194,7 +197,7 @@ docker run -p 8000:8000 -p 8501:8501 -p 5000:5000 mlflow-app
 - Streamlit : http://localhost:8501
 - MLflow UI : http://localhost:5000
 
-**Avec Docker Compose (recommandé)**
+**Avec Docker Compose (meilleur approche)**
 
 Pour builder et lancer tous les services (API, Streamlit, MLflow) dans des conteneurs séparés :
 ```bash
@@ -222,7 +225,6 @@ wsl --unregister docker-desktop-data
 ```
 
 ## Annexes / data
-
 
 ```code
 # Entrainements RESULTS

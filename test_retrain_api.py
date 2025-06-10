@@ -23,7 +23,7 @@ def test_retrain_route_finetune():
     # On force le run_id courant à None pour simuler l'absence de modèle courant
     # (la logique API doit fallback sur un nouveau modèle)
     payload = {
-        "data_path": os.path.join("data", "df_new.csv"),
+        "data_path": os.path.join("data", "df_modifie.csv"),
         "from_existing_model": True
     }
     response = client.post("/retrain", json=payload)
