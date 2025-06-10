@@ -4,9 +4,11 @@ from sklearn.impute import SimpleImputer
 from sklearn.compose import ColumnTransformer
 from sklearn.pipeline import Pipeline
 
+# sert à séparer les données en ensembles d'entraînement et de test : 20% test, 80% train
 def split(X, y, test_size=0.2, random_state=42):
     X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=test_size, random_state=random_state)
     return X_train, X_test, y_train, y_test
+
 
 def preprocessing(df):
     """

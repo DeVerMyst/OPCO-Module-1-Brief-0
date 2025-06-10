@@ -72,13 +72,16 @@ Pour ne pas se perdre dans les méandres de notre génie, voici comment on a org
 │   ├── models.py
 │   ├── model_2024_08.pkl
 │   └── preprocessor.pkl
+├── figures/
+│   ├── ...
 ├── modules/
 │   ├── evaluate.py
 │   ├── preprocess.py
 │   └── print_draw.py
 ├── .gitignore
 ├── README.md
-├── main.py
+├── app.py  => root de front
+├── mlFlow_api.py => API FastAPI 
 └── requirements.txt
 ```
 
@@ -86,6 +89,9 @@ Pour ne pas se perdre dans les méandres de notre génie, voici comment on a org
 Ici, c'est là que nos précieuses données vivent.
 * `df_new.csv` : Les données fraîches du jour, prêtes à être dévorées par notre IA.
 * `df_old.csv` : Les classiques, les vétérans, ceux qui ont tout vu. On les garde par nostalgie (et pour la rétrospective).
+
+###### `figures/` (L'analyste visuelle)
+Sauvegarde des images des courbes de coût et autres graphiques pour visualiser les performances de notre modèle.
 
 ###### `models/` (Le garage à cerveaux)
 Ce dossier, c'est notre caverne d'Ali Baba des cerveaux artificiels.
@@ -104,3 +110,176 @@ Ce sont nos couteaux suisses du code. Chaque fichier est un expert dans son doma
 On espère que cette petite virée dans notre projet t'a plu. N'hésite pas à jeter un œil au `main.py` pour lancer le grand spectacle !
 
 *Fait avec amour, code et une bonne dose de caféine (et un peu de folie).*
+
+
+# TD => GOGOGO
+## setup
+
+- ### Génération requirements.txt à chaque installation de module
+```bash
+pip freeze > requirements.txt
+```
+
+- ### Installations des requis loguru: 
+```bash
+pip install loguru
+```
+
+- ### Installations des requis FastAPI/Streamlit: 
+```bash
+pip install nltk fastapi streamlit uvicorn requests pydantic
+```
+- #### Pour lancer le serveur MLflow :
+```bash
+uvicorn mlFlow_api:app --host 127.0.0.1 --port 8000 --reload
+```
+- #### Description des routes de l'API FastAPI :
+[GET /docs](http://127.0.0.1:8000/docs#/)
+
+
+- ### Installation des bibliothèques pour les tests unitaires: 
+```bash
+pip install pytest httpx
+pytest test_predict_api.py
+```
+
+- ### Installations des requis pour MLflow : 
+  > **mlFlow**
+  MlFlow est un outil de gestion des expériences de machine learning. Il permet de suivre les expériences, de gérer les modèles et de visualiser les résultats.
+```bash
+pip install mlflow scikit-learn pandas matplotlib
+```
+
+# Pour lancer le serveur MLflow :
+```bash
+mlflow ui
+```
+
+## Streamlit
+lancer le serveur Streamlit pour l'interface utilisateur :
+```bash
+streamlit run streamlit_app.py
+```
+### Pour accéder au front (root + pages entrainnement et prediction :)
+[Streamlit Front](http://localhost:8501)
+
+
+## Déroulé du travail
+Création d'un script pour générer 3 entrainements et les stocker sur MLflow : 
+Les models créé sont stockés dans le dossier `models/` et pictures du drawloss sont stockés dans le dossier `figures/`.
+
+
+- J'ai mis en place :
+  - Un script pour lancer 5 entrainements sur les anciennes données et 5 sur les nouvelles données.
+  - le suivi des performances de chaque entrainement dans MLflow. (possibilité de stocker ou pas les modèles et les graph de loss)
+  - les tests unitaires avec pytest
+  - le loging des performances avec `loguru` et un setup simplifié pour le logger.
+  - les images des couts stockés dans le dossier `figures/`.
+  - Une route `/predict` pour faire des prédictions sur des données envoyées via questionnaire *Streamlit*.
+  - Une route `/retrain` pour réentrainer le modèle (in progress).
+  - Containerisation avec docker File puis docker-compose 
+  - Stockage de l'id du model en local dans un fichier pour le retrouver depuis docker
+
+
+
+**Docker : Build & Run**
+
+Pour builder l’image Docker manuellement :
+```bash
+docker build -t mlflow-app .
+```
+Puis lancer le conteneur (tous services dans le même conteneur) :
+```bash
+docker run -p 8000:8000 -p 8501:8501 -p 5000:5000 mlflow-app
+```
+
+- FastAPI : http://localhost:8000/docs
+- Streamlit : http://localhost:8501
+- MLflow UI : http://localhost:5000
+
+**Avec Docker Compose (meilleur approche)**
+
+Pour builder et lancer tous les services (API, Streamlit, MLflow) dans des conteneurs séparés :
+```bash
+docker compose up --build
+```
+
+**Mettre à jour l’application après modification**
+
+Après avoir modifié le code, les requirements ou la configuration, il suffit de relancer :
+```bash
+docker compose up --build
+```
+Cela va reconstruire l’image et redémarrer les services avec la dernière version.
+
+Pour tout arrêter proprement :
+```bash
+docker compose down
+```
+
+
+
+```powershell
+wsl --unregister docker-desktop
+wsl --unregister docker-desktop-data
+```
+
+## Annexes / data
+
+```code
+# Entrainements RESULTS
+## Entrainement sur les **anciennes données** :
+==================Performance for run 0/5===================
+MSE: 35648332.4621, MAE: 4868.7535, R²: 0.7571
+============================================================
+==================Performance for run 1/5===================
+MSE: 21110141.2394, MAE: 3514.9460, R²: 0.8562
+============================================================
+==================Performance for run 2/5=================== => *Best OLD*
+MSE: 21087705.3786, MAE: 3499.9798, R²: 0.8563
+============================================================
+==================Performance for run 3/5===================
+MSE: 21079447.9325, MAE: 3500.0007, R²: 0.8564
+============================================================
+==================Performance for run 4/5===================
+MSE: 21088151.5108, MAE: 3503.9029, R²: 0.8563
+============================================================
+
+***
+
+## Train de 5 avec les nouvelles données : 
+==================Performance for run 0/5===================
+MSE: 17590206.6978, MAE: 2934.2774, R²: 0.8375
+============================================================
+==================Performance for run 1/5===================
+MSE: 13534161.0819, MAE: 2393.7978, R²: 0.8750
+============================================================
+==================Performance for run 2/5=================== => *Best NEW*
+MSE: 13484831.7345, MAE: 2363.3283, R²: 0.8754
+============================================================
+==================Performance for run 3/5===================
+MSE: 13548757.8251, MAE: 2348.1724, R²: 0.8748
+============================================================
+==================Performance for run 4/5===================
+MSE: 13529502.2254, MAE: 2339.3840, R²: 0.8750
+============================================================
+
+***
+
+## 3 entrainement depuis le meilleur modèle de la passe old (60ca87cde38a42dab673c4c6491ba076) avec les données new pour voir si on a un meilleur résultat :
+==================Performance for run 0/3===================
+MSE: 13519659.5319, MAE: 2393.4214, R²: 0.8751
+============================================================
+==================Performance for run 1/3===================
+MSE: 13564161.1756, MAE: 2389.5547, R²: 0.8747
+============================================================
+==================Performance for run 2/3===================
+MSE: 13500678.8155, MAE: 2363.6760, R²: 0.8753
+============================================================
+
+
+```
+> Arrivé au bout de la 3ème itération, on a un modèle qui semble stable et performant sur les nouvelles données. 
+> **Pas d'amélioration notable** de réentrainer sur les ancienne données
+
+
